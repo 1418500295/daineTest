@@ -12,6 +12,7 @@
     <artifactId>autotest</artifactId>
     <build>
         <plugins>
+            <defaultGoal>compile</defaultGoal>
             <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
