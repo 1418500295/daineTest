@@ -1,0 +1,11 @@
+logs目录：日志文件
+test-output:测试报告目录
+test-output/index.html:测试报告
+resource:
+    mapper/SQLMapper.xml:操作数据库文件/测试数据读取
+    application.properties:测试url地址
+    databaseConfig.xml:数据库驱动等配置
+    log4j2.xml:日志配置文件
+    testng.xml:测试用例运行配置
+
+

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="307ec3ed-0078-4ae5-acfa-3cb774a02313" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api_autotest" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="C:\Users\ASUS\Downloads\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TgU1soF3QVHpFpA3Ww8JjCrRrI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/AutoTest2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\apitest\autotest\src\main\resources" />
+      <recent name="C:\Users\ASUS\IdeaProjects\apitest\mocktest" />
+      <recent name="C:\Users\ASUS\IdeaProjects\apitest\demo\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/ASUS/IdeaProjects/apitest/autotest/src/main/resources/testng.xml">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/ASUS/IdeaProjects/apitest/autotest/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/autotest/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toutiao.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toutiao.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.toutiao.utils.DependTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GcListTest.gcList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toutiao.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toutiao.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.toutiao.cases.GcListTest" />
+      <option name="METHOD_NAME" value="gcList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTrue" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toutiao.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toutiao.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.toutiao.cases.LoginTest" />
+      <option name="METHOD_NAME" value="loginTrue" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.postDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toutiao.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toutiao.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.toutiao.cases.LoginTest" />
+      <option name="METHOD_NAME" value="postDemo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/ASUS/IdeaProjects/apitest/autotest/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.LoginTest.loginTrue" />
+        <item itemvalue="TestNG.DependTest" />
+        <item itemvalue="TestNG.GcListTest.gcList" />
+        <item itemvalue="TestNG.LoginTest.postDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="307ec3ed-0078-4ae5-acfa-3cb774a02313" name="Default Changelist" comment="" />
+      <created>1573881020090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573881020090</updated>
+      <workItem from="1573881022820" duration="752000" />
+      <workItem from="1573882108703" duration="239000" />
+      <workItem from="1573882359521" duration="258000" />
+      <workItem from="1573882636751" duration="1393000" />
+      <workItem from="1574040347574" duration="1229000" />
+      <workItem from="1574043386189" duration="122000" />
+      <workItem from="1574043669869" duration="4969000" />
+      <workItem from="1574052617293" duration="5537000" />
+      <workItem from="1574061755562" duration="3787000" />
+      <workItem from="1574124413688" duration="15213000" />
+      <workItem from="1574153426104" duration="5132000" />
+      <workItem from="1574161337282" duration="50000" />
+      <workItem from="1574161402724" duration="2768000" />
+      <workItem from="1574212896842" duration="7919000" />
+      <workItem from="1574221114082" duration="2916000" />
+      <workItem from="1574226618409" duration="588000" />
+      <workItem from="1574229843390" duration="11536000" />
+      <workItem from="1574299212039" duration="4952000" />
+      <workItem from="1574304608353" duration="21066000" />
+      <workItem from="1574331664585" duration="605000" />
+      <workItem from="1574332428191" duration="24543000" />
+      <workItem from="1574488754475" duration="27786000" />
+      <workItem from="1574666669486" duration="685000" />
+      <workItem from="1574667367752" duration="12883000" />
+      <workItem from="1574729975265" duration="2447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

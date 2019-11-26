@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="头条接口管理" duration-ms="3256" started-at="2019-11-26T01:22:03Z" finished-at="2019-11-26T01:22:06Z">
+    <groups>
+      <group name="loginTrue">
+        <method signature="LoginTest.loginTrue()[pri:0, instance:com.toutiao.cases.LoginTest@5f8edcc5]" name="loginTrue" class="com.toutiao.cases.LoginTest"/>
+      </group> <!-- loginTrue -->
+    </groups>
+    <test name="论坛接口" duration-ms="3256" started-at="2019-11-26T01:22:03Z" finished-at="2019-11-26T01:22:06Z">
+      <class name="com.toutiao.cases.ReplyTest">
+        <test-method status="PASS" signature="replyTest()[pri:0, instance:com.toutiao.cases.ReplyTest@7a675056]" name="replyTest" duration-ms="905" depends-on-groups="loginTrue" started-at="2019-11-26T09:22:05Z" description="鍋氬嚭璇勮" finished-at="2019-11-26T09:22:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- replyTest -->
+      </class> <!-- com.toutiao.cases.ReplyTest -->
+      <class name="com.toutiao.cases.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.toutiao.cases.LoginTest@5f8edcc5]" name="beforeTest" is-config="true" duration-ms="11" started-at="2019-11-26T09:22:03Z" description="娴嬭瘯涔嬪墠鐨勫噯澶囧伐浣�" finished-at="2019-11-26T09:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginTrue()[pri:0, instance:com.toutiao.cases.LoginTest@5f8edcc5]" name="loginTrue" duration-ms="808" started-at="2019-11-26T09:22:03Z" description="鐢ㄦ埛鐧婚檰鎴愬姛" finished-at="2019-11-26T09:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTrue -->
+      </class> <!-- com.toutiao.cases.LoginTest -->
+      <class name="com.toutiao.cases.GcListTest">
+        <test-method status="PASS" signature="gcList()[pri:0, instance:com.toutiao.cases.GcListTest@7b02881e]" name="gcList" duration-ms="390" depends-on-groups="loginTrue" started-at="2019-11-26T09:22:04Z" description="蹇冩按璁哄潧/骞垮満鍒楄〃" finished-at="2019-11-26T09:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gcList -->
+      </class> <!-- com.toutiao.cases.GcListTest -->
+      <class name="com.toutiao.cases.ExpListTest">
+        <test-method status="PASS" signature="expList()[pri:0, instance:com.toutiao.cases.ExpListTest@3c0be339]" name="expList" duration-ms="194" depends-on-groups="loginTrue" started-at="2019-11-26T09:22:04Z" description="棰勬祴璐村垪琛�" finished-at="2019-11-26T09:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expList -->
+      </class> <!-- com.toutiao.cases.ExpListTest -->
+      <class name="com.toutiao.cases.BbsLookTest">
+        <test-method status="PASS" signature="bbsLook()[pri:0, instance:com.toutiao.cases.BbsLookTest@15ca7889]" name="bbsLook" duration-ms="937" depends-on-groups="loginTrue" started-at="2019-11-26T09:22:04Z" description="鍏虫敞鍒楄〃" finished-at="2019-11-26T09:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bbsLook -->
+      </class> <!-- com.toutiao.cases.BbsLookTest -->
+    </test> <!-- 论坛接口 -->
+  </suite> <!-- 头条接口管理 -->
+</testng-results>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="头条接口管理">
+    <test name="论坛接口">
+        <classes>
+            <class name="com.toutiao.cases.LoginTest">
+                <methods>
+                    <include name="loginTrue"/>
+                </methods>
+            </class>
+            <class name="com.toutiao.cases.GcListTest">
+                <methods>
+                    <include name="gcList"/>
+                </methods>
+            </class>
+            <class name="com.toutiao.cases.ExpListTest">
+                <methods>
+                    <include name="expList"/>
+                </methods>
+            </class>
+            <class name="com.toutiao.cases.BbsLookTest">
+                <methods>
+                    <include name="bbsLook"/>
+                </methods>
+            </class>
+
+            <class name="com.toutiao.cases.ReplyTest"/>
+
+
+        </classes>
+    </test>
+    <!--用来监听生成测试报告-->
+    <listeners>
+        <listener class-name="com.toutiao.config.ExtentTestNgIReporterListener"/>
+    </listeners>
+
+</suite>
