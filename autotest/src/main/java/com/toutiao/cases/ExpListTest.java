@@ -28,7 +28,7 @@ public class ExpListTest {
     }
 
     private String getResult(ExpListCase expListCase) throws IOException {
-        String url = TestConfig.expListUrl+"&key="+TestConfig.key+"&class_di="
+        String url = TestConfig.expListUrl+"&key="+TestConfig.key+"&class_id="
         +expListCase.getClass_id()+"&user_id="+expListCase.getUser_id()+"&period="+expListCase.getPeriod();
         HttpGet get = new HttpGet(url);
         HttpResponse response = TestConfig.defaultHttpClient.execute(get);
