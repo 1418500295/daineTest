@@ -14,7 +14,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-@Log4j2
+
 public class GcListTest {
     @Test(dependsOnGroups = "loginTrue",description = "心水论坛/广场列表")
     public void gcList() throws IOException {
