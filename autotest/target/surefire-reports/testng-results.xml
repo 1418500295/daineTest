@@ -1,44 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="头条接口管理" duration-ms="3256" started-at="2019-11-26T01:22:03Z" finished-at="2019-11-26T01:22:06Z">
+  <suite name="头条接口管理" duration-ms="3468" started-at="2019-11-27T07:09:34Z" finished-at="2019-11-27T07:09:37Z">
     <groups>
       <group name="loginTrue">
         <method signature="LoginTest.loginTrue()[pri:0, instance:com.toutiao.cases.LoginTest@5f8edcc5]" name="loginTrue" class="com.toutiao.cases.LoginTest"/>
       </group> <!-- loginTrue -->
     </groups>
-    <test name="论坛接口" duration-ms="3256" started-at="2019-11-26T01:22:03Z" finished-at="2019-11-26T01:22:06Z">
+    <test name="论坛接口" duration-ms="3468" started-at="2019-11-27T07:09:34Z" finished-at="2019-11-27T07:09:37Z">
       <class name="com.toutiao.cases.ReplyTest">
-        <test-method status="PASS" signature="replyTest()[pri:0, instance:com.toutiao.cases.ReplyTest@7a675056]" name="replyTest" duration-ms="905" depends-on-groups="loginTrue" started-at="2019-11-26T09:22:05Z" description="鍋氬嚭璇勮" finished-at="2019-11-26T09:22:06Z">
+        <test-method status="PASS" signature="replyTest()[pri:0, instance:com.toutiao.cases.ReplyTest@7a675056]" name="replyTest" duration-ms="936" depends-on-groups="loginTrue" started-at="2019-11-27T15:09:36Z" description="鍋氬嚭璇勮" finished-at="2019-11-27T15:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- replyTest -->
       </class> <!-- com.toutiao.cases.ReplyTest -->
       <class name="com.toutiao.cases.LoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.toutiao.cases.LoginTest@5f8edcc5]" name="beforeTest" is-config="true" duration-ms="11" started-at="2019-11-26T09:22:03Z" description="娴嬭瘯涔嬪墠鐨勫噯澶囧伐浣�" finished-at="2019-11-26T09:22:03Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.toutiao.cases.LoginTest@5f8edcc5]" name="beforeTest" is-config="true" duration-ms="12" started-at="2019-11-27T15:09:34Z" description="娴嬭瘯涔嬪墠鐨勫噯澶囧伐浣�" finished-at="2019-11-27T15:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTrue()[pri:0, instance:com.toutiao.cases.LoginTest@5f8edcc5]" name="loginTrue" duration-ms="808" started-at="2019-11-26T09:22:03Z" description="鐢ㄦ埛鐧婚檰鎴愬姛" finished-at="2019-11-26T09:22:04Z">
+        <test-method status="PASS" signature="loginTrue()[pri:0, instance:com.toutiao.cases.LoginTest@5f8edcc5]" name="loginTrue" duration-ms="855" started-at="2019-11-27T15:09:34Z" description="鐢ㄦ埛鐧婚檰鎴愬姛" finished-at="2019-11-27T15:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTrue -->
       </class> <!-- com.toutiao.cases.LoginTest -->
       <class name="com.toutiao.cases.GcListTest">
-        <test-method status="PASS" signature="gcList()[pri:0, instance:com.toutiao.cases.GcListTest@7b02881e]" name="gcList" duration-ms="390" depends-on-groups="loginTrue" started-at="2019-11-26T09:22:04Z" description="蹇冩按璁哄潧/骞垮満鍒楄〃" finished-at="2019-11-26T09:22:04Z">
+        <test-method status="PASS" signature="gcList()[pri:0, instance:com.toutiao.cases.GcListTest@7b02881e]" name="gcList" duration-ms="349" depends-on-groups="loginTrue" started-at="2019-11-27T15:09:35Z" description="蹇冩按璁哄潧/骞垮満鍒楄〃" finished-at="2019-11-27T15:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gcList -->
       </class> <!-- com.toutiao.cases.GcListTest -->
+      <class name="com.toutiao.cases.LikeTest">
+        <test-method status="PASS" signature="getLike()[pri:0, instance:com.toutiao.cases.LikeTest@6e509ffa]" name="getLike" duration-ms="72" depends-on-groups="loginTrue" started-at="2019-11-27T15:09:37Z" description="璁哄潧/鐐硅禐" finished-at="2019-11-27T15:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLike -->
+      </class> <!-- com.toutiao.cases.LikeTest -->
       <class name="com.toutiao.cases.ExpListTest">
-        <test-method status="PASS" signature="expList()[pri:0, instance:com.toutiao.cases.ExpListTest@3c0be339]" name="expList" duration-ms="194" depends-on-groups="loginTrue" started-at="2019-11-26T09:22:04Z" description="棰勬祴璐村垪琛�" finished-at="2019-11-26T09:22:04Z">
+        <test-method status="PASS" signature="expList()[pri:0, instance:com.toutiao.cases.ExpListTest@3c0be339]" name="expList" duration-ms="190" depends-on-groups="loginTrue" started-at="2019-11-27T15:09:35Z" description="棰勬祴璐村垪琛�" finished-at="2019-11-27T15:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- expList -->
       </class> <!-- com.toutiao.cases.ExpListTest -->
+      <class name="com.toutiao.cases.SearchTest">
+        <test-method status="PASS" signature="getSearch()[pri:0, instance:com.toutiao.cases.SearchTest@d21a74c]" name="getSearch" duration-ms="62" depends-on-groups="loginTrue" started-at="2019-11-27T15:09:37Z" description="璁哄潧/鎼滅储" finished-at="2019-11-27T15:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearch -->
+      </class> <!-- com.toutiao.cases.SearchTest -->
       <class name="com.toutiao.cases.BbsLookTest">
-        <test-method status="PASS" signature="bbsLook()[pri:0, instance:com.toutiao.cases.BbsLookTest@15ca7889]" name="bbsLook" duration-ms="937" depends-on-groups="loginTrue" started-at="2019-11-26T09:22:04Z" description="鍏虫敞鍒楄〃" finished-at="2019-11-26T09:22:05Z">
+        <test-method status="PASS" signature="bbsLook()[pri:0, instance:com.toutiao.cases.BbsLookTest@15ca7889]" name="bbsLook" duration-ms="981" depends-on-groups="loginTrue" started-at="2019-11-27T15:09:35Z" description="鍏虫敞鍒楄〃" finished-at="2019-11-27T15:09:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bbsLook -->

@@ -28,6 +28,10 @@ public class TestConfig {
 
     public static String likeUrl;
 
+    public static String favoriUrl;
+
+    public static String expertHomeUrl;
+
     //存储登陆返回的key值，相当于token
     public static String key;
 

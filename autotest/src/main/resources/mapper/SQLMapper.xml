@@ -38,4 +38,12 @@
         select * from LikeCase
         where number_id=#{number_id};
     </select>
+    <select id="favoriCase" parameterType="Integer" resultType="com.toutiao.model.FavoriCase">
+        select * from FavoriCase
+        where number_id = #{number_id};
+    </select>
+    <select id="expertHomeCase" parameterType="Integer" resultType="com.toutiao.model.ExpertHomeCase">
+        select * from ExpertHomeCase
+        where id=#{id};
+    </select>
 </mapper>

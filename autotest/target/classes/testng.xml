@@ -6,6 +6,7 @@
             <class name="com.toutiao.cases.LoginTest">
                 <methods>
                     <include name="loginTrue"/>
+                    <include name="loginFalse"/>
                 </methods>
             </class>
             <class name="com.toutiao.cases.GcListTest">
@@ -27,6 +28,8 @@
             <class name="com.toutiao.cases.ReplyTest"/>
             <class name="com.toutiao.cases.SearchTest"/>
             <class name="com.toutiao.cases.LikeTest"/>
+            <class name="com.toutiao.cases.FavoriTest"/>
+            <class name="com.toutiao.cases.ExpertHomeTest"/>
 
 
         </classes>

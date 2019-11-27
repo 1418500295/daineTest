@@ -49,6 +49,8 @@ public class LoginTest {
         TestConfig.replyUrl = ConfigFile.getUrl(InterfaneName.REPLYURL);
         TestConfig.searchUrl = ConfigFile.getUrl(InterfaneName.SEARCHURL);
         TestConfig.likeUrl = ConfigFile.getUrl(InterfaneName.LIKEURL);
+        TestConfig.favoriUrl = ConfigFile.getUrl(InterfaneName.FAVORITE);
+        TestConfig.expertHomeUrl = ConfigFile.getUrl(InterfaneName.EXPERTHOME);
         TestConfig.defaultHttpClient = new DefaultHttpClient();
 
 
@@ -67,6 +69,14 @@ public class LoginTest {
         log.info("登陆key值："+TestConfig.key);
         Assert.assertEquals(1,jsonObject.get("status"));
 
+    }
+    @Test(groups = "loginFalse",description = "登录失败")
+    public void loginFalse() throws IOException {
+        SqlSession session = DatabaseUtil.getSqlsession();
+        LoginCase loginCase = session.selectOne("loginCase",2);
+        String result = getResult(loginCase);
+        log.info("实际结果："+result);
+        Assert.assertFalse(result.contains("\"status\":1"));
     }
 
     private String getResult(LoginCase loginCase) throws IOException {

@@ -1,5 +1,7 @@
 package com.toutiao.cases;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.toutiao.config.TestConfig;
 import com.toutiao.model.LikeCase;
 import com.toutiao.utils.DatabaseUtil;
@@ -12,6 +14,7 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -20,6 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 @Log4j2
 public class LikeTest {
+
     @Test(dependsOnGroups = "loginTrue",description = "论坛/点赞")
     public void getLike() throws IOException {
         SqlSession session = DatabaseUtil.getSqlsession();
@@ -27,6 +31,16 @@ public class LikeTest {
         String result = getResult(likeCase);
         log.info("实际结果："+result);
         Assert.assertTrue(result.contains("\"status\":1"));
+
+    }
+    @Test(dependsOnGroups = "loginTrue",description = "点赞/错误的id")
+    public void getLike2() throws IOException {
+        SqlSession session = DatabaseUtil.getSqlsession();
+        LikeCase likeCase = session.selectOne("likeCase",2);
+        String result = getResult(likeCase);
+        log.info("实际结果："+result);
+        JSONObject jsonObject = JSON.parseObject(result);
+        Assert.assertNotEquals(1,jsonObject.getString("status"));
 
     }
 

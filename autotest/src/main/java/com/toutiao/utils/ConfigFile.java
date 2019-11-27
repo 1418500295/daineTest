@@ -48,6 +48,12 @@ public class ConfigFile {
         if (name == InterfaneName.LIKEURL){
             uri = bundle.getString("like.url");
         }
+        if (name == InterfaneName.FAVORITE){
+            uri = bundle.getString("favorite.url");
+        }
+        if (name == InterfaneName.EXPERTHOME){
+            uri = bundle.getString("expert_home.url");
+        }
         testUrl = address + uri;
         return testUrl;
 
