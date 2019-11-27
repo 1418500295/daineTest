@@ -15,7 +15,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-
+@Log4j2
 public class BbsLookTest {
 
     @Test(dependsOnGroups = "loginTrue",description = "关注列表")
@@ -26,8 +26,8 @@ public class BbsLookTest {
         JSONObject jsonObject = JSON.parseObject(result);
         Assert.assertEquals(1,jsonObject.get("status"));
 
-        //log.info("实际结果："+result);
-        //Assert.assertTrue(result.contains("\"status\":1"));
+        log.info("实际结果："+result);
+        Assert.assertTrue(result.contains("\"status\":1"));
 
 
     }
