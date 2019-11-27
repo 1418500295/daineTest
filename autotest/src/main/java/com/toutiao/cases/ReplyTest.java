@@ -21,7 +21,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NavigableMap;
-@Log4j2
+
 public class ReplyTest {
     @Test(dependsOnGroups = "loginTrue",description = "做出评论")
     public void replyTest() throws IOException {
