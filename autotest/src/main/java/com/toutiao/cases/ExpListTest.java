@@ -22,7 +22,7 @@ public class ExpListTest {
         SqlSession session = DatabaseUtil.getSqlsession();
         ExpListCase expListCase = session.selectOne("expListCase",1);
         String result = getResult(expListCase);
-        log.info("实际结果："+result);
+       // log.info("实际结果："+result);
         JSONObject jsonObject = new JSONObject(result);
         Assert.assertEquals(1,jsonObject.get("status"));
     }
