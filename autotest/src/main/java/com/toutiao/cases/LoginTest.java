@@ -36,7 +36,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Log4j2
+
 public class LoginTest {
     private static final String host = "http://api.toutiao.353386.com/?C=passport&A=login&";
 
