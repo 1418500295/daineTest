@@ -15,14 +15,14 @@ import org.testng.annotations.Test;
 
 
 import java.io.IOException;
-
+@Log4j2
 public class ExpListTest {
     @Test(dependsOnGroups = "loginTrue",description = "预测贴列表")
     public void expList() throws IOException {
         SqlSession session = DatabaseUtil.getSqlsession();
         ExpListCase expListCase = session.selectOne("expListCase",1);
         String result = getResult(expListCase);
-       // log.info("实际结果："+result);
+        log.info("实际结果："+result);
         JSONObject jsonObject = new JSONObject(result);
         Assert.assertEquals(1,jsonObject.get("status"));
     }
