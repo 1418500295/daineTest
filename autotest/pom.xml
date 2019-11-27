@@ -12,9 +12,9 @@
     <artifactId>autotest</artifactId>
     <build>
         <plugins>
-            <!--
             
-            <defaultGoal>compile</defaultGoal>
+            
+            
             
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -23,9 +23,10 @@
                     <source>6</source>
                     <target>6</target>
                     <encoding>utf-8</encoding>
+                    <defaultGoal>compile</defaultGoal>
                 </configuration>
             </plugin>
-            -->
+        
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
