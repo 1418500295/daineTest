@@ -23,10 +23,11 @@ public class BbsLookTest {
         SqlSession session = DatabaseUtil.getSqlsession();
         BbsLookCase bbsLookCase = session.selectOne("bbsLookCase",1);
         String result = getResult(bbsLookCase);
+        log.info("实际结果："+result);
         JSONObject jsonObject = JSON.parseObject(result);
         Assert.assertEquals(1,jsonObject.get("status"));
-        log.info("实际结果："+result);
-        Assert.assertTrue(result.contains("\"status\":1"));
+        
+        //Assert.assertTrue(result.contains("\"status\":1"));
 
 
     }
