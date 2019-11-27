@@ -21,14 +21,14 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NavigableMap;
-
+@Log4j2
 public class ReplyTest {
     @Test(dependsOnGroups = "loginTrue",description = "做出评论")
     public void replyTest() throws IOException {
         SqlSession session = DatabaseUtil.getSqlsession();
         ReplyCase replyCase = session.selectOne("replyCase",1);
         String result = getResult(replyCase);
-       // log.info("实际结果："+result);
+        log.info("实际结果："+result);
         JSONObject jsonObject = JSON.parseObject(result);
         Assert.assertEquals(1,jsonObject.get("status"));
 
