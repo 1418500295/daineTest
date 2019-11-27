@@ -25,7 +25,6 @@ public class BbsLookTest {
         String result = getResult(bbsLookCase);
         JSONObject jsonObject = JSON.parseObject(result);
         Assert.assertEquals(1,jsonObject.get("status"));
-
         log.info("实际结果："+result);
         Assert.assertTrue(result.contains("\"status\":1"));
 
