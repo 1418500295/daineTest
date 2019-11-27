@@ -42,6 +42,12 @@ public class ConfigFile {
         if (name == InterfaneName.REPLYURL){
            uri = bundle.getString("reply.url");
         }
+        if (name == InterfaneName.SEARCHURL){
+            uri = bundle.getString("search.url");
+        }
+        if (name == InterfaneName.LIKEURL){
+            uri = bundle.getString("like.url");
+        }
         testUrl = address + uri;
         return testUrl;
 

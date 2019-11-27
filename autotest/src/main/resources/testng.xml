@@ -25,6 +25,8 @@
             </class>
 
             <class name="com.toutiao.cases.ReplyTest"/>
+            <class name="com.toutiao.cases.SearchTest"/>
+            <class name="com.toutiao.cases.LikeTest"/>
 
 
         </classes>

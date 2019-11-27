@@ -47,6 +47,8 @@ public class LoginTest {
         TestConfig.expListUrl = ConfigFile.getUrl(InterfaneName.EXPURL);
         TestConfig.bbsLookUrl = ConfigFile.getUrl(InterfaneName.BBSLOOK);
         TestConfig.replyUrl = ConfigFile.getUrl(InterfaneName.REPLYURL);
+        TestConfig.searchUrl = ConfigFile.getUrl(InterfaneName.SEARCHURL);
+        TestConfig.likeUrl = ConfigFile.getUrl(InterfaneName.LIKEURL);
         TestConfig.defaultHttpClient = new DefaultHttpClient();
 
 
@@ -70,7 +72,7 @@ public class LoginTest {
     private String getResult(LoginCase loginCase) throws IOException {
         String url = "device="+loginCase.getDevice()+"&device_Id="+loginCase.getDevice_Id()+
                 "&version="+loginCase.getVersion();
-        HttpPost post =new HttpPost(host+url);
+        HttpPost post = new HttpPost(host+url);
         List<NameValuePair> params = new ArrayList<NameValuePair>();
         params.add(new BasicNameValuePair("account",loginCase.getAccount()));
         params.add(new BasicNameValuePair("password",loginCase.getPassword()));

@@ -24,10 +24,14 @@ public class TestConfig {
 
     public static String replyUrl;
 
-    public static DefaultHttpClient defaultHttpClient;
+    public static String searchUrl;
+
+    public static String likeUrl;
 
     //存储登陆返回的key值，相当于token
     public static String key;
+
+    public static DefaultHttpClient defaultHttpClient;
 
 
 

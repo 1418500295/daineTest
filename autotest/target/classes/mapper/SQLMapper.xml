@@ -24,8 +24,18 @@
         select * from BbsLookCase
         where id=#{id};
     </select>
+    <!--论坛/评论-->
     <select id="replyCase" parameterType="Integer" resultType="com.toutiao.model.ReplyCase">
         select * from ReplyCase
         where id_number=#{id_number};
+    </select>
+    <!--论坛/搜索-->
+    <select id="searchCase" parameterType="Integer" resultType="com.toutiao.model.SearchCase">
+        select * from SearchCase
+        where id=#{id};
+    </select>
+    <select id="likeCase" parameterType="Integer" resultType="com.toutiao.model.LikeCase">
+        select * from LikeCase
+        where number_id=#{number_id};
     </select>
 </mapper>
