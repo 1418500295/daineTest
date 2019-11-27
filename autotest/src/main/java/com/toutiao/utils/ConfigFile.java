@@ -5,7 +5,7 @@ import lombok.extern.log4j.Log4j2;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
-@Log4j2
+
 public class ConfigFile {
     private static ResourceBundle bundle =ResourceBundle.getBundle("application", Locale.CHINA);
 
