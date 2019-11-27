@@ -26,8 +26,13 @@ public class BbsLookTest {
         log.info("实际结果："+result);
         JSONObject jsonObject = JSON.parseObject(result);
         Assert.assertEquals(1,jsonObject.get("status"));
+<<<<<<< HEAD
 
 //        Assert.assertTrue(result.contains("\"status\":1"));
+=======
+        
+        //Assert.assertTrue(result.contains("\"status\":1"));
+>>>>>>> d0722102efddd6efaa5c207eebdc7bdc75a87eb8
 
 
     }
