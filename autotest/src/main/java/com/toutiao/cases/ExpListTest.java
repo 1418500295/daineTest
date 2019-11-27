@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 
 import java.io.IOException;
-@Log4j2
+
 public class ExpListTest {
     @Test(dependsOnGroups = "loginTrue",description = "预测贴列表")
     public void expList() throws IOException {
