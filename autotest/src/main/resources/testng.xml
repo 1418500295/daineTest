@@ -30,6 +30,7 @@
             <class name="com.toutiao.cases.LikeTest"/>
             <class name="com.toutiao.cases.FavoriTest"/>
             <class name="com.toutiao.cases.ExpertHomeTest"/>
+            <class name="com.toutiao.cases.TjTest"/>
 
 
         </classes>

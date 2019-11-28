@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>��̳�ӿ�</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 27 15:09:34 CST 2019</td>
+<td>Started on:</td><td>Thu Nov 28 16:10:59 CST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3468 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4640 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,38 +77,93 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.toutiao.cases.BbsLookTest.bbsLook()'><b>bbsLook</b><br>Test class: com.toutiao.cases.BbsLookTest<br>Test method: 关注列表</td>
 <td></td>
-<td>0</td>
-<td>com.toutiao.cases.BbsLookTest@15ca7889</td></tr>
+<td>1</td>
+<td>com.toutiao.cases.BbsLookTest@6ff29830</td></tr>
 <tr>
 <td title='com.toutiao.cases.ExpListTest.expList()'><b>expList</b><br>Test class: com.toutiao.cases.ExpListTest<br>Test method: 预测贴列�?</td>
 <td></td>
 <td>0</td>
-<td>com.toutiao.cases.ExpListTest@3c0be339</td></tr>
+<td>com.toutiao.cases.ExpListTest@2638011</td></tr>
 <tr>
 <td title='com.toutiao.cases.GcListTest.gcList()'><b>gcList</b><br>Test class: com.toutiao.cases.GcListTest<br>Test method: 心水论坛/广场列表</td>
 <td></td>
 <td>0</td>
-<td>com.toutiao.cases.GcListTest@7b02881e</td></tr>
+<td>com.toutiao.cases.GcListTest@683dbc2c</td></tr>
+<tr>
+<td title='com.toutiao.cases.ExpertHomeTest.getExpertHome1()'><b>getExpertHome1</b><br>Test class: com.toutiao.cases.ExpertHomeTest<br>Test method: 专家详情�?/正确<br>Parameters: ExpertHomeCase(id=1, user_id=16266, member_id=8454)</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.ExpertHomeTest@623a8092</td></tr>
+<tr>
+<td title='com.toutiao.cases.ExpertHomeTest.getExpertHome2()'><b>getExpertHome2</b><br>Test class: com.toutiao.cases.ExpertHomeTest<br>Test method: 专家详情�?/错误的member_id<br>Parameters: ExpertHomeCase(id=2, user_id=16266, member_id=)</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.ExpertHomeTest@623a8092</td></tr>
+<tr>
+<td title='com.toutiao.cases.ExpertHomeTest.getExpertHome3()'><b>getExpertHome3</b><br>Test class: com.toutiao.cases.ExpertHomeTest<br>Test method: 专家详情�?/非法的user_id<br>Parameters: ExpertHomeCase(id=3, user_id=, member_id=8454)</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.ExpertHomeTest@623a8092</td></tr>
+<tr>
+<td title='com.toutiao.cases.FavoriTest.getFavori()'><b>getFavori</b><br>Test class: com.toutiao.cases.FavoriTest<br>Test method: 论坛/收藏<br>Parameters: FavoriCase(id=43272, user_id=16266, number_id=1)</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.FavoriTest@548e6d58</td></tr>
+<tr>
+<td title='com.toutiao.cases.FavoriTest.getFavori2()'><b>getFavori2</b><br>Test class: com.toutiao.cases.FavoriTest<br>Test method: 收藏/错误的id<br>Parameters: FavoriCase(id=, user_id=16266, number_id=2)</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.FavoriTest@548e6d58</td></tr>
 <tr>
 <td title='com.toutiao.cases.LikeTest.getLike()'><b>getLike</b><br>Test class: com.toutiao.cases.LikeTest<br>Test method: 论坛/点赞</td>
 <td></td>
 <td>0</td>
-<td>com.toutiao.cases.LikeTest@6e509ffa</td></tr>
+<td>com.toutiao.cases.LikeTest@2f465398</td></tr>
+<tr>
+<td title='com.toutiao.cases.LikeTest.getLike2()'><b>getLike2</b><br>Test class: com.toutiao.cases.LikeTest<br>Test method: 点赞/错误的id</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.LikeTest@2f465398</td></tr>
 <tr>
 <td title='com.toutiao.cases.SearchTest.getSearch()'><b>getSearch</b><br>Test class: com.toutiao.cases.SearchTest<br>Test method: 论坛/搜索</td>
 <td></td>
 <td>0</td>
-<td>com.toutiao.cases.SearchTest@d21a74c</td></tr>
+<td>com.toutiao.cases.SearchTest@313b2ea6</td></tr>
+<tr>
+<td title='com.toutiao.cases.TjTest.getTj()'><b>getTj</b><br>Test class: com.toutiao.cases.TjTest<br>Test method: 头条/推荐<br>Parameters: TjCase(id=1, user_id=16266, type=0, signature=6bt6e6jt1s0aulihote1eb45m7)</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.TjTest@a1cdc6d</td></tr>
+<tr>
+<td title='com.toutiao.cases.TjTest.getTj2()'><b>getTj2</b><br>Test class: com.toutiao.cases.TjTest<br>Test method: 头条/user_id为空<br>Parameters: TjCase(id=2, user_id=, type=0, signature=6bt6e6jt1s0aulihote1eb45m7)</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.TjTest@a1cdc6d</td></tr>
+<tr>
+<td title='com.toutiao.cases.TjTest.getTj3()'><b>getTj3</b><br>Test class: com.toutiao.cases.TjTest<br>Test method: 头条/type为空<br>Parameters: TjCase(id=3, user_id=16266, type=, signature=6bt6e6jt1s0aulihote1eb45m7)</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.TjTest@a1cdc6d</td></tr>
+<tr>
+<td title='com.toutiao.cases.TjTest.getTj4()'><b>getTj4</b><br>Test class: com.toutiao.cases.TjTest<br>Test method: 头条/signature为空<br>Parameters: TjCase(id=4, user_id=16266, type=0, signature=)</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.TjTest@a1cdc6d</td></tr>
+<tr>
+<td title='com.toutiao.cases.LoginTest.loginFalse()'><b>loginFalse</b><br>Test class: com.toutiao.cases.LoginTest<br>Test method: 登录失败</td>
+<td></td>
+<td>0</td>
+<td>com.toutiao.cases.LoginTest@2898ac89</td></tr>
 <tr>
 <td title='com.toutiao.cases.LoginTest.loginTrue()'><b>loginTrue</b><br>Test class: com.toutiao.cases.LoginTest<br>Test method: 用户登陆成功</td>
 <td></td>
 <td>0</td>
-<td>com.toutiao.cases.LoginTest@5f8edcc5</td></tr>
+<td>com.toutiao.cases.LoginTest@2898ac89</td></tr>
 <tr>
 <td title='com.toutiao.cases.ReplyTest.replyTest()'><b>replyTest</b><br>Test class: com.toutiao.cases.ReplyTest<br>Test method: 做出评论</td>
 <td></td>
-<td>0</td>
-<td>com.toutiao.cases.ReplyTest@7a675056</td></tr>
+<td>1</td>
+<td>com.toutiao.cases.ReplyTest@6a2b953e</td></tr>
 </table><p>
 </body>
 </html>

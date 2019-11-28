@@ -9,55 +9,56 @@ import java.util.ResourceBundle;
 public class ConfigFile {
     private static ResourceBundle bundle =ResourceBundle.getBundle("application", Locale.CHINA);
 
-    public static String getUrl(InterfaneName name){
-        String address= bundle.getString("test.url");
-        String uri = "" ;
-        String testUrl;
-        if(name == InterfaneName.LOGIN){
-            uri = bundle.getString("get.url");
-        }
-        if (name == InterfaneName.POSTDEMO){
-            uri = bundle.getString("post.url");
-        }
-        if (name == InterfaneName.GETPARAM){
-            uri = bundle.getString("getparam.url");
-        }
-        if (name == InterfaneName.GETLIST){
-            uri = bundle.getString("getjson.url");
-        }
+    public static String getUrl(InterfaneName host,InterfaneName name) {
 
-        if (name == InterfaneName.MYLOOK ){
-            uri = bundle.getString("mylook.url");
+        String address ;
+        String uri = "";
+        String testUrl = null;
+        if (host == InterfaneName.LTHOST) {
 
+            address = bundle.getString("lt.host");
+
+            if (name == InterfaneName.REPLYURL) {
+                uri = bundle.getString("reply.url");
+            } else if (name == InterfaneName.SEARCHURL) {
+                uri = bundle.getString("search.url");
+
+            } else if (name == InterfaneName.BBSLOOK) {
+                uri = bundle.getString("look.url");
+            } else if (name == InterfaneName.EXPERTHOME) {
+
+                uri = bundle.getString("expert_home.url");
+            } else if (name == InterfaneName.EXPURL) {
+
+                uri = bundle.getString("exp.url");
+
+            } else if (name == InterfaneName.FAVORITE) {
+
+                uri = bundle.getString("favorite.url");
+
+            } else if (name == InterfaneName.GCURL) {
+
+                uri = bundle.getString("gc.url");
+            } else if (name == InterfaneName.LIKEURL) {
+
+                uri = bundle.getString("like.url");
+            }
+            testUrl = address + uri;
+
+        } else if (host == InterfaneName.TTHOST) {
+
+            address = bundle.getString("tt.host");
+
+            if (name == InterfaneName.LOGIN) {
+                uri = bundle.getString("login.url");
+
+            }else if (name == InterfaneName.TJURL){
+                uri = bundle.getString("tj.url");
+            }
+
+            testUrl = address + uri;
         }
-        if (name == InterfaneName.GCURL){
-            uri = bundle.getString("gc.url");
-        }
-        if (name == InterfaneName.EXPURL){
-            uri = bundle.getString("exp.url");
-        }
-        if (name == InterfaneName.BBSLOOK){
-            uri = bundle.getString("look.url");
-        }
-        if (name == InterfaneName.REPLYURL){
-           uri = bundle.getString("reply.url");
-        }
-        if (name == InterfaneName.SEARCHURL){
-            uri = bundle.getString("search.url");
-        }
-        if (name == InterfaneName.LIKEURL){
-            uri = bundle.getString("like.url");
-        }
-        if (name == InterfaneName.FAVORITE){
-            uri = bundle.getString("favorite.url");
-        }
-        if (name == InterfaneName.EXPERTHOME){
-            uri = bundle.getString("expert_home.url");
-        }
-        testUrl = address + uri;
         return testUrl;
-
-
-}
+    }
 
 }

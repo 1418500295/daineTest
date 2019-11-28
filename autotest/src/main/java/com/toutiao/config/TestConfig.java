@@ -12,6 +12,8 @@ import org.omg.CORBA.INITIALIZE;
 @Data
 public class TestConfig {
 
+    public static String loginUrl;
+
     public static String getLoginUrl;
 
     public static CookieStore store;
@@ -31,6 +33,8 @@ public class TestConfig {
     public static String favoriUrl;
 
     public static String expertHomeUrl;
+
+    public static String tjUrl;
 
     //存储登陆返回的key值，相当于token
     public static String key;

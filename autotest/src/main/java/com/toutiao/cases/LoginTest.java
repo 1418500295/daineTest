@@ -1,5 +1,7 @@
 package com.toutiao.cases;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.toutiao.config.TestConfig;
 import com.toutiao.model.InterfaneName;
 import com.toutiao.model.LoginCase;
@@ -19,16 +21,11 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.params.HttpParams;
 import org.apache.http.util.EntityUtils;
 import org.apache.ibatis.session.SqlSession;
-import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-
-
-
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -38,19 +35,20 @@ import java.util.Map;
 
 @Log4j2
 public class LoginTest {
-    private static final String host = "http://api.toutiao.353386.com/?C=passport&A=login&";
 
     @BeforeTest(groups = "loginTrue",description = "测试之前的准备工作")
     public void beforeTest() throws IOException {
 
-        TestConfig.gcListUrl = ConfigFile.getUrl(InterfaneName.GCURL);
-        TestConfig.expListUrl = ConfigFile.getUrl(InterfaneName.EXPURL);
-        TestConfig.bbsLookUrl = ConfigFile.getUrl(InterfaneName.BBSLOOK);
-        TestConfig.replyUrl = ConfigFile.getUrl(InterfaneName.REPLYURL);
-        TestConfig.searchUrl = ConfigFile.getUrl(InterfaneName.SEARCHURL);
-        TestConfig.likeUrl = ConfigFile.getUrl(InterfaneName.LIKEURL);
-        TestConfig.favoriUrl = ConfigFile.getUrl(InterfaneName.FAVORITE);
-        TestConfig.expertHomeUrl = ConfigFile.getUrl(InterfaneName.EXPERTHOME);
+        TestConfig.loginUrl = ConfigFile.getUrl(InterfaneName.TTHOST,InterfaneName.LOGIN);
+        TestConfig.tjUrl = ConfigFile.getUrl(InterfaneName.TTHOST,InterfaneName.TJURL);
+        TestConfig.gcListUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.GCURL);
+        TestConfig.expListUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.EXPURL);
+        TestConfig.bbsLookUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.BBSLOOK);
+        TestConfig.replyUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.REPLYURL);
+        TestConfig.searchUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.SEARCHURL);
+        TestConfig.likeUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.LIKEURL);
+        TestConfig.favoriUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.FAVORITE);
+        TestConfig.expertHomeUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.EXPERTHOME);
         TestConfig.defaultHttpClient = new DefaultHttpClient();
 
 
@@ -63,10 +61,10 @@ public class LoginTest {
         String result = getResult(loginCase);
         log.info("响应结果类型："+result.getClass());
         log.info("实际结果"+result);
-        JSONObject jsonObject = new JSONObject(result);
+        JSONObject jsonObject = JSON.parseObject(result);
         JSONObject param = (JSONObject) jsonObject.get("result");
         TestConfig.key = param.get("Safety").toString();
-        log.info("登陆key值："+TestConfig.key);
+        log.info("登陆的key值:"+TestConfig.key);
         Assert.assertEquals(1,jsonObject.get("status"));
 
     }
@@ -80,9 +78,8 @@ public class LoginTest {
     }
 
     private String getResult(LoginCase loginCase) throws IOException {
-        String url = "device="+loginCase.getDevice()+"&device_Id="+loginCase.getDevice_Id()+
-                "&version="+loginCase.getVersion();
-        HttpPost post = new HttpPost(host+url);
+        System.out.println(TestConfig.loginUrl);
+        HttpPost post = new HttpPost(TestConfig.loginUrl);
         List<NameValuePair> params = new ArrayList<NameValuePair>();
         params.add(new BasicNameValuePair("account",loginCase.getAccount()));
         params.add(new BasicNameValuePair("password",loginCase.getPassword()));
@@ -93,6 +90,8 @@ public class LoginTest {
 
     }
 }
+
+
 
 
 

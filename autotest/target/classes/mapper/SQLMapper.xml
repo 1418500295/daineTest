@@ -34,16 +34,24 @@
         select * from SearchCase
         where id=#{id};
     </select>
+    <!--论坛/点赞-->
     <select id="likeCase" parameterType="Integer" resultType="com.toutiao.model.LikeCase">
         select * from LikeCase
         where number_id=#{number_id};
     </select>
+    <!--论坛/收藏-->
     <select id="favoriCase" parameterType="Integer" resultType="com.toutiao.model.FavoriCase">
         select * from FavoriCase
         where number_id = #{number_id};
     </select>
+    <!--专家详情页-->
     <select id="expertHomeCase" parameterType="Integer" resultType="com.toutiao.model.ExpertHomeCase">
         select * from ExpertHomeCase
+        where id=#{id};
+    </select>
+    <!--头条、推荐-->
+    <select id="tjCase" parameterType="Integer" resultType="com.toutiao.model.TjCase">
+        select * from TjCase
         where id=#{id};
     </select>
 </mapper>
