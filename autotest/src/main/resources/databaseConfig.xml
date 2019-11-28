@@ -10,7 +10,11 @@
                 <!-- 1.加载数据库驱动 -->
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
                 <!-- 2.数据库连接地址 -->
+<<<<<<< HEAD
                 <property name="url" value="jdbc:mysql://192.168.137.1:3306/test"/>
+=======
+                <property name="url" value="jdbc:mysql://192.168.1.10:3306/test"/>
+>>>>>>> 9b3c6f4eb460ce540a9989befe0aa92614ad5dea
                 <!-- 数据库用户... -->
                 <property name="username" value="root"/>
                 <!-- 数据库密码... -->

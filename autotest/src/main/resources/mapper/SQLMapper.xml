@@ -49,7 +49,7 @@
         select * from ExpertHomeCase
         where id=#{id};
     </select>
-    <!--头条、推荐-->
+    <!--头条/推荐-->
     <select id="tjCase" parameterType="Integer" resultType="com.toutiao.model.TjCase">
         select * from TjCase
         where id=#{id};

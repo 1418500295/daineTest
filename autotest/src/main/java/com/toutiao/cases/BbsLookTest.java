@@ -28,7 +28,6 @@ public class BbsLookTest {
         Assert.assertEquals(1,jsonObject.get("status"));
 
 
-
     }
 
     private String getResult(BbsLookCase bbsLookCase) throws IOException {

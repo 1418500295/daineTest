@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="18" failures="0" name="TestSuite" time="5.571" errors="0" skipped="0">
+<testsuite tests="18" failures="2" name="TestSuite" time="1.033" errors="0" skipped="16">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefirebooter5526167724759006177.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefirebooter7129299527781322760.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
-    <property name="sun.java.command" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefirebooter5526167724759006177.jar C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefire4337240447512863765tmp C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefire5987419988112230397tmp"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefirebooter7129299527781322760.jar C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefire3992623108403498387tmp C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefire1099166685416548812tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,22 +61,131 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.toutiao.cases.LoginTest" name="loginTrue" time="0.889"/>
-  <testcase classname="com.toutiao.cases.LoginTest" name="loginFalse" time="0.075"/>
-  <testcase classname="com.toutiao.cases.GcListTest" name="gcList" time="0.335"/>
-  <testcase classname="com.toutiao.cases.ExpListTest" name="expList" time="0.203"/>
-  <testcase classname="com.toutiao.cases.BbsLookTest" name="bbsLook" time="1.021"/>
-  <testcase classname="com.toutiao.cases.ReplyTest" name="replyTest" time="1.027"/>
-  <testcase classname="com.toutiao.cases.SearchTest" name="getSearch" time="0.07"/>
-  <testcase classname="com.toutiao.cases.LikeTest" name="getLike" time="0.071"/>
-  <testcase classname="com.toutiao.cases.LikeTest" name="getLike2" time="0.064"/>
-  <testcase classname="com.toutiao.cases.FavoriTest" name="getFavori" time="0.054"/>
-  <testcase classname="com.toutiao.cases.FavoriTest" name="getFavori2" time="0.053"/>
-  <testcase classname="com.toutiao.cases.ExpertHomeTest" name="getExpertHome1" time="0.058"/>
-  <testcase classname="com.toutiao.cases.ExpertHomeTest" name="getExpertHome2" time="0.047"/>
-  <testcase classname="com.toutiao.cases.ExpertHomeTest" name="getExpertHome3" time="0.052"/>
-  <testcase classname="com.toutiao.cases.TjTest" name="getTj" time="0.172"/>
-  <testcase classname="com.toutiao.cases.TjTest" name="getTj2" time="0.109"/>
-  <testcase classname="com.toutiao.cases.TjTest" name="getTj3" time="0.117"/>
-  <testcase classname="com.toutiao.cases.TjTest" name="getTj4" time="0.043"/>
+  <testcase classname="com.toutiao.cases.LoginTest" name="loginTrue" time="0.014">
+    <failure message="
+### Error building SqlSession.
+### Cause: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 2; 元素内容必须由格式正确的字符数据或标记组成。" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+### Error building SqlSession.
+### Cause: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 2; 元素内容必须由格式正确的字符数据或标记组成。
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:52)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:36)
+	at com.toutiao.utils.DatabaseUtil.getSqlsession(DatabaseUtil.java:14)
+	at com.toutiao.cases.LoginTest.loginTrue(LoginTest.java:59)
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 2; 元素内容必须由格式正确的字符数据或标记组成。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259)
+	at org.apache.ibatis.parsing.XPathParser.&lt;init&gt;(XPathParser.java:120)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.&lt;init&gt;(XMLConfigBuilder.java:69)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:49)
+	... 37 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 2; 元素内容必须由格式正确的字符数据或标记组成。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.startOfMarkup(XMLDocumentFragmentScannerImpl.java:2635)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2732)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257)
+	... 40 more
+</failure>
+    <system-out>@HL
+@HL-------------------------------------------------------
+@HL T E S T S
+@HL-------------------------------------------------------
+@SLRunning TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add &quot;&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot; &gt;&quot; at the top of your file, otherwise TestNG may fail or not work as expected.
+</system-out>
+  </testcase>
+  <testcase classname="com.toutiao.cases.LoginTest" name="loginFalse" time="0.003">
+    <failure message="
+### Error building SqlSession.
+### Cause: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 2; 元素内容必须由格式正确的字符数据或标记组成。" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+### Error building SqlSession.
+### Cause: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 2; 元素内容必须由格式正确的字符数据或标记组成。
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:52)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:36)
+	at com.toutiao.utils.DatabaseUtil.getSqlsession(DatabaseUtil.java:14)
+	at com.toutiao.cases.LoginTest.loginFalse(LoginTest.java:73)
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 2; 元素内容必须由格式正确的字符数据或标记组成。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259)
+	at org.apache.ibatis.parsing.XPathParser.&lt;init&gt;(XPathParser.java:120)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.&lt;init&gt;(XMLConfigBuilder.java:69)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:49)
+	... 37 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 13; columnNumber: 2; 元素内容必须由格式正确的字符数据或标记组成。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.startOfMarkup(XMLDocumentFragmentScannerImpl.java:2635)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2732)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257)
+	... 40 more
+</failure>
+  </testcase>
+  <testcase classname="com.toutiao.cases.GcListTest" name="gcList" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.ExpListTest" name="expList" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.BbsLookTest" name="bbsLook" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.ReplyTest" name="replyTest" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.SearchTest" name="getSearch" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.LikeTest" name="getLike" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.LikeTest" name="getLike2" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.FavoriTest" name="getFavori" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.FavoriTest" name="getFavori2" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.ExpertHomeTest" name="getExpertHome1" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.ExpertHomeTest" name="getExpertHome2" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.ExpertHomeTest" name="getExpertHome3" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.TjTest" name="getTj" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.TjTest" name="getTj2" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.TjTest" name="getTj3" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.toutiao.cases.TjTest" name="getTj4" time="0.007">
+    <skipped/>
+  </testcase>
 </testsuite>

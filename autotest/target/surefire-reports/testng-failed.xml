@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [头条接口管理]">
+  <listeners>
+    <listener class-name="com.toutiao.config.ExtentTestNgIReporterListener"/>
+  </listeners>
+  <test name="论坛接口(failed)">
+    <classes>
+      <class name="com.toutiao.cases.ExpListTest">
+        <methods>
+          <include name="expList"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.ExpListTest -->
+      <class name="com.toutiao.cases.FavoriTest">
+        <methods>
+          <include name="getFavori"/>
+          <include name="getFavori2"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.FavoriTest -->
+      <class name="com.toutiao.cases.ReplyTest">
+        <methods>
+          <include name="replyTest"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.ReplyTest -->
+      <class name="com.toutiao.cases.LoginTest">
+        <methods>
+          <include name="loginTrue"/>
+          <include name="loginFalse"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.LoginTest -->
+      <class name="com.toutiao.cases.TjTest">
+        <methods>
+          <include name="getTj4"/>
+          <include name="getTj2"/>
+          <include name="getTj"/>
+          <include name="getTj3"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.TjTest -->
+      <class name="com.toutiao.cases.BbsLookTest">
+        <methods>
+          <include name="bbsLook"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.BbsLookTest -->
+      <class name="com.toutiao.cases.GcListTest">
+        <methods>
+          <include name="gcList"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.GcListTest -->
+      <class name="com.toutiao.cases.SearchTest">
+        <methods>
+          <include name="getSearch"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.SearchTest -->
+      <class name="com.toutiao.cases.ExpertHomeTest">
+        <methods>
+          <include name="getExpertHome2"/>
+          <include name="getExpertHome3"/>
+          <include name="getExpertHome1"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.ExpertHomeTest -->
+      <class name="com.toutiao.cases.LikeTest">
+        <methods>
+          <include name="getLike"/>
+          <include name="getLike2"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.LikeTest -->
+    </classes>
+  </test> <!-- 论坛接口(failed) -->
+</suite> <!-- Failed suite [头条接口管理] -->
