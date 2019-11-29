@@ -14,7 +14,7 @@
                 <!-- 数据库用户... -->
                 <property name="username" value="root"/>
                 <!-- 数据库密码... -->
-                <property name="password" value="Lhtt5588"/>
+                <property name="password" value="123456"/>
             </dataSource>
         </environment>
     </environments>
