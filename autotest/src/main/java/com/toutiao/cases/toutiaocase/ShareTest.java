@@ -35,7 +35,7 @@ public class ShareTest {
     @Test(dependsOnGroups = "loginTrue",dataProvider = "getShareTestData",description = "分享/错误的user_id")
     public void getShare2(ShareCase shareCase){
         String result = getResult(shareCase);
-        Assert.assertTrue(result.contains("\"status\":1"));
+        Assert.assertFalse(result.contains("\"status\":1"));
     }
 
     @Test(dependsOnGroups = "loginTrue",dataProvider = "getShareTestData",description = "分享/错误的id")
