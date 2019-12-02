@@ -64,4 +64,24 @@
         select * from ShareCase
         where number_id=#{number_id};
     </select>
+    <!--论坛/发图文-->
+    <select id="getPubCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.GetPubCase">
+        select * from GetPubCase
+        where id=#{id};
+    </select>
+    <!--发预测-->
+    <select id="getPreCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.GetPreCase">
+        select * from GetPreCase
+        where id=#{id};
+    </select>
+    <!--论坛/用户中心-->
+    <select id="userCenterCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.UserCenterCase">
+        select * from UserCenterCase
+        where id = #{id};
+    </select>
+    <!--论坛/我的帖子-->
+    <select id="myItemCase" parameterType="String" resultType="com.toutiao.model.luntanmd.MyItemCase">
+        select * from MyItemCase
+        where id=#{id};
+    </select>
 </mapper>

@@ -42,7 +42,19 @@ public class ConfigFile {
             } else if (urlName == InterfaneName.LIKEURL) {
 
                 uri = bundle.getString("like.url");
+            }else if (urlName == InterfaneName.GETPUB){
+
+                uri = bundle.getString("get_pub.url");
+            }else if (urlName == InterfaneName.GETPREDICT){
+
+                uri = bundle.getString("get_predict.url");
+
+            }else if (urlName == InterfaneName.USERCENTER){
+                uri  = bundle.getString("user.url");
+            }else if (urlName == InterfaneName.MYITEM){
+                uri = bundle.getString("my_item.url");
             }
+
             testUrl = address + uri;
 
         } else if (host == InterfaneName.TTHOST) {

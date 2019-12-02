@@ -33,6 +33,10 @@
             <class name="com.toutiao.cases.toutiaocase.TjTest"/>
             <class name="com.toutiao.cases.toutiaocase.GsListTest"/>
             <class name="com.toutiao.cases.toutiaocase.ShareTest"/>
+            <class name="com.toutiao.cases.luntancase.GetPubTest"/>
+            <class name="com.toutiao.cases.luntancase.GetPreTest"/>
+            <class name="com.toutiao.cases.luntancase.UserCenterTest"/>
+            <class name="com.toutiao.cases.luntancase.MyItemTest"/>
 
 
         </classes>

@@ -29,7 +29,7 @@ public class LoginTest {
 
     @BeforeTest(groups = "loginTrue",description = "测试之前的准备工作")
     public void beforeTest() throws IOException {
-
+        TestConfig.urlConstant = "&device=ios&device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&version=2.3.2&";
         TestConfig.loginUrl = ConfigFile.getUrl(InterfaneName.TTHOST,InterfaneName.LOGIN);
         TestConfig.tjUrl = ConfigFile.getUrl(InterfaneName.TTHOST,InterfaneName.TJURL);
         TestConfig.gcListUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.GCURL);
@@ -42,6 +42,10 @@ public class LoginTest {
         TestConfig.expertHomeUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.EXPERTHOME);
         TestConfig.gsListUrl = ConfigFile.getUrl(InterfaneName.TTHOST,InterfaneName.GSLIST);
         TestConfig.shareUrl = ConfigFile.getUrl(InterfaneName.TTHOST,InterfaneName.SHARE);
+        TestConfig.getPubUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.GETPUB);
+        TestConfig.getPreUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.GETPREDICT);
+        TestConfig.userCenterUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.USERCENTER);
+        TestConfig.myItemUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.MYITEM);
         TestConfig.defaultHttpClient = new DefaultHttpClient();
 
 

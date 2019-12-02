@@ -12,6 +12,9 @@ import org.omg.CORBA.INITIALIZE;
 @Data
 public class TestConfig {
 
+    //url中固定请求参数
+    public static  String urlConstant;
+
     public static String loginUrl;
 
     public static String getLoginUrl;
@@ -36,9 +39,7 @@ public class TestConfig {
 
     public static String tjUrl;
 
-    public static String gsListUrl,shareUrl;
-
-
+    public static String gsListUrl,shareUrl,getPubUrl,getPreUrl,userCenterUrl,myItemUrl;
 
 
 
