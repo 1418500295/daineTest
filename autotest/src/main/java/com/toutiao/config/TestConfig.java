@@ -36,6 +36,13 @@ public class TestConfig {
 
     public static String tjUrl;
 
+    public static String gsListUrl,shareUrl;
+
+
+
+
+
+
     //存储登陆返回的key值，相当于token
     public static String key;
 

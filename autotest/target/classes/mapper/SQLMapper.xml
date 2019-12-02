@@ -5,53 +5,63 @@
 
 <mapper namespace="com.toutiao.model">
     <!--登陆成功-->
-    <select id="loginCase" parameterType="Integer" resultType="com.toutiao.model.LoginCase">
+    <select id="loginCase" parameterType="Integer" resultType="com.toutiao.model.toutiaomd.LoginCase">
         select * from LoginCase
-        where id = #{id};
+        where id=#{id};
     </select>
     <!--广场列表-->
-    <select id="gcListCase" parameterType="Integer" resultType="com.toutiao.model.GcListCase">
+    <select id="gcListCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.GcListCase">
         select  * from GcListCase
         where id = #{id};
     </select>
     <!--预测贴列表-->
-    <select id="expListCase" parameterType="Integer" resultType="com.toutiao.model.ExpListCase">
+    <select id="expListCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.ExpListCase">
         select * from ExpListCase
         where id =#{id};
     </select>
     <!--关注列表-->
-    <select id="bbsLookCase" parameterType="Integer" resultType="com.toutiao.model.BbsLookCase">
+    <select id="bbsLookCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.BbsLookCase">
         select * from BbsLookCase
         where id=#{id};
     </select>
     <!--论坛/评论-->
-    <select id="replyCase" parameterType="Integer" resultType="com.toutiao.model.ReplyCase">
+    <select id="replyCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.ReplyCase">
         select * from ReplyCase
         where id_number=#{id_number};
     </select>
     <!--论坛/搜索-->
-    <select id="searchCase" parameterType="Integer" resultType="com.toutiao.model.SearchCase">
+    <select id="searchCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.SearchCase">
         select * from SearchCase
         where id=#{id};
     </select>
     <!--论坛/点赞-->
-    <select id="likeCase" parameterType="Integer" resultType="com.toutiao.model.LikeCase">
+    <select id="likeCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.LikeCase">
         select * from LikeCase
         where number_id=#{number_id};
     </select>
     <!--论坛/收藏-->
-    <select id="favoriCase" parameterType="Integer" resultType="com.toutiao.model.FavoriCase">
+    <select id="favoriCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.FavoriCase">
         select * from FavoriCase
         where number_id = #{number_id};
     </select>
     <!--专家详情页-->
-    <select id="expertHomeCase" parameterType="Integer" resultType="com.toutiao.model.ExpertHomeCase">
+    <select id="expertHomeCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.ExpertHomeCase">
         select * from ExpertHomeCase
         where id=#{id};
     </select>
     <!--头条/推荐-->
-    <select id="tjCase" parameterType="Integer" resultType="com.toutiao.model.TjCase">
+    <select id="tjCase" parameterType="Integer" resultType="com.toutiao.model.toutiaomd.TjCase">
         select * from TjCase
         where id=#{id};
+    </select>
+    <!--头条/高手榜-->
+    <select id="gsListCase" parameterType="String" resultType="com.toutiao.model.toutiaomd.GsListCase">
+        select * from GsListCase
+        where id=#{id};
+    </select>
+    <!--头条/分享-->
+    <select id="shareCase" parameterType="Integer" resultType="com.toutiao.model.toutiaomd.ShareCase">
+        select * from ShareCase
+        where number_id=#{number_id};
     </select>
 </mapper>

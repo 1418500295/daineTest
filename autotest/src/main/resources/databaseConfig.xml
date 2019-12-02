@@ -10,16 +10,17 @@
                 <!-- 1.加载数据库驱动 -->
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
                 <!-- 2.数据库连接地址 -->
-                <property name="url" value="jdbc:mysql://47.244.153.238:3306/test"/>
+                <property name="url" value="jdbc:mysql://192.168.1.10:3306/test"/>
                 <!-- 数据库用户... -->
                 <property name="username" value="root"/>
                 <!-- 数据库密码... -->
-                <property name="password" value="Lhtt5588"/>
+                <property name="password" value="123456"/>
             </dataSource>
         </environment>
     </environments>
     <!-- 注册映射文件：java对象与数据库之间的xml文件路径！ -->
     <mappers>
         <mapper resource="mapper/SQLMapper.xml"/>
+
     </mappers>
 </configuration>

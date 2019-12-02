@@ -15,6 +15,7 @@ public class DatabaseUtil {
         //得到session对象，用于执行sql语句
         SqlSession session = sqlSessionFactory.openSession();
         return  session;
+
         }
 
 

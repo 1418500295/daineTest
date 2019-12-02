@@ -2,7 +2,7 @@ package com.toutiao.model;
 
 public enum InterfaneName {
     TTHOST,
-    TJURL,
+    TJURL,GSLIST,SHARE,
 
     LTHOST,
     LOGIN,POSTDEMO,USER,GETLIST,MYLOOK,GETPARAM,
