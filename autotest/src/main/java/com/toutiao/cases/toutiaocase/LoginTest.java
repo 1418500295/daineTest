@@ -46,6 +46,7 @@ public class LoginTest {
         TestConfig.getPreUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.GETPREDICT);
         TestConfig.userCenterUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.USERCENTER);
         TestConfig.myItemUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.MYITEM);
+        TestConfig.myFavorUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.MYFAVOR);
         TestConfig.defaultHttpClient = new DefaultHttpClient();
 
 

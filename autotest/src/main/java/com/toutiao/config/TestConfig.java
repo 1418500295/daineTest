@@ -39,7 +39,7 @@ public class TestConfig {
 
     public static String tjUrl;
 
-    public static String gsListUrl,shareUrl,getPubUrl,getPreUrl,userCenterUrl,myItemUrl;
+    public static String gsListUrl,shareUrl,getPubUrl,getPreUrl,userCenterUrl,myItemUrl,myFavorUrl;
 
 
 

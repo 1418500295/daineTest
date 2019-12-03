@@ -84,4 +84,8 @@
         select * from MyItemCase
         where id=#{id};
     </select>
+    <select id="myFavorCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.MyFavorCase">
+        select * from MyFavorCase
+        where id=#{id};
+    </select>
 </mapper>

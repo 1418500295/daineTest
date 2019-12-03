@@ -37,6 +37,7 @@
             <class name="com.toutiao.cases.luntancase.GetPreTest"/>
             <class name="com.toutiao.cases.luntancase.UserCenterTest"/>
             <class name="com.toutiao.cases.luntancase.MyItemTest"/>
+            <class name="com.toutiao.cases.luntancase.MyFavorTest"/>
 
 
         </classes>

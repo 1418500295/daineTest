@@ -53,6 +53,10 @@ public class ConfigFile {
                 uri  = bundle.getString("user.url");
             }else if (urlName == InterfaneName.MYITEM){
                 uri = bundle.getString("my_item.url");
+            }else if (urlName == InterfaneName.MYFAVOR){
+
+                uri = bundle.getString("my_favor.url");
+
             }
 
             testUrl = address + uri;

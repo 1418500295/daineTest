@@ -1,5 +1,5 @@
 #surefire
-#Mon Dec 02 09:55:27 CST 2019
+#Tue Dec 03 08:54:13 CST 2019
 useSystemClassLoader=true
 classPathUrl.58=C\:\\Users\\ASUS\\.m2\\repository\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2.jar
 classPathUrl.57=C\:\\Users\\ASUS\\.m2\\repository\\org\\apache\\httpcomponents\\httpmime\\4.5.2\\httpmime-4.5.2.jar
@@ -16,12 +16,12 @@ classPathUrl.49=C\:\\Users\\ASUS\\.m2\\repository\\org\\xerial\\sqlite-jdbc\\3.8
 testng.test.classpath=C\:\\Users\\ASUS\\IdeaProjects\\daineTest\\autotest\\target\\test-classes
 classPathUrl.48=C\:\\Users\\ASUS\\.m2\\repository\\org\\jsoup\\jsoup\\1.8.3\\jsoup-1.8.3.jar
 classPathUrl.47=C\:\\Users\\ASUS\\.m2\\repository\\com\\relevantcodes\\extentreports\\2.41.1\\extentreports-2.41.1.jar
-classPathUrl.46=C\:\\Users\\ASUS\\.m2\\repository\\com\\google\\code\\gson\\gson\\2.7\\gson-2.7.jar
-classPathUrl.45=C\:\\Users\\ASUS\\.m2\\repository\\com\\squareup\\retrofit2\\converter-gson\\2.3.0\\converter-gson-2.3.0.jar
+classPathUrl.46=C\:\\Users\\ASUS\\.m2\\repository\\com\\squareup\\okio\\okio\\1.13.0\\okio-1.13.0.jar
+classPathUrl.45=C\:\\Users\\ASUS\\.m2\\repository\\com\\squareup\\okhttp3\\okhttp\\3.9.1\\okhttp-3.9.1.jar
 surefireClassPathUrl.3=C\:\\Users\\ASUS\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
-classPathUrl.44=C\:\\Users\\ASUS\\.m2\\repository\\com\\squareup\\okio\\okio\\1.11.0\\okio-1.11.0.jar
+classPathUrl.44=C\:\\Users\\ASUS\\.m2\\repository\\com\\google\\code\\gson\\gson\\2.7\\gson-2.7.jar
 surefireClassPathUrl.2=C\:\\Users\\ASUS\\.m2\\repository\\org\\codehaus\\plexus\\plexus-utils\\1.0.4\\plexus-utils-1.0.4.jar
-classPathUrl.43=C\:\\Users\\ASUS\\.m2\\repository\\com\\squareup\\okhttp3\\okhttp\\3.6.0\\okhttp-3.6.0.jar
+classPathUrl.43=C\:\\Users\\ASUS\\.m2\\repository\\com\\squareup\\retrofit2\\converter-gson\\2.3.0\\converter-gson-2.3.0.jar
 surefireClassPathUrl.1=C\:\\Users\\ASUS\\.m2\\repository\\org\\apache\\maven\\maven-artifact\\2.0\\maven-artifact-2.0.jar
 classPathUrl.42=C\:\\Users\\ASUS\\.m2\\repository\\com\\squareup\\retrofit2\\retrofit\\2.2.0\\retrofit-2.2.0.jar
 surefireClassPathUrl.0=C\:\\Users\\ASUS\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-testng\\2.7.1\\surefire-testng-2.7.1.jar
