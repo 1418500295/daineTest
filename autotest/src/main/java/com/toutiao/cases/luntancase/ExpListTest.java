@@ -5,6 +5,7 @@ import com.toutiao.model.luntanmd.ExpListCase;
 import com.toutiao.utils.DatabaseUtil;
 import lombok.extern.log4j.Log4j2;
 import org.apache.http.HttpResponse;
+import org.apache.http.ParseException;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.util.EntityUtils;
 import org.apache.ibatis.session.SqlSession;
@@ -28,11 +29,18 @@ public class ExpListTest {
     }
 
     private String getResult(ExpListCase expListCase) throws IOException {
-        String url = TestConfig.expListUrl+"&key="+TestConfig.key+"&class_id="
-        +expListCase.getClass_id()+"&user_id="+expListCase.getUser_id()+"&period="+expListCase.getPeriod();
-        HttpGet get = new HttpGet(url);
-        HttpResponse response = TestConfig.defaultHttpClient.execute(get);
-        String result = EntityUtils.toString(response.getEntity(),"utf-8");
+        String result = null;
+        try {
+            String url = TestConfig.expListUrl+"&key="+TestConfig.key+"&class_id="
+            +expListCase.getClass_id()+"&user_id="+expListCase.getUser_id()+"&period="+expListCase.getPeriod();
+            HttpGet get = new HttpGet(url);
+            HttpResponse response = TestConfig.defaultHttpClient.execute(get);
+            result = EntityUtils.toString(response.getEntity(),"utf-8");
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
         return result;
     }
 }

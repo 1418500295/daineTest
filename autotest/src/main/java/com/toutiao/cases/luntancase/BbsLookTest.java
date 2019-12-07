@@ -7,6 +7,7 @@ import com.toutiao.model.luntanmd.BbsLookCase;
 import com.toutiao.utils.DatabaseUtil;
 import lombok.extern.log4j.Log4j2;
 import org.apache.http.HttpResponse;
+import org.apache.http.ParseException;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.util.EntityUtils;
 import org.apache.ibatis.session.SqlSession;
@@ -30,10 +31,17 @@ public class BbsLookTest {
     }
 
     private String getResult(BbsLookCase bbsLookCase) throws IOException {
-        String url = TestConfig.bbsLookUrl+"&key="+TestConfig.key+"&user_id="+bbsLookCase.getUser_id();
-        HttpGet get = new HttpGet(url);
-        HttpResponse response = TestConfig.defaultHttpClient.execute(get);
-        String result = EntityUtils.toString(response.getEntity(),"utf-8");
+        String result = null;
+        try {
+            String url = TestConfig.bbsLookUrl+"&key="+TestConfig.key+"&user_id="+bbsLookCase.getUser_id();
+            HttpGet get = new HttpGet(url);
+            HttpResponse response = TestConfig.defaultHttpClient.execute(get);
+            result = EntityUtils.toString(response.getEntity(),"utf-8");
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
         return result;
     }
 }
