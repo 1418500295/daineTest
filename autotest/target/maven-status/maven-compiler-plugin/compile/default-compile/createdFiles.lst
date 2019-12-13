@@ -4,12 +4,14 @@ com\toutiao\cases\toutiaocase\GsListTest.class
 com\toutiao\cases\luntancase\ExpListTest.class
 com\toutiao\model\toutiaomd\ShareCase.class
 com\toutiao\model\luntanmd\LikeCase.class
+com\toutiao\cases\luntancase\MyFavorTest.class
 com\toutiao\config\ExtentTestNgIReporterListener.class
 com\toutiao\model\luntanmd\GetPreCase.class
 com\toutiao\cases\luntancase\BbsLookTest.class
 com\toutiao\cases\luntancase\ReplyTest.class
 com\toutiao\cases\luntancase\FavoriTest.class
 com\toutiao\cases\luntancase\LikeTest.class
+com\toutiao\model\luntanmd\MyFavorCase.class
 com\toutiao\model\luntanmd\MyItemCase.class
 com\toutiao\cases\luntancase\UserCenterTest.class
 com\toutiao\config\ExtentTestNgIReporterListener$1.class

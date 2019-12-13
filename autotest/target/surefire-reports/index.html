@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-头条接口管理">
-              <span class="suite-name border-passed">头条接口管理</span>
+              <span class="suite-name border-failed">头条接口管理</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">27 methods,   27 passed</span>
+                    <span class="method-stats">28 methods, 1 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-头条接口管理" class="hide-methods failed suite-头条接口管理"> (hide)</a> <!-- hide-methods failed suite-头条接口管理 -->
+                      <a href="#" panel-name="suite-头条接口管理" class="show-methods failed suite-头条接口管理"> (show)</a> <!-- show-methods failed suite-头条接口管理 -->
+                    </span>
+                    <div class="method-list-content failed suite-头条接口管理">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.luntancase.LikeTest" hash-for-method="getLike">getLike</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-头条接口管理 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -152,12 +166,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.luntancase.LikeTest" hash-for-method="getLike">getLike</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.luntancase.LikeTest" hash-for-method="getLike2">getLike2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.luntancase.LikeTest" hash-for-method="getLike2">getLike2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.luntancase.MyFavorTest" hash-for-method="getMyFavor(com.toutiao.model.luntanmd.MyFavorCase@65f58c6e)">getMyFavor(com.toutiao.model.luntanmd.MyFavorCase@65f58c6e)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -172,7 +186,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.luntancase.GetPubTest" hash-for-method="getPub(com.toutiao.model.luntanmd.GetPubCase@654d8173)">getPub(com.toutiao.model.luntanmd.GetPubCase@654d8173)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.luntancase.GetPubTest" hash-for-method="getPub(com.toutiao.model.luntanmd.GetPubCase@73ad7e90)">getPub(com.toutiao.model.luntanmd.GetPubCase@73ad7e90)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -182,17 +196,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.toutiaocase.ShareTest" hash-for-method="getShare(com.toutiao.model.toutiaomd.ShareCase@56c9bbd8)">getShare(com.toutiao.model.toutiaomd.ShareCase@56c9bbd8)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.toutiaocase.ShareTest" hash-for-method="getShare(com.toutiao.model.toutiaomd.ShareCase@4ba380c7)">getShare(com.toutiao.model.toutiaomd.ShareCase@4ba380c7)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.toutiaocase.ShareTest" hash-for-method="getShare2(com.toutiao.model.toutiaomd.ShareCase@630cb4a4)">getShare2(com.toutiao.model.toutiaomd.ShareCase@630cb4a4)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.toutiaocase.ShareTest" hash-for-method="getShare2(com.toutiao.model.toutiaomd.ShareCase@784c5ef5)">getShare2(com.toutiao.model.toutiaomd.ShareCase@784c5ef5)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.toutiaocase.ShareTest" hash-for-method="getShare3(com.toutiao.model.toutiaomd.ShareCase@636e8cc)">getShare3(com.toutiao.model.toutiaomd.ShareCase@636e8cc)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.toutiaocase.ShareTest" hash-for-method="getShare3(com.toutiao.model.toutiaomd.ShareCase@31133b6e)">getShare3(com.toutiao.model.toutiaomd.ShareCase@31133b6e)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -217,7 +231,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.luntancase.UserCenterTest" hash-for-method="getUserCenter(com.toutiao.model.luntanmd.UserCenterCase@f79a760)">getUserCenter(com.toutiao.model.luntanmd.UserCenterCase@f79a760)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-头条接口管理" title="com.toutiao.cases.luntancase.UserCenterTest" hash-for-method="getUserCenter(com.toutiao.model.luntanmd.UserCenterCase@29528a22)">getUserCenter(com.toutiao.model.luntanmd.UserCenterCase@29528a22)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -247,6 +261,268 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-头条接口管理" class="panel 头条接口管理">
+          <div class="suite-头条接口管理-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.toutiao.cases.luntancase.LikeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLike">
+                  </a> <!-- getLike -->
+                  <span class="method-name">getLike</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.toutiao.cases.luntancase.LikeTest.getLike(LikeTest.java:33)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(璁哄潧/鐐硅禐)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-failed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.luntancase.LikeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLike2">
+                  </a> <!-- getLike2 -->
+                  <span class="method-name">getLike2</span>
+                  <em>
+(鐐硅禐/閿欒鐨刬d)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.luntancase.GetPreTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPre">
+                  </a> <!-- getPre -->
+                  <span class="method-name">getPre</span>
+                  <em>
+(璁哄潧/鍙戦娴嬭创)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.toutiaocase.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFalse">
+                  </a> <!-- loginFalse -->
+                  <span class="method-name">loginFalse</span>
+                  <em>
+(鐧诲綍澶辫触)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTrue">
+                  </a> <!-- loginTrue -->
+                  <span class="method-name">loginTrue</span>
+                  <em>
+(鐢ㄦ埛鐧婚檰鎴愬姛)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.luntancase.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSearch">
+                  </a> <!-- getSearch -->
+                  <span class="method-name">getSearch</span>
+                  <em>
+(璁哄潧/鎼滅储)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.luntancase.BbsLookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bbsLook">
+                  </a> <!-- bbsLook -->
+                  <span class="method-name">bbsLook</span>
+                  <em>
+(鍏虫敞鍒楄〃)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.luntancase.MyFavorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMyFavor(com.toutiao.model.luntanmd.MyFavorCase@65f58c6e)">
+                  </a> <!-- getMyFavor(com.toutiao.model.luntanmd.MyFavorCase@65f58c6e) -->
+                  <span class="method-name">getMyFavor</span>
+                  <span class="parameters">(com.toutiao.model.luntanmd.MyFavorCase@65f58c6e)</span>
+                  <em>
+(璁哄潧/鎴戠殑鏀惰棌)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.luntancase.ExpListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="expList">
+                  </a> <!-- expList -->
+                  <span class="method-name">expList</span>
+                  <em>
+(棰勬祴璐村垪琛�)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.luntancase.ReplyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="replyTest">
+                  </a> <!-- replyTest -->
+                  <span class="method-name">replyTest</span>
+                  <em>
+(鍋氬嚭璇勮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.luntancase.FavoriTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFavori(FavoriCase(id=43272, user_id=16266, number_id=1))">
+                  </a> <!-- getFavori(FavoriCase(id=43272, user_id=16266, number_id=1)) -->
+                  <span class="method-name">getFavori</span>
+                  <span class="parameters">(FavoriCase(id=43272, user_id=16266, number_id=1))</span>
+                  <em>
+(璁哄潧/鏀惰棌)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFavori2(FavoriCase(id=, user_id=16266, number_id=2))">
+                  </a> <!-- getFavori2(FavoriCase(id=, user_id=16266, number_id=2)) -->
+                  <span class="method-name">getFavori2</span>
+                  <span class="parameters">(FavoriCase(id=, user_id=16266, number_id=2))</span>
+                  <em>
+(鏀惰棌/閿欒鐨刬d)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.toutiaocase.GsListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGsList(GsListCase(id=1, type=0, period=2019132, user_id=16266, p=1, expResult=1))">
+                  </a> <!-- getGsList(GsListCase(id=1, type=0, period=2019132, user_id=16266, p=1, expResult=1)) -->
+                  <span class="method-name">getGsList</span>
+                  <span class="parameters">(GsListCase(id=1, type=0, period=2019132, user_id=16266, p=1, expResult=1))</span>
+                  <em>
+(澶存潯/楂樻墜姒滃垪琛�)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGsList2(GsListCase(id=2, type=0, period=, user_id=16266, p=1, expResult=1))">
+                  </a> <!-- getGsList2(GsListCase(id=2, type=0, period=, user_id=16266, p=1, expResult=1)) -->
+                  <span class="method-name">getGsList2</span>
+                  <span class="parameters">(GsListCase(id=2, type=0, period=, user_id=16266, p=1, expResult=1))</span>
+                  <em>
+(楂樻墜姒�/閿欒鐨刾eriod)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
+          <div class="suite-头条接口管理-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.toutiao.cases.toutiaocase.ShareTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getShare(com.toutiao.model.toutiaomd.ShareCase@4ba380c7)">
+                  </a> <!-- getShare(com.toutiao.model.toutiaomd.ShareCase@4ba380c7) -->
+                  <span class="method-name">getShare</span>
+                  <span class="parameters">(com.toutiao.model.toutiaomd.ShareCase@4ba380c7)</span>
+                  <em>
+(澶存潯/鍒嗕韩)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getShare2(com.toutiao.model.toutiaomd.ShareCase@784c5ef5)">
+                  </a> <!-- getShare2(com.toutiao.model.toutiaomd.ShareCase@784c5ef5) -->
+                  <span class="method-name">getShare2</span>
+                  <span class="parameters">(com.toutiao.model.toutiaomd.ShareCase@784c5ef5)</span>
+                  <em>
+(鍒嗕韩/閿欒鐨剈ser_id)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getShare3(com.toutiao.model.toutiaomd.ShareCase@31133b6e)">
+                  </a> <!-- getShare3(com.toutiao.model.toutiaomd.ShareCase@31133b6e) -->
+                  <span class="method-name">getShare3</span>
+                  <span class="parameters">(com.toutiao.model.toutiaomd.ShareCase@31133b6e)</span>
+                  <em>
+(鍒嗕韩/閿欒鐨刬d)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-头条接口管理-class-passed -->
           <div class="suite-头条接口管理-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -288,16 +564,16 @@
           <div class="suite-头条接口管理-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.SearchTest</span>
+              <span class="class-name">com.toutiao.cases.luntancase.GcListTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getSearch">
-                  </a> <!-- getSearch -->
-                  <span class="method-name">getSearch</span>
+                  <a name="gcList">
+                  </a> <!-- gcList -->
+                  <span class="method-name">gcList</span>
                   <em>
-(璁哄潧/鎼滅储)                  </em>
+(蹇冩按璁哄潧/骞垮満鍒楄〃)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -305,37 +581,16 @@
           <div class="suite-头条接口管理-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.toutiaocase.ShareTest</span>
+              <span class="class-name">com.toutiao.cases.luntancase.MyItemTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getShare(com.toutiao.model.toutiaomd.ShareCase@56c9bbd8)">
-                  </a> <!-- getShare(com.toutiao.model.toutiaomd.ShareCase@56c9bbd8) -->
-                  <span class="method-name">getShare</span>
-                  <span class="parameters">(com.toutiao.model.toutiaomd.ShareCase@56c9bbd8)</span>
+                  <a name="getMyItem">
+                  </a> <!-- getMyItem -->
+                  <span class="method-name">getMyItem</span>
                   <em>
-(澶存潯/鍒嗕韩)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getShare2(com.toutiao.model.toutiaomd.ShareCase@630cb4a4)">
-                  </a> <!-- getShare2(com.toutiao.model.toutiaomd.ShareCase@630cb4a4) -->
-                  <span class="method-name">getShare2</span>
-                  <span class="parameters">(com.toutiao.model.toutiaomd.ShareCase@630cb4a4)</span>
-                  <em>
-(鍒嗕韩/閿欒鐨剈ser_id)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getShare3(com.toutiao.model.toutiaomd.ShareCase@636e8cc)">
-                  </a> <!-- getShare3(com.toutiao.model.toutiaomd.ShareCase@636e8cc) -->
-                  <span class="method-name">getShare3</span>
-                  <span class="parameters">(com.toutiao.model.toutiaomd.ShareCase@636e8cc)</span>
-                  <em>
-(鍒嗕韩/閿欒鐨刬d)                  </em>
+(璁哄潧/鎴戠殑甯栧瓙)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -343,16 +598,17 @@
           <div class="suite-头条接口管理-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.GetPreTest</span>
+              <span class="class-name">com.toutiao.cases.luntancase.UserCenterTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getPre">
-                  </a> <!-- getPre -->
-                  <span class="method-name">getPre</span>
+                  <a name="getUserCenter(com.toutiao.model.luntanmd.UserCenterCase@29528a22)">
+                  </a> <!-- getUserCenter(com.toutiao.model.luntanmd.UserCenterCase@29528a22) -->
+                  <span class="method-name">getUserCenter</span>
+                  <span class="parameters">(com.toutiao.model.luntanmd.UserCenterCase@29528a22)</span>
                   <em>
-(璁哄潧/鍙戦娴嬭创)                  </em>
+(璁哄潧/涓汉涓績)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -360,44 +616,17 @@
           <div class="suite-头条接口管理-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.BbsLookTest</span>
+              <span class="class-name">com.toutiao.cases.luntancase.GetPubTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="bbsLook">
-                  </a> <!-- bbsLook -->
-                  <span class="method-name">bbsLook</span>
+                  <a name="getPub(com.toutiao.model.luntanmd.GetPubCase@73ad7e90)">
+                  </a> <!-- getPub(com.toutiao.model.luntanmd.GetPubCase@73ad7e90) -->
+                  <span class="method-name">getPub</span>
+                  <span class="parameters">(com.toutiao.model.luntanmd.GetPubCase@73ad7e90)</span>
                   <em>
-(鍏虫敞鍒楄〃)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-头条接口管理-class-passed -->
-          <div class="suite-头条接口管理-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.toutiaocase.GsListTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getGsList(GsListCase(id=1, type=0, period=2019132, user_id=16266, p=1, expResult=1))">
-                  </a> <!-- getGsList(GsListCase(id=1, type=0, period=2019132, user_id=16266, p=1, expResult=1)) -->
-                  <span class="method-name">getGsList</span>
-                  <span class="parameters">(GsListCase(id=1, type=0, period=2019132, user_id=16266, p=1, expResult=1))</span>
-                  <em>
-(澶存潯/楂樻墜姒滃垪琛�)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getGsList2(GsListCase(id=2, type=0, period=, user_id=16266, p=1, expResult=1))">
-                  </a> <!-- getGsList2(GsListCase(id=2, type=0, period=, user_id=16266, p=1, expResult=1)) -->
-                  <span class="method-name">getGsList2</span>
-                  <span class="parameters">(GsListCase(id=2, type=0, period=, user_id=16266, p=1, expResult=1))</span>
-                  <em>
-(楂樻墜姒�/閿欒鐨刾eriod)                  </em>
+(璁哄潧/鍙戝浘鏂�)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -450,190 +679,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-头条接口管理-class-passed -->
-          <div class="suite-头条接口管理-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.UserCenterTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getUserCenter(com.toutiao.model.luntanmd.UserCenterCase@f79a760)">
-                  </a> <!-- getUserCenter(com.toutiao.model.luntanmd.UserCenterCase@f79a760) -->
-                  <span class="method-name">getUserCenter</span>
-                  <span class="parameters">(com.toutiao.model.luntanmd.UserCenterCase@f79a760)</span>
-                  <em>
-(璁哄潧/涓汉涓績)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-头条接口管理-class-passed -->
-          <div class="suite-头条接口管理-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.LikeTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getLike">
-                  </a> <!-- getLike -->
-                  <span class="method-name">getLike</span>
-                  <em>
-(璁哄潧/鐐硅禐)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getLike2">
-                  </a> <!-- getLike2 -->
-                  <span class="method-name">getLike2</span>
-                  <em>
-(鐐硅禐/閿欒鐨刬d)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-头条接口管理-class-passed -->
-          <div class="suite-头条接口管理-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.ReplyTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="replyTest">
-                  </a> <!-- replyTest -->
-                  <span class="method-name">replyTest</span>
-                  <em>
-(鍋氬嚭璇勮)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-头条接口管理-class-passed -->
-          <div class="suite-头条接口管理-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.ExpListTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="expList">
-                  </a> <!-- expList -->
-                  <span class="method-name">expList</span>
-                  <em>
-(棰勬祴璐村垪琛�)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-头条接口管理-class-passed -->
-          <div class="suite-头条接口管理-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.toutiaocase.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginFalse">
-                  </a> <!-- loginFalse -->
-                  <span class="method-name">loginFalse</span>
-                  <em>
-(鐧诲綍澶辫触)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTrue">
-                  </a> <!-- loginTrue -->
-                  <span class="method-name">loginTrue</span>
-                  <em>
-(鐢ㄦ埛鐧婚檰鎴愬姛)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-头条接口管理-class-passed -->
-          <div class="suite-头条接口管理-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.MyItemTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getMyItem">
-                  </a> <!-- getMyItem -->
-                  <span class="method-name">getMyItem</span>
-                  <em>
-(璁哄潧/鎴戠殑甯栧瓙)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-头条接口管理-class-passed -->
-          <div class="suite-头条接口管理-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.GcListTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="gcList">
-                  </a> <!-- gcList -->
-                  <span class="method-name">gcList</span>
-                  <em>
-(蹇冩按璁哄潧/骞垮満鍒楄〃)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-头条接口管理-class-passed -->
-          <div class="suite-头条接口管理-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.FavoriTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getFavori(FavoriCase(id=43272, user_id=16266, number_id=1))">
-                  </a> <!-- getFavori(FavoriCase(id=43272, user_id=16266, number_id=1)) -->
-                  <span class="method-name">getFavori</span>
-                  <span class="parameters">(FavoriCase(id=43272, user_id=16266, number_id=1))</span>
-                  <em>
-(璁哄潧/鏀惰棌)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getFavori2(FavoriCase(id=, user_id=16266, number_id=2))">
-                  </a> <!-- getFavori2(FavoriCase(id=, user_id=16266, number_id=2)) -->
-                  <span class="method-name">getFavori2</span>
-                  <span class="parameters">(FavoriCase(id=, user_id=16266, number_id=2))</span>
-                  <em>
-(鏀惰棌/閿欒鐨刬d)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-头条接口管理-class-passed -->
-          <div class="suite-头条接口管理-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.toutiao.cases.luntancase.GetPubTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getPub(com.toutiao.model.luntanmd.GetPubCase@654d8173)">
-                  </a> <!-- getPub(com.toutiao.model.luntanmd.GetPubCase@654d8173) -->
-                  <span class="method-name">getPub</span>
-                  <span class="parameters">(com.toutiao.model.luntanmd.GetPubCase@654d8173)</span>
-                  <em>
-(璁哄潧/鍙戝浘鏂�)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-头条接口管理-class-passed -->
         </div> <!-- panel 头条接口管理 -->
         <div panel-name="test-xml-头条接口管理" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -682,6 +727,7 @@
       &lt;class name=&quot;com.toutiao.cases.luntancase.GetPreTest&quot;/&gt;
       &lt;class name=&quot;com.toutiao.cases.luntancase.UserCenterTest&quot;/&gt;
       &lt;class name=&quot;com.toutiao.cases.luntancase.MyItemTest&quot;/&gt;
+      &lt;class name=&quot;com.toutiao.cases.luntancase.MyFavorTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- 论坛接口 --&gt;
 &lt;/suite&gt; &lt;!-- 头条接口管理 --&gt;
@@ -695,7 +741,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">论坛接口 (16 classes)</span>
+                <span class="test-name">论坛接口 (17 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -737,115 +783,119 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(27);
+data.addRows(28);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTrue')
 data.setCell(0, 2, 'com.toutiao.cases.toutiaocase.LoginTest')
-data.setCell(0, 3, 1145);
+data.setCell(0, 3, 1036);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'bbsLook')
 data.setCell(1, 2, 'com.toutiao.cases.luntancase.BbsLookTest')
-data.setCell(1, 3, 1080);
+data.setCell(1, 3, 865);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'replyTest')
 data.setCell(2, 2, 'com.toutiao.cases.luntancase.ReplyTest')
-data.setCell(2, 3, 1061);
+data.setCell(2, 3, 832);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'gcList')
 data.setCell(3, 2, 'com.toutiao.cases.luntancase.GcListTest')
-data.setCell(3, 3, 350);
+data.setCell(3, 3, 398);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'expList')
 data.setCell(4, 2, 'com.toutiao.cases.luntancase.ExpListTest')
-data.setCell(4, 3, 201);
+data.setCell(4, 3, 268);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'getTj')
 data.setCell(5, 2, 'com.toutiao.cases.toutiaocase.TjTest')
-data.setCell(5, 3, 133);
+data.setCell(5, 3, 137);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'getPub')
-data.setCell(6, 2, 'com.toutiao.cases.luntancase.GetPubTest')
-data.setCell(6, 3, 127);
+data.setCell(6, 1, 'loginFalse')
+data.setCell(6, 2, 'com.toutiao.cases.toutiaocase.LoginTest')
+data.setCell(6, 3, 137);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'getTj3')
-data.setCell(7, 2, 'com.toutiao.cases.toutiaocase.TjTest')
-data.setCell(7, 3, 113);
+data.setCell(7, 1, 'getPre')
+data.setCell(7, 2, 'com.toutiao.cases.luntancase.GetPreTest')
+data.setCell(7, 3, 118);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'getTj2')
-data.setCell(8, 2, 'com.toutiao.cases.toutiaocase.TjTest')
-data.setCell(8, 3, 103);
+data.setCell(8, 1, 'getLike')
+data.setCell(8, 2, 'com.toutiao.cases.luntancase.LikeTest')
+data.setCell(8, 3, 118);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'getGsList')
-data.setCell(9, 2, 'com.toutiao.cases.toutiaocase.GsListTest')
-data.setCell(9, 3, 101);
+data.setCell(9, 1, 'getTj3')
+data.setCell(9, 2, 'com.toutiao.cases.toutiaocase.TjTest')
+data.setCell(9, 3, 116);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'getGsList2')
-data.setCell(10, 2, 'com.toutiao.cases.toutiaocase.GsListTest')
-data.setCell(10, 3, 93);
+data.setCell(10, 1, 'getPub')
+data.setCell(10, 2, 'com.toutiao.cases.luntancase.GetPubTest')
+data.setCell(10, 3, 108);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'getPre')
-data.setCell(11, 2, 'com.toutiao.cases.luntancase.GetPreTest')
-data.setCell(11, 3, 84);
+data.setCell(11, 1, 'getTj2')
+data.setCell(11, 2, 'com.toutiao.cases.toutiaocase.TjTest')
+data.setCell(11, 3, 106);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'getLike')
-data.setCell(12, 2, 'com.toutiao.cases.luntancase.LikeTest')
-data.setCell(12, 3, 65);
+data.setCell(12, 1, 'getSearch')
+data.setCell(12, 2, 'com.toutiao.cases.luntancase.SearchTest')
+data.setCell(12, 3, 103);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'loginFalse')
-data.setCell(13, 2, 'com.toutiao.cases.toutiaocase.LoginTest')
-data.setCell(13, 3, 65);
+data.setCell(13, 1, 'getLike2')
+data.setCell(13, 2, 'com.toutiao.cases.luntancase.LikeTest')
+data.setCell(13, 3, 97);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'getSearch')
-data.setCell(14, 2, 'com.toutiao.cases.luntancase.SearchTest')
-data.setCell(14, 3, 57);
+data.setCell(14, 1, 'getMyItem')
+data.setCell(14, 2, 'com.toutiao.cases.luntancase.MyItemTest')
+data.setCell(14, 3, 92);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'getShare')
-data.setCell(15, 2, 'com.toutiao.cases.toutiaocase.ShareTest')
-data.setCell(15, 3, 54);
+data.setCell(15, 1, 'getMyFavor')
+data.setCell(15, 2, 'com.toutiao.cases.luntancase.MyFavorTest')
+data.setCell(15, 3, 44);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'getMyItem')
-data.setCell(16, 2, 'com.toutiao.cases.luntancase.MyItemTest')
-data.setCell(16, 3, 51);
+data.setCell(16, 1, 'getFavori')
+data.setCell(16, 2, 'com.toutiao.cases.luntancase.FavoriTest')
+data.setCell(16, 3, 43);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'getLike2')
-data.setCell(17, 2, 'com.toutiao.cases.luntancase.LikeTest')
-data.setCell(17, 3, 49);
+data.setCell(17, 1, 'getGsList')
+data.setCell(17, 2, 'com.toutiao.cases.toutiaocase.GsListTest')
+data.setCell(17, 3, 42);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'getFavori2')
-data.setCell(18, 2, 'com.toutiao.cases.luntancase.FavoriTest')
-data.setCell(18, 3, 42);
+data.setCell(18, 1, 'getGsList2')
+data.setCell(18, 2, 'com.toutiao.cases.toutiaocase.GsListTest')
+data.setCell(18, 3, 41);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'getUserCenter')
-data.setCell(19, 2, 'com.toutiao.cases.luntancase.UserCenterTest')
-data.setCell(19, 3, 38);
+data.setCell(19, 1, 'getFavori2')
+data.setCell(19, 2, 'com.toutiao.cases.luntancase.FavoriTest')
+data.setCell(19, 3, 39);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'getFavori')
-data.setCell(20, 2, 'com.toutiao.cases.luntancase.FavoriTest')
-data.setCell(20, 3, 37);
+data.setCell(20, 1, 'getUserCenter')
+data.setCell(20, 2, 'com.toutiao.cases.luntancase.UserCenterTest')
+data.setCell(20, 3, 38);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'getExpertHome2')
+data.setCell(21, 1, 'getExpertHome3')
 data.setCell(21, 2, 'com.toutiao.cases.luntancase.ExpertHomeTest')
-data.setCell(21, 3, 36);
+data.setCell(21, 3, 35);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'getExpertHome1')
-data.setCell(22, 2, 'com.toutiao.cases.luntancase.ExpertHomeTest')
-data.setCell(22, 3, 36);
+data.setCell(22, 1, 'getShare')
+data.setCell(22, 2, 'com.toutiao.cases.toutiaocase.ShareTest')
+data.setCell(22, 3, 34);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'getShare3')
-data.setCell(23, 2, 'com.toutiao.cases.toutiaocase.ShareTest')
+data.setCell(23, 1, 'getExpertHome1')
+data.setCell(23, 2, 'com.toutiao.cases.luntancase.ExpertHomeTest')
 data.setCell(23, 3, 34);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'getShare2')
 data.setCell(24, 2, 'com.toutiao.cases.toutiaocase.ShareTest')
-data.setCell(24, 3, 33);
+data.setCell(24, 3, 34);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'getExpertHome3')
-data.setCell(25, 2, 'com.toutiao.cases.luntancase.ExpertHomeTest')
-data.setCell(25, 3, 33);
+data.setCell(25, 1, 'getTj4')
+data.setCell(25, 2, 'com.toutiao.cases.toutiaocase.TjTest')
+data.setCell(25, 3, 32);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'getTj4')
-data.setCell(26, 2, 'com.toutiao.cases.toutiaocase.TjTest')
-data.setCell(26, 3, 31);
+data.setCell(26, 1, 'getExpertHome2')
+data.setCell(26, 2, 'com.toutiao.cases.luntancase.ExpertHomeTest')
+data.setCell(26, 3, 32);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getShare3')
+data.setCell(27, 2, 'com.toutiao.cases.toutiaocase.ShareTest')
+data.setCell(27, 3, 30);
 window.suiteTableData['头条接口管理']= { tableData: data, tableDiv: 'times-div-头条接口管理'}
 return data;
 }
@@ -883,156 +933,165 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginTrue</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-start">18 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginFalse</span>
-                <span class="method-start">1169 ms</span>
+                <span class="method-start">1057 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.GcListTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">gcList</span>
-                <span class="method-start">1234 ms</span>
+                <span class="method-start">1195 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.ExpListTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">expList</span>
-                <span class="method-start">1584 ms</span>
+                <span class="method-start">1593 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.BbsLookTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">bbsLook</span>
-                <span class="method-start">1785 ms</span>
+                <span class="method-start">1861 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.ReplyTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">replyTest</span>
-                <span class="method-start">2865 ms</span>
+                <span class="method-start">2727 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.SearchTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getSearch</span>
-                <span class="method-start">3926 ms</span>
+                <span class="method-start">3560 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.LikeTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">getLike</span>
-                <span class="method-start">3983 ms</span>
+                <span class="method-start">3663 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getLike2</span>
-                <span class="method-start">4048 ms</span>
+                <span class="method-start">3783 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.FavoriTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getFavori(FavoriCase(id=43272, user_id=16266, number_id=1))</span>
-                <span class="method-start">4117 ms</span>
+                <span class="method-start">3948 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getFavori2(FavoriCase(id=, user_id=16266, number_id=2))</span>
-                <span class="method-start">4177 ms</span>
+                <span class="method-start">4052 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.ExpertHomeTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getExpertHome1(ExpertHomeCase(id=1, user_id=16266, member_id=8454))</span>
-                <span class="method-start">4242 ms</span>
+                <span class="method-start">4154 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getExpertHome2(ExpertHomeCase(id=2, user_id=16266, member_id=))</span>
-                <span class="method-start">4295 ms</span>
+                <span class="method-start">4249 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getExpertHome3(ExpertHomeCase(id=3, user_id=, member_id=8454))</span>
-                <span class="method-start">4349 ms</span>
+                <span class="method-start">4339 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.toutiaocase.TjTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getTj(TjCase(id=1, user_id=16266, type=0, signature=6bt6e6jt1s0aulihote1eb45m7))</span>
-                <span class="method-start">4399 ms</span>
+                <span class="method-start">4441 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getTj2(TjCase(id=2, user_id=, type=0, signature=6bt6e6jt1s0aulihote1eb45m7))</span>
-                <span class="method-start">4550 ms</span>
+                <span class="method-start">4647 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getTj3(TjCase(id=3, user_id=16266, type=, signature=6bt6e6jt1s0aulihote1eb45m7))</span>
-                <span class="method-start">4674 ms</span>
+                <span class="method-start">4826 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getTj4(TjCase(id=4, user_id=16266, type=0, signature=))</span>
-                <span class="method-start">4801 ms</span>
+                <span class="method-start">5009 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.toutiaocase.GsListTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getGsList(GsListCase(id=1, type=0, period=2019132, user_id=16266, p=1, expResult=1))</span>
-                <span class="method-start">4837 ms</span>
+                <span class="method-start">5049 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getGsList2(GsListCase(id=2, type=0, period=, user_id=16266, p=1, expResult=1))</span>
-                <span class="method-start">4940 ms</span>
+                <span class="method-start">5092 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.toutiaocase.ShareTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getShare(com.toutiao.model.toutiaomd.ShareCase@56c9bbd8)</span>
-                <span class="method-start">5047 ms</span>
+                <span class="method-name">getShare(com.toutiao.model.toutiaomd.ShareCase@4ba380c7)</span>
+                <span class="method-start">5190 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">getShare2(com.toutiao.model.toutiaomd.ShareCase@630cb4a4)</span>
-                <span class="method-start">5115 ms</span>
+                <span class="method-name">getShare2(com.toutiao.model.toutiaomd.ShareCase@784c5ef5)</span>
+                <span class="method-start">5280 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">getShare3(com.toutiao.model.toutiaomd.ShareCase@636e8cc)</span>
-                <span class="method-start">5161 ms</span>
+                <span class="method-name">getShare3(com.toutiao.model.toutiaomd.ShareCase@31133b6e)</span>
+                <span class="method-start">5373 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.GetPubTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getPub(com.toutiao.model.luntanmd.GetPubCase@654d8173)</span>
-                <span class="method-start">5209 ms</span>
+                <span class="method-name">getPub(com.toutiao.model.luntanmd.GetPubCase@73ad7e90)</span>
+                <span class="method-start">5467 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.GetPreTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getPre</span>
-                <span class="method-start">5336 ms</span>
+                <span class="method-start">5575 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.UserCenterTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getUserCenter(com.toutiao.model.luntanmd.UserCenterCase@f79a760)</span>
-                <span class="method-start">5435 ms</span>
+                <span class="method-name">getUserCenter(com.toutiao.model.luntanmd.UserCenterCase@29528a22)</span>
+                <span class="method-start">5753 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.toutiao.cases.luntancase.MyItemTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getMyItem</span>
-                <span class="method-start">5473 ms</span>
+                <span class="method-start">5792 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.toutiao.cases.luntancase.MyFavorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getMyFavor(com.toutiao.model.luntanmd.MyFavorCase@65f58c6e)</span>
+                <span class="method-start">5939 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -7,7 +7,7 @@
     <!--登陆成功-->
     <select id="loginCase" parameterType="Integer" resultType="com.toutiao.model.toutiaomd.LoginCase">
         select * from LoginCase
-        where id=#{id};
+        where id =#{id};
     </select>
     <!--广场列表-->
     <select id="gcListCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.GcListCase">

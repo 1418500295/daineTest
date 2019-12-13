@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [头条接口管理]">
+  <listeners>
+    <listener class-name="com.toutiao.config.ExtentTestNgIReporterListener"/>
+  </listeners>
+  <test name="论坛接口(failed)">
+    <classes>
+      <class name="com.toutiao.cases.luntancase.LikeTest">
+        <methods>
+          <include name="getLike"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.luntancase.LikeTest -->
+      <class name="com.toutiao.cases.toutiaocase.LoginTest">
+        <methods>
+          <include name="loginTrue"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.toutiaocase.LoginTest -->
+    </classes>
+  </test> <!-- 论坛接口(failed) -->
+</suite> <!-- Failed suite [头条接口管理] -->

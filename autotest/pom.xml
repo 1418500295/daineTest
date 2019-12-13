@@ -53,7 +53,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.60</version>
+            <version>1.2.46</version>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
@@ -116,6 +116,12 @@
             <version>3.9.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.jmeter</groupId>
+            <artifactId>ApacheJMeter_core</artifactId>
+            <version>3.2</version>
+        </dependency>
+
 
         <!--引入测试报告相关包-->
         <dependency>
@@ -133,6 +139,7 @@
             <artifactId>extentreports</artifactId>
             <version>3.0.6</version>
         </dependency>
+
     </dependencies>
 
 </project>

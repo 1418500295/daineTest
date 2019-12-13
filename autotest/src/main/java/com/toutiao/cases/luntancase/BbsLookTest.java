@@ -2,6 +2,7 @@ package com.toutiao.cases.luntancase;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+
 import com.toutiao.config.TestConfig;
 import com.toutiao.model.luntanmd.BbsLookCase;
 import com.toutiao.utils.DatabaseUtil;
@@ -11,6 +12,7 @@ import org.apache.http.ParseException;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.util.EntityUtils;
 import org.apache.ibatis.session.SqlSession;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
