@@ -21,9 +21,6 @@ public class GsListTest {
 
     private SqlSession session = DatabaseUtil.getSqlsession();
 
-    public GsListTest() throws IOException {
-
-    }
 
     @Test(dependsOnGroups = "loginTrue",dataProvider = "getGsListData",description = "头条/高手榜列表")
     public void getGsList(GsListCase gsListCase) throws IOException {

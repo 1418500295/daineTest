@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="28" failures="1" name="TestSuite" time="7.545" errors="0" skipped="0">
+<testsuite tests="28" failures="1" name="TestSuite" time="7.754" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefirebooter8240177510715629269.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefirebooter194001026733787669.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
-    <property name="sun.java.command" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefirebooter8240177510715629269.jar C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefire2939436741276468797tmp C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefire1824023252885628680tmp"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefirebooter194001026733787669.jar C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefire3821807076509463212tmp C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\surefire\surefire6373755612694054462tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,14 +61,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.toutiao.cases.toutiaocase.LoginTest" name="loginTrue" time="1.037"/>
-  <testcase classname="com.toutiao.cases.toutiaocase.LoginTest" name="loginFalse" time="0.137"/>
-  <testcase classname="com.toutiao.cases.luntancase.GcListTest" name="gcList" time="0.398"/>
-  <testcase classname="com.toutiao.cases.luntancase.ExpListTest" name="expList" time="0.268"/>
-  <testcase classname="com.toutiao.cases.luntancase.BbsLookTest" name="bbsLook" time="0.865"/>
-  <testcase classname="com.toutiao.cases.luntancase.ReplyTest" name="replyTest" time="0.832"/>
-  <testcase classname="com.toutiao.cases.luntancase.SearchTest" name="getSearch" time="0.103"/>
-  <testcase classname="com.toutiao.cases.luntancase.LikeTest" name="getLike" time="0.119">
+  <testcase classname="com.toutiao.cases.toutiaocase.LoginTest" name="loginTrue" time="1.026"/>
+  <testcase classname="com.toutiao.cases.toutiaocase.LoginTest" name="loginFalse" time="0.13"/>
+  <testcase classname="com.toutiao.cases.luntancase.GcListTest" name="gcList" time="0.468"/>
+  <testcase classname="com.toutiao.cases.luntancase.ExpListTest" name="expList" time="0.269"/>
+  <testcase classname="com.toutiao.cases.luntancase.BbsLookTest" name="bbsLook" time="0.864"/>
+  <testcase classname="com.toutiao.cases.luntancase.ReplyTest" name="replyTest" time="0.872"/>
+  <testcase classname="com.toutiao.cases.luntancase.SearchTest" name="getSearch" time="0.117"/>
+  <testcase classname="com.toutiao.cases.luntancase.LikeTest" name="getLike" time="0.109">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -76,186 +76,186 @@
 	at org.testng.Assert.assertTrue(Assert.java:52)
 	at com.toutiao.cases.luntancase.LikeTest.getLike(LikeTest.java:33)
 </failure>
-    <system-out>19:36:38.527 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model
-19:36:38.527 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model
-19:36:38.527 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: InterfaneName.class
-19:36:38.528 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: luntanmd
-19:36:38.528 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: toutiaomd
-19:36:38.528 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model
-19:36:38.528 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/InterfaneName.class
-19:36:38.528 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/InterfaneName.class
-19:36:38.529 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;?	&amp;#0;&amp;#4;&amp;#0;l
-19:36:38.529 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd
-19:36:38.529 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd
-19:36:38.530 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BbsLookCase.class
-19:36:38.530 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ExpertHomeCase.class
-19:36:38.531 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ExpListCase.class
-19:36:38.531 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: FavoriCase.class
-19:36:38.531 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GcListCase.class
-19:36:38.531 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GetPreCase.class
-19:36:38.531 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GetPubCase.class
-19:36:38.532 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: LikeCase.class
-19:36:38.532 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: MyFavorCase.class
-19:36:38.532 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: MyItemCase.class
-19:36:38.532 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ReplyCase.class
-19:36:38.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: SearchCase.class
-19:36:38.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: UserCenterCase.class
-19:36:38.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd
-19:36:38.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/BbsLookCase.class
-19:36:38.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/BbsLookCase.class
-19:36:38.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;I
-19:36:38.534 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpertHomeCase.class
-19:36:38.534 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpertHomeCase.class
-19:36:38.534 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;U
-19:36:38.534 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpListCase.class
-19:36:38.534 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpListCase.class
-19:36:38.535 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;a
-19:36:38.535 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/FavoriCase.class
-19:36:38.535 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/FavoriCase.class
-19:36:38.535 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;U
-19:36:38.536 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GcListCase.class
-19:36:38.536 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GcListCase.class
-19:36:38.536 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;I
-19:36:38.536 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPreCase.class
-19:36:38.536 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPreCase.class
-19:36:38.537 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;%
-19:36:38.537 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPubCase.class
-19:36:38.537 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPubCase.class
-19:36:38.537 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;%
-19:36:38.538 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/LikeCase.class
-19:36:38.538 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/LikeCase.class
-19:36:38.538 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;U
-19:36:38.538 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyFavorCase.class
-19:36:38.538 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyFavorCase.class
-19:36:38.539 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;*
-19:36:38.539 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyItemCase.class
-19:36:38.539 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyItemCase.class
-19:36:38.539 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;,
-19:36:38.539 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ReplyCase.class
-19:36:38.540 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ReplyCase.class
-19:36:38.540 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;a
-19:36:38.540 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/SearchCase.class
-19:36:38.540 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/SearchCase.class
-19:36:38.541 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;I
-19:36:38.541 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/UserCenterCase.class
-19:36:38.541 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/UserCenterCase.class
-19:36:38.541 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;%
-19:36:38.542 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd
-19:36:38.542 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd
-19:36:38.542 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GsListCase.class
-19:36:38.542 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: LoginCase.class
-19:36:38.542 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ShareCase.class
-19:36:38.543 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: TjCase.class
-19:36:38.543 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd
-19:36:38.543 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/GsListCase.class
-19:36:38.543 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/GsListCase.class
-19:36:38.543 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;y
-19:36:38.544 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/LoginCase.class
-19:36:38.544 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/LoginCase.class
-19:36:38.544 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;y
-19:36:38.544 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/ShareCase.class
-19:36:38.544 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/ShareCase.class
-19:36:38.545 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;/
-19:36:38.545 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/TjCase.class
-19:36:38.545 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/TjCase.class
-19:36:38.545 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;a
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.InterfaneName matches criteria [is assignable to Object]
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.BbsLookCase matches criteria [is assignable to Object]
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.ExpertHomeCase matches criteria [is assignable to Object]
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.ExpListCase matches criteria [is assignable to Object]
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.FavoriCase matches criteria [is assignable to Object]
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.GcListCase matches criteria [is assignable to Object]
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.GetPreCase matches criteria [is assignable to Object]
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.GetPubCase matches criteria [is assignable to Object]
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.LikeCase matches criteria [is assignable to Object]
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.MyFavorCase matches criteria [is assignable to Object]
-19:36:38.546 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.MyItemCase matches criteria [is assignable to Object]
-19:36:38.547 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.ReplyCase matches criteria [is assignable to Object]
-19:36:38.547 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.SearchCase matches criteria [is assignable to Object]
-19:36:38.547 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.UserCenterCase matches criteria [is assignable to Object]
-19:36:38.547 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.GsListCase matches criteria [is assignable to Object]
-19:36:38.547 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.LoginCase matches criteria [is assignable to Object]
-19:36:38.547 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.ShareCase matches criteria [is assignable to Object]
-19:36:38.547 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.TjCase matches criteria [is assignable to Object]
-19:36:38.554 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-19:36:38.554 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-19:36:38.554 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-19:36:38.555 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-19:36:38.579 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
-19:36:38.584 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1279469670.
-19:36:38.585 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4c432866]
-19:36:38.590 [main] DEBUG com.toutiao.model.likeCase - ==&gt;  Preparing: select * from LikeCase where number_id=?; 
-19:36:38.591 [main] DEBUG com.toutiao.model.likeCase - ==&gt; Parameters: 1(Integer)
-19:36:38.593 [main] DEBUG com.toutiao.model.likeCase - &lt;==      Total: 1
-http://api.bbs.353386.com/?C=bbs&amp;A=like&amp;device=ios&amp;device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&amp;version=2.3.2&amp;key=d10a3ef953c13b2f225a5970bfd9a015&amp;user_id=16266
-19:36:38.594 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}-&gt;http://api.bbs.353386.com]
-19:36:38.594 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
-19:36:38.595 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
-19:36:38.595 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-19:36:38.595 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-19:36:38.595 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /?C=bbs&amp;A=like&amp;device=ios&amp;device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&amp;version=2.3.2&amp;key=d10a3ef953c13b2f225a5970bfd9a015&amp;user_id=16266 HTTP/1.1
-19:36:38.595 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;POST /?C=bbs&amp;A=like&amp;device=ios&amp;device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&amp;version=2.3.2&amp;key=d10a3ef953c13b2f225a5970bfd9a015&amp;user_id=16266 HTTP/1.1[\r][\n]&quot;
-19:36:38.595 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;Content-Length: 8[\r][\n]&quot;
-19:36:38.595 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]&quot;
-19:36:38.595 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;Host: api.bbs.353386.com[\r][\n]&quot;
-19:36:38.596 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
-19:36:38.596 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.1.2 (java 1.5)[\r][\n]&quot;
-19:36:38.596 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;[\r][\n]&quot;
-19:36:38.596 [main] DEBUG org.apache.http.headers - &gt;&gt; POST /?C=bbs&amp;A=like&amp;device=ios&amp;device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&amp;version=2.3.2&amp;key=d10a3ef953c13b2f225a5970bfd9a015&amp;user_id=16266 HTTP/1.1
-19:36:38.596 [main] DEBUG org.apache.http.headers - &gt;&gt; Content-Length: 8
-19:36:38.596 [main] DEBUG org.apache.http.headers - &gt;&gt; Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
-19:36:38.596 [main] DEBUG org.apache.http.headers - &gt;&gt; Host: api.bbs.353386.com
-19:36:38.596 [main] DEBUG org.apache.http.headers - &gt;&gt; Connection: Keep-Alive
-19:36:38.596 [main] DEBUG org.apache.http.headers - &gt;&gt; User-Agent: Apache-HttpClient/4.1.2 (java 1.5)
-19:36:38.597 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;id=43203&quot;
-19:36:38.626 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
-19:36:38.627 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Server: nginx[\r][\n]&quot;
-19:36:38.627 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Date: Fri, 13 Dec 2019 11:36:39 GMT[\r][\n]&quot;
-19:36:38.628 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Content-Type: text/html; charset=UTF-8[\r][\n]&quot;
-19:36:38.628 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Transfer-Encoding: chunked[\r][\n]&quot;
-19:36:38.628 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;
-19:36:38.629 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Vary: Accept-Encoding[\r][\n]&quot;
-19:36:38.629 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;X-Powered-By: PHP/7.0.33[\r][\n]&quot;
-19:36:38.630 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Access-Control-Allow-Origin: *[\r][\n]&quot;
-19:36:38.631 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;[\r][\n]&quot;
-19:36:38.631 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-19:36:38.632 [main] DEBUG org.apache.http.headers - &lt;&lt; HTTP/1.1 200 OK
-19:36:38.632 [main] DEBUG org.apache.http.headers - &lt;&lt; Server: nginx
-19:36:38.633 [main] DEBUG org.apache.http.headers - &lt;&lt; Date: Fri, 13 Dec 2019 11:36:39 GMT
-19:36:38.633 [main] DEBUG org.apache.http.headers - &lt;&lt; Content-Type: text/html; charset=UTF-8
-19:36:38.633 [main] DEBUG org.apache.http.headers - &lt;&lt; Transfer-Encoding: chunked
-19:36:38.634 [main] DEBUG org.apache.http.headers - &lt;&lt; Connection: keep-alive
-19:36:38.634 [main] DEBUG org.apache.http.headers - &lt;&lt; Vary: Accept-Encoding
-19:36:38.635 [main] DEBUG org.apache.http.headers - &lt;&lt; X-Powered-By: PHP/7.0.33
-19:36:38.635 [main] DEBUG org.apache.http.headers - &lt;&lt; Access-Control-Allow-Origin: *
-19:36:38.635 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-19:36:38.636 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;2d[\r][\n]&quot;
-19:36:38.636 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;{&quot;status&quot;:0,&quot;msg&quot;:&quot;\u975e\u6cd5\u64cd\u4f5c&quot;}&quot;
-19:36:38.636 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;[\r][\n]&quot;
-19:36:38.636 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;0[\r][\n]&quot;
-19:36:38.636 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;[\r][\n]&quot;
-19:36:38.636 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@5710768a
-19:36:38.636 [main] INFO  com.toutiao.cases.luntancase.LikeTest - 瀹為檯缁撴灉锛?{&quot;status&quot;:0,&quot;msg&quot;:&quot;\u975e\u6cd5\u64cd\u4f5c&quot;}
+    <system-out>14:09:22.517 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model
+14:09:22.517 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model
+14:09:22.518 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: InterfaneName.class
+14:09:22.518 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: luntanmd
+14:09:22.518 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: toutiaomd
+14:09:22.518 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model
+14:09:22.519 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/InterfaneName.class
+14:09:22.519 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/InterfaneName.class
+14:09:22.519 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;?	&amp;#0;&amp;#4;&amp;#0;l
+14:09:22.519 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd
+14:09:22.519 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd
+14:09:22.520 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BbsLookCase.class
+14:09:22.520 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ExpertHomeCase.class
+14:09:22.520 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ExpListCase.class
+14:09:22.520 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: FavoriCase.class
+14:09:22.521 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GcListCase.class
+14:09:22.521 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GetPreCase.class
+14:09:22.521 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GetPubCase.class
+14:09:22.521 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: LikeCase.class
+14:09:22.521 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: MyFavorCase.class
+14:09:22.522 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: MyItemCase.class
+14:09:22.522 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ReplyCase.class
+14:09:22.522 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: SearchCase.class
+14:09:22.522 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: UserCenterCase.class
+14:09:22.522 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd
+14:09:22.523 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/BbsLookCase.class
+14:09:22.523 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/BbsLookCase.class
+14:09:22.523 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;I
+14:09:22.523 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpertHomeCase.class
+14:09:22.523 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpertHomeCase.class
+14:09:22.524 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;U
+14:09:22.524 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpListCase.class
+14:09:22.524 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpListCase.class
+14:09:22.524 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;a
+14:09:22.525 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/FavoriCase.class
+14:09:22.525 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/FavoriCase.class
+14:09:22.525 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;U
+14:09:22.525 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GcListCase.class
+14:09:22.526 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GcListCase.class
+14:09:22.526 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;I
+14:09:22.526 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPreCase.class
+14:09:22.526 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPreCase.class
+14:09:22.527 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;%
+14:09:22.527 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPubCase.class
+14:09:22.527 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPubCase.class
+14:09:22.527 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;%
+14:09:22.528 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/LikeCase.class
+14:09:22.528 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/LikeCase.class
+14:09:22.528 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;U
+14:09:22.528 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyFavorCase.class
+14:09:22.528 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyFavorCase.class
+14:09:22.529 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;*
+14:09:22.529 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyItemCase.class
+14:09:22.529 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyItemCase.class
+14:09:22.529 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;,
+14:09:22.529 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ReplyCase.class
+14:09:22.530 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ReplyCase.class
+14:09:22.530 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;a
+14:09:22.530 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/SearchCase.class
+14:09:22.530 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/SearchCase.class
+14:09:22.531 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;I
+14:09:22.531 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/UserCenterCase.class
+14:09:22.531 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/UserCenterCase.class
+14:09:22.531 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;%
+14:09:22.532 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd
+14:09:22.532 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd
+14:09:22.532 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GsListCase.class
+14:09:22.532 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: LoginCase.class
+14:09:22.532 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ShareCase.class
+14:09:22.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: TjCase.class
+14:09:22.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd
+14:09:22.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/GsListCase.class
+14:09:22.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/GsListCase.class
+14:09:22.533 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;y
+14:09:22.534 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/LoginCase.class
+14:09:22.534 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/LoginCase.class
+14:09:22.534 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;y
+14:09:22.534 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/ShareCase.class
+14:09:22.534 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/ShareCase.class
+14:09:22.535 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;/
+14:09:22.535 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/TjCase.class
+14:09:22.535 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/TjCase.class
+14:09:22.535 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp;#0;&amp;#0;&amp;#0;1&amp;#0;a
+14:09:22.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.InterfaneName matches criteria [is assignable to Object]
+14:09:22.535 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.BbsLookCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.ExpertHomeCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.ExpListCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.FavoriCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.GcListCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.GetPreCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.GetPubCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.LikeCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.MyFavorCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.MyItemCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.ReplyCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.SearchCase matches criteria [is assignable to Object]
+14:09:22.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.UserCenterCase matches criteria [is assignable to Object]
+14:09:22.537 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.GsListCase matches criteria [is assignable to Object]
+14:09:22.537 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.LoginCase matches criteria [is assignable to Object]
+14:09:22.537 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.ShareCase matches criteria [is assignable to Object]
+14:09:22.537 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.TjCase matches criteria [is assignable to Object]
+14:09:22.542 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+14:09:22.542 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+14:09:22.542 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+14:09:22.542 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+14:09:22.565 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+14:09:22.570 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1279469670.
+14:09:22.570 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4c432866]
+14:09:22.571 [main] DEBUG com.toutiao.model.likeCase - ==&gt;  Preparing: select * from LikeCase where number_id=?; 
+14:09:22.571 [main] DEBUG com.toutiao.model.likeCase - ==&gt; Parameters: 1(Integer)
+14:09:22.573 [main] DEBUG com.toutiao.model.likeCase - &lt;==      Total: 1
+http://api.bbs.353386.com/?C=bbs&amp;A=like&amp;device=ios&amp;device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&amp;version=2.3.2&amp;key=20d94c1eddc25c86860a5a3ec9f8b07d&amp;user_id=16266
+14:09:22.573 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}-&gt;http://api.bbs.353386.com]
+14:09:22.573 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+14:09:22.574 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+14:09:22.574 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+14:09:22.574 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+14:09:22.574 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /?C=bbs&amp;A=like&amp;device=ios&amp;device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&amp;version=2.3.2&amp;key=20d94c1eddc25c86860a5a3ec9f8b07d&amp;user_id=16266 HTTP/1.1
+14:09:22.574 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;POST /?C=bbs&amp;A=like&amp;device=ios&amp;device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&amp;version=2.3.2&amp;key=20d94c1eddc25c86860a5a3ec9f8b07d&amp;user_id=16266 HTTP/1.1[\r][\n]&quot;
+14:09:22.574 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;Content-Length: 8[\r][\n]&quot;
+14:09:22.574 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]&quot;
+14:09:22.575 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;Host: api.bbs.353386.com[\r][\n]&quot;
+14:09:22.575 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+14:09:22.575 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.1.2 (java 1.5)[\r][\n]&quot;
+14:09:22.575 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;[\r][\n]&quot;
+14:09:22.575 [main] DEBUG org.apache.http.headers - &gt;&gt; POST /?C=bbs&amp;A=like&amp;device=ios&amp;device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&amp;version=2.3.2&amp;key=20d94c1eddc25c86860a5a3ec9f8b07d&amp;user_id=16266 HTTP/1.1
+14:09:22.575 [main] DEBUG org.apache.http.headers - &gt;&gt; Content-Length: 8
+14:09:22.575 [main] DEBUG org.apache.http.headers - &gt;&gt; Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+14:09:22.575 [main] DEBUG org.apache.http.headers - &gt;&gt; Host: api.bbs.353386.com
+14:09:22.575 [main] DEBUG org.apache.http.headers - &gt;&gt; Connection: Keep-Alive
+14:09:22.575 [main] DEBUG org.apache.http.headers - &gt;&gt; User-Agent: Apache-HttpClient/4.1.2 (java 1.5)
+14:09:22.575 [main] DEBUG org.apache.http.wire - &gt;&gt; &quot;id=43203&quot;
+14:09:22.608 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+14:09:22.608 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Server: nginx[\r][\n]&quot;
+14:09:22.608 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Date: Tue, 17 Dec 2019 06:09:23 GMT[\r][\n]&quot;
+14:09:22.608 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Content-Type: text/html; charset=UTF-8[\r][\n]&quot;
+14:09:22.608 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Transfer-Encoding: chunked[\r][\n]&quot;
+14:09:22.609 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;
+14:09:22.609 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Vary: Accept-Encoding[\r][\n]&quot;
+14:09:22.609 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;X-Powered-By: PHP/7.0.33[\r][\n]&quot;
+14:09:22.609 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;Access-Control-Allow-Origin: *[\r][\n]&quot;
+14:09:22.609 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;[\r][\n]&quot;
+14:09:22.609 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+14:09:22.609 [main] DEBUG org.apache.http.headers - &lt;&lt; HTTP/1.1 200 OK
+14:09:22.609 [main] DEBUG org.apache.http.headers - &lt;&lt; Server: nginx
+14:09:22.609 [main] DEBUG org.apache.http.headers - &lt;&lt; Date: Tue, 17 Dec 2019 06:09:23 GMT
+14:09:22.609 [main] DEBUG org.apache.http.headers - &lt;&lt; Content-Type: text/html; charset=UTF-8
+14:09:22.610 [main] DEBUG org.apache.http.headers - &lt;&lt; Transfer-Encoding: chunked
+14:09:22.610 [main] DEBUG org.apache.http.headers - &lt;&lt; Connection: keep-alive
+14:09:22.610 [main] DEBUG org.apache.http.headers - &lt;&lt; Vary: Accept-Encoding
+14:09:22.610 [main] DEBUG org.apache.http.headers - &lt;&lt; X-Powered-By: PHP/7.0.33
+14:09:22.610 [main] DEBUG org.apache.http.headers - &lt;&lt; Access-Control-Allow-Origin: *
+14:09:22.610 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+14:09:22.610 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;2d[\r][\n]&quot;
+14:09:22.610 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;{&quot;status&quot;:0,&quot;msg&quot;:&quot;\u975e\u6cd5\u64cd\u4f5c&quot;}&quot;
+14:09:22.610 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;[\r][\n]&quot;
+14:09:22.611 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;0[\r][\n]&quot;
+14:09:22.611 [main] DEBUG org.apache.http.wire - &lt;&lt; &quot;[\r][\n]&quot;
+14:09:22.611 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@5710768a
+14:09:22.611 [main] INFO  com.toutiao.cases.luntancase.LikeTest - 瀹為檯缁撴灉锛?{&quot;status&quot;:0,&quot;msg&quot;:&quot;\u975e\u6cd5\u64cd\u4f5c&quot;}
 </system-out>
   </testcase>
-  <testcase classname="com.toutiao.cases.luntancase.LikeTest" name="getLike2" time="0.097"/>
-  <testcase classname="com.toutiao.cases.luntancase.FavoriTest" name="getFavori" time="0.043"/>
+  <testcase classname="com.toutiao.cases.luntancase.LikeTest" name="getLike2" time="0.1"/>
+  <testcase classname="com.toutiao.cases.luntancase.FavoriTest" name="getFavori" time="0.046"/>
   <testcase classname="com.toutiao.cases.luntancase.FavoriTest" name="getFavori2" time="0.04"/>
-  <testcase classname="com.toutiao.cases.luntancase.ExpertHomeTest" name="getExpertHome1" time="0.034"/>
-  <testcase classname="com.toutiao.cases.luntancase.ExpertHomeTest" name="getExpertHome2" time="0.032"/>
-  <testcase classname="com.toutiao.cases.luntancase.ExpertHomeTest" name="getExpertHome3" time="0.035"/>
-  <testcase classname="com.toutiao.cases.toutiaocase.TjTest" name="getTj" time="0.137"/>
+  <testcase classname="com.toutiao.cases.luntancase.ExpertHomeTest" name="getExpertHome1" time="0.04"/>
+  <testcase classname="com.toutiao.cases.luntancase.ExpertHomeTest" name="getExpertHome2" time="0.035"/>
+  <testcase classname="com.toutiao.cases.luntancase.ExpertHomeTest" name="getExpertHome3" time="0.039"/>
+  <testcase classname="com.toutiao.cases.toutiaocase.TjTest" name="getTj" time="0.152"/>
   <testcase classname="com.toutiao.cases.toutiaocase.TjTest" name="getTj2" time="0.106"/>
-  <testcase classname="com.toutiao.cases.toutiaocase.TjTest" name="getTj3" time="0.116"/>
-  <testcase classname="com.toutiao.cases.toutiaocase.TjTest" name="getTj4" time="0.032"/>
-  <testcase classname="com.toutiao.cases.toutiaocase.GsListTest" name="getGsList" time="0.042"/>
-  <testcase classname="com.toutiao.cases.toutiaocase.GsListTest" name="getGsList2" time="0.041"/>
-  <testcase classname="com.toutiao.cases.toutiaocase.ShareTest" name="getShare" time="0.033"/>
-  <testcase classname="com.toutiao.cases.toutiaocase.ShareTest" name="getShare2" time="0.034"/>
-  <testcase classname="com.toutiao.cases.toutiaocase.ShareTest" name="getShare3" time="0.03"/>
-  <testcase classname="com.toutiao.cases.luntancase.GetPubTest" name="getPub" time="0.108"/>
-  <testcase classname="com.toutiao.cases.luntancase.GetPreTest" name="getPre" time="0.118"/>
-  <testcase classname="com.toutiao.cases.luntancase.UserCenterTest" name="getUserCenter" time="0.039"/>
-  <testcase classname="com.toutiao.cases.luntancase.MyItemTest" name="getMyItem" time="0.092"/>
-  <testcase classname="com.toutiao.cases.luntancase.MyFavorTest" name="getMyFavor" time="0.044"/>
+  <testcase classname="com.toutiao.cases.toutiaocase.TjTest" name="getTj3" time="0.122"/>
+  <testcase classname="com.toutiao.cases.toutiaocase.TjTest" name="getTj4" time="0.036"/>
+  <testcase classname="com.toutiao.cases.toutiaocase.GsListTest" name="getGsList" time="0.046"/>
+  <testcase classname="com.toutiao.cases.toutiaocase.GsListTest" name="getGsList2" time="0.044"/>
+  <testcase classname="com.toutiao.cases.toutiaocase.ShareTest" name="getShare" time="0.044"/>
+  <testcase classname="com.toutiao.cases.toutiaocase.ShareTest" name="getShare2" time="0.036"/>
+  <testcase classname="com.toutiao.cases.toutiaocase.ShareTest" name="getShare3" time="0.037"/>
+  <testcase classname="com.toutiao.cases.luntancase.GetPubTest" name="getPub" time="0.107"/>
+  <testcase classname="com.toutiao.cases.luntancase.GetPreTest" name="getPre" time="0.121"/>
+  <testcase classname="com.toutiao.cases.luntancase.UserCenterTest" name="getUserCenter" time="0.046"/>
+  <testcase classname="com.toutiao.cases.luntancase.MyItemTest" name="getMyItem" time="0.097"/>
+  <testcase classname="com.toutiao.cases.luntancase.MyFavorTest" name="getMyFavor" time="0.046"/>
 </testsuite>
