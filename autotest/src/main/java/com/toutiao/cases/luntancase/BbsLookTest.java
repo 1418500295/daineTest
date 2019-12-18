@@ -22,12 +22,16 @@ public class BbsLookTest {
 
     @Test(dependsOnGroups = "loginTrue",description = "关注列表")
     public void bbsLook() throws IOException {
-        SqlSession session = DatabaseUtil.getSqlsession();
-        BbsLookCase bbsLookCase = session.selectOne("bbsLookCase",1);
-        String result = getResult(bbsLookCase);
-        log.info("实际结果："+result);
-        JSONObject jsonObject = JSON.parseObject(result);
-        Assert.assertEquals(1,jsonObject.get("status"));
+        try {
+            SqlSession session = DatabaseUtil.getSqlsession();
+            BbsLookCase bbsLookCase = session.selectOne("bbsLookCase",1);
+            String result = getResult(bbsLookCase);
+            log.info("实际结果："+result);
+            JSONObject jsonObject = JSON.parseObject(result);
+            Assert.assertEquals(1,jsonObject.get("status"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
     }

@@ -54,25 +54,33 @@ public class LoginTest {
     @Test(groups = "loginTrue",description = "用户登陆成功")
     public void loginTrue() throws IOException {
 
-        SqlSession session = DatabaseUtil.getSqlsession();
-        LoginCase loginCase = session.selectOne("loginCase",1);
-        String result = getResult(loginCase);
-        log.info("响应结果类型："+result.getClass());
-        log.info("实际结果"+result);
-        JSONObject jsonObject = JSON.parseObject(result);
-        JSONObject param = (JSONObject) jsonObject.get("result");
-        TestConfig.key = param.get("Safety").toString();
-        log.info("登陆的key值:"+TestConfig.key);
-        Assert.assertEquals(1,jsonObject.get("status"));
+        try {
+            SqlSession session = DatabaseUtil.getSqlsession();
+            LoginCase loginCase = session.selectOne("loginCase",1);
+            String result = getResult(loginCase);
+            log.info("响应结果类型："+result.getClass());
+            log.info("实际结果"+result);
+            JSONObject jsonObject = JSON.parseObject(result);
+            JSONObject param = (JSONObject) jsonObject.get("result");
+            TestConfig.key = param.get("Safety").toString();
+            log.info("登陆的key值:"+TestConfig.key);
+            Assert.assertEquals(1,jsonObject.get("status"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
     @Test(groups = "loginFalse",description = "登录失败")
     public void loginFalse() throws IOException {
-        SqlSession session = DatabaseUtil.getSqlsession();
-        LoginCase loginCase = session.selectOne("loginCase",2);
-        String result = getResult(loginCase);
-        log.info("实际结果："+result);
-        Assert.assertFalse(result.contains("\"status\":1"));
+        try {
+            SqlSession session = DatabaseUtil.getSqlsession();
+            LoginCase loginCase = session.selectOne("loginCase",2);
+            String result = getResult(loginCase);
+            log.info("实际结果："+result);
+            Assert.assertFalse(result.contains("\"status\":1"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private String getResult(LoginCase loginCase) throws IOException {

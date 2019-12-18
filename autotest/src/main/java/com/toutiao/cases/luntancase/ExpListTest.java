@@ -10,6 +10,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.util.EntityUtils;
 import org.apache.ibatis.session.SqlSession;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -20,12 +21,18 @@ import java.io.IOException;
 public class ExpListTest {
     @Test(dependsOnGroups = "loginTrue",description = "预测贴列表")
     public void expList() throws IOException {
-        SqlSession session = DatabaseUtil.getSqlsession();
-        ExpListCase expListCase = session.selectOne("expListCase",1);
-        String result = getResult(expListCase);
-        log.info("实际结果："+result);
-        JSONObject jsonObject = new JSONObject(result);
-        Assert.assertEquals(1,jsonObject.get("status"));
+        try {
+            SqlSession session = DatabaseUtil.getSqlsession();
+            ExpListCase expListCase = session.selectOne("expListCase",1);
+            String result = getResult(expListCase);
+            log.info("实际结果："+result);
+            JSONObject jsonObject = new JSONObject(result);
+            Assert.assertEquals(1,jsonObject.get("status"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
 
     private String getResult(ExpListCase expListCase) throws IOException {

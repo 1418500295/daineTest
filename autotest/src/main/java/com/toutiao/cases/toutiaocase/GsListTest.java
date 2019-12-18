@@ -24,18 +24,26 @@ public class GsListTest {
 
     @Test(dependsOnGroups = "loginTrue",dataProvider = "getGsListData",description = "头条/高手榜列表")
     public void getGsList(GsListCase gsListCase) throws IOException {
-        String result = getResult(gsListCase);
-        log.info("实际结果："+result);
-        JSONObject jsonObject = JSON.parseObject(result);
-        Assert.assertEquals(gsListCase.getExpResult(),jsonObject.get("status"));
+        try {
+            String result = getResult(gsListCase);
+            log.info("实际结果："+result);
+            JSONObject jsonObject = JSON.parseObject(result);
+            Assert.assertEquals(gsListCase.getExpResult(),jsonObject.get("status"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @Test(dependsOnGroups = "loginTrue",dataProvider = "getGsListData2",description = "高手榜/错误的period")
     public void getGsList2(GsListCase gsListCase) throws IOException {
-        String result = getResult(gsListCase);
-        log.info("实际结果："+result);
-        JSONObject jsonObject = JSON.parseObject(result);
-        Assert.assertEquals(gsListCase.getExpResult(),jsonObject.get("status"));
+        try {
+            String result = getResult(gsListCase);
+            log.info("实际结果："+result);
+            JSONObject jsonObject = JSON.parseObject(result);
+            Assert.assertEquals(gsListCase.getExpResult(),jsonObject.get("status"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 
