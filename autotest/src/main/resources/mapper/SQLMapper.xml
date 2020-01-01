@@ -9,6 +9,13 @@
         select * from LoginCase
         where id =#{id};
     </select>
+    <!--
+    <insert id="insertData" parameterType="com.toutiao.model.toutiaomd.LoginCase">
+        insert into LoginCase(id,account,password)
+        values(#{id},#{account},#{password})
+    </insert>
+    -->
+
     <!--广场列表-->
     <select id="gcListCase" parameterType="Integer" resultType="com.toutiao.model.luntanmd.GcListCase">
         select  * from GcListCase
@@ -88,4 +95,10 @@
         select * from MyFavorCase
         where id=#{id};
     </select>
+    <!--
+    <select id="activityListCase" parameterType="Integer" resultType="com.toutiao.model.toutiaomd.ActivityListCase">
+        select * from ActivityListCase
+        where id=#{id};
+    </select>
+    -->
 </mapper>

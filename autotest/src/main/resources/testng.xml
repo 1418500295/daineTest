@@ -38,7 +38,9 @@
             <class name="com.toutiao.cases.luntancase.UserCenterTest"/>
             <class name="com.toutiao.cases.luntancase.MyItemTest"/>
             <class name="com.toutiao.cases.luntancase.MyFavorTest"/>
-
+            <!--
+            <class name="com.toutiao.cases.toutiaocase.ActivityListTest"/>
+            -->
 
         </classes>
     </test>

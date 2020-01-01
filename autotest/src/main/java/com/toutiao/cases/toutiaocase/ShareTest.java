@@ -10,7 +10,7 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.util.EntityUtils;
 import org.apache.ibatis.session.SqlSession;
-import org.mybatis.spring.SqlSessionTemplate;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -21,8 +21,7 @@ import java.lang.reflect.Method;
 @Slf4j
 public class ShareTest {
 
-    @Autowired
-    private SqlSessionTemplate sqlSessionTemplate;
+
 
     @Test(dependsOnGroups = "loginTrue",dataProvider = "getShareTestData",description = "头条/分享")
     public void getShare(ShareCase shareCase){

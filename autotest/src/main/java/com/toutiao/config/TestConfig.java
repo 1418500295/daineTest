@@ -43,6 +43,9 @@ public class TestConfig {
     public static String gsListUrl,shareUrl,getPubUrl,getPreUrl,userCenterUrl,myItemUrl,myFavorUrl;
 
 
+//    public static String activityListUrl;
+
+
 
 
     //存储登陆返回的key值，相当于token

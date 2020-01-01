@@ -47,6 +47,7 @@ public class LoginTest {
         TestConfig.userCenterUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.USERCENTER);
         TestConfig.myItemUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.MYITEM);
         TestConfig.myFavorUrl = ConfigFile.getUrl(InterfaneName.LTHOST,InterfaneName.MYFAVOR);
+//        TestConfig.activityListUrl = ConfigFile.getUrl(InterfaneName.TTHOST,InterfaneName.ACTIVITYLIST);
         TestConfig.defaultHttpClient = new DefaultHttpClient();
 
 
@@ -70,6 +71,8 @@ public class LoginTest {
         }
 
     }
+
+
     @Test(groups = "loginFalse",description = "登录失败")
     public void loginFalse() throws IOException {
         try {
@@ -82,6 +85,8 @@ public class LoginTest {
             e.printStackTrace();
         }
     }
+
+
 
     private String getResult(LoginCase loginCase) throws IOException {
         String result = null;
