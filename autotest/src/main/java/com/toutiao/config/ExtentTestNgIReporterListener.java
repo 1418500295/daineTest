@@ -110,8 +110,8 @@ public class ExtentTestNgIReporterListener implements IReporter {
         //怎么样解决cdn.rawgit.com访问不了的情况
         htmlReporter.config().setResourceCDN(ResourceCDN.EXTENTREPORTS);
 
-        htmlReporter.config().setDocumentTitle("头条接口自动化报告");
-        htmlReporter.config().setReportName("头条接口自动化报告");
+        htmlReporter.config().setDocumentTitle("接口自动化报告");
+        htmlReporter.config().setReportName("接口自动化报告");
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         htmlReporter.config().setTheme(Theme.STANDARD);

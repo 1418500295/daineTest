@@ -6,17 +6,17 @@
   </listeners>
   <test name="论坛接口(failed)">
     <classes>
+      <class name="com.toutiao.cases.luntancase.LikeTest">
+        <methods>
+          <include name="getLike"/>
+        </methods>
+      </class> <!-- com.toutiao.cases.luntancase.LikeTest -->
       <class name="com.toutiao.cases.toutiaocase.LoginTest">
         <methods>
           <include name="loginTrue"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.toutiao.cases.toutiaocase.LoginTest -->
-      <class name="com.toutiao.cases.luntancase.LikeTest">
-        <methods>
-          <include name="getLike"/>
-        </methods>
-      </class> <!-- com.toutiao.cases.luntancase.LikeTest -->
     </classes>
   </test> <!-- 论坛接口(failed) -->
 </suite> <!-- Failed suite [头条接口管理] -->
