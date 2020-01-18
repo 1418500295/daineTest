@@ -7,5 +7,23 @@ resource:
     databaseConfig.xml:数据库驱动等配置
     log4j2.xml:日志配置文件
     testng.xml:测试用例运行配置
+    
+jenkins集成配置：
+安装 maven integration plugin 、 Groovy 、 HTML Publisher Plugin
+进行全局变量配置 包括jdk、maven、git
+
+配置job：
+1.build：
+    Root POM：C:\Users\ASUS\.jenkins\workspace\daineTest\autotest\pom.xml
+    Goals and options：clean test
+2.Post Steps
+    Groovy scripts:
+        填写：System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
+3.构建后操作：
+    publish HTML reports
+    
+    1.HTML directory to archive ：C:\Users\ASUS\.jenkins\workspace\daineTest\autotest\test-output
+    2.Index page[s]：index.html
+    3.Report title：HTML Report
 
 
