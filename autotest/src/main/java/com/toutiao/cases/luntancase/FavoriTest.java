@@ -21,6 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 @Log4j2
 public class FavoriTest {
+
     @Test(dependsOnGroups = "loginTrue",dataProvider = "getData",description = "论坛/收藏")
     public void getFavori(FavoriCase favoriCase) throws IOException {
 

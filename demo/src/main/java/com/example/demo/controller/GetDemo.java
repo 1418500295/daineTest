@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 
-@RequestMapping(value = "/v1")
+@RequestMapping(value = "v1")
 @RestController
 public class GetDemo {
 

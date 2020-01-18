@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="1" ignored="0" total="28" passed="27">
   <reporter-output>
   </reporter-output>
-  <suite name="头条接口管理" duration-ms="6585" started-at="2020-01-02T02:20:24Z" finished-at="2020-01-02T02:20:30Z">
+  <suite name="头条接口管理" duration-ms="7920" started-at="2020-01-04T08:16:51Z" finished-at="2020-01-04T08:16:59Z">
     <groups>
       <group name="loginTrue">
-        <method signature="LoginTest.loginTrue()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@5023bb8b]" name="loginTrue" class="com.toutiao.cases.toutiaocase.LoginTest"/>
+        <method signature="LoginTest.loginTrue()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@74c79fa2]" name="loginTrue" class="com.toutiao.cases.toutiaocase.LoginTest"/>
       </group> <!-- loginTrue -->
       <group name="loginFalse">
-        <method signature="LoginTest.loginFalse()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@5023bb8b]" name="loginFalse" class="com.toutiao.cases.toutiaocase.LoginTest"/>
+        <method signature="LoginTest.loginFalse()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@74c79fa2]" name="loginFalse" class="com.toutiao.cases.toutiaocase.LoginTest"/>
       </group> <!-- loginFalse -->
     </groups>
-    <test name="论坛接口" duration-ms="6585" started-at="2020-01-02T02:20:24Z" finished-at="2020-01-02T02:20:30Z">
+    <test name="论坛接口" duration-ms="7920" started-at="2020-01-04T08:16:51Z" finished-at="2020-01-04T08:16:59Z">
       <class name="com.toutiao.cases.luntancase.MyFavorTest">
-        <test-method name="getMyFavor" signature="getMyFavor(com.toutiao.model.luntanmd.MyFavorCase)[pri:0, instance:com.toutiao.cases.luntancase.MyFavorTest@13f95696]" depends-on-groups="loginTrue" status="PASS" duration-ms="49" finished-at="2020-01-02T10:20:30Z" started-at="2020-01-02T10:20:30Z" data-provider="getMyFavorData" description="论坛/我的收藏">
+        <test-method name="getMyFavor" signature="getMyFavor(com.toutiao.model.luntanmd.MyFavorCase)[pri:0, instance:com.toutiao.cases.luntancase.MyFavorTest@68be8808]" depends-on-groups="loginTrue" status="PASS" duration-ms="49" finished-at="2020-01-04T16:16:59Z" started-at="2020-01-04T16:16:59Z" data-provider="getMyFavorData" description="论坛/我的收藏">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.toutiao.model.luntanmd.MyFavorCase@6401d0a0]]>
+                <![CDATA[com.toutiao.model.luntanmd.MyFavorCase@71dfcf21]]>
               </value>
             </param>
           </params>
@@ -26,7 +26,7 @@
         </test-method> <!-- getMyFavor -->
       </class> <!-- com.toutiao.cases.luntancase.MyFavorTest -->
       <class name="com.toutiao.cases.luntancase.ExpertHomeTest">
-        <test-method name="getExpertHome1" signature="getExpertHome1(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@37c7595]" depends-on-groups="loginTrue" status="PASS" duration-ms="40" finished-at="2020-01-02T10:20:28Z" started-at="2020-01-02T10:20:28Z" data-provider="getExpertHomeData" description="专家详情页/正确">
+        <test-method name="getExpertHome1" signature="getExpertHome1(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@1199fe66]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getExpertHomeData" description="专家详情页/正确">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getExpertHome1 -->
-        <test-method name="getExpertHome2" signature="getExpertHome2(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@37c7595]" depends-on-groups="loginTrue" status="PASS" duration-ms="36" finished-at="2020-01-02T10:20:28Z" started-at="2020-01-02T10:20:28Z" data-provider="getExpertHomeData" description="专家详情页/错误的member_id">
+        <test-method name="getExpertHome2" signature="getExpertHome2(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@1199fe66]" depends-on-groups="loginTrue" status="PASS" duration-ms="37" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getExpertHomeData" description="专家详情页/错误的member_id">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getExpertHome2 -->
-        <test-method name="getExpertHome3" signature="getExpertHome3(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@37c7595]" depends-on-groups="loginTrue" status="PASS" duration-ms="40" finished-at="2020-01-02T10:20:28Z" started-at="2020-01-02T10:20:28Z" data-provider="getExpertHomeData" description="专家详情页/非法的user_id">
+        <test-method name="getExpertHome3" signature="getExpertHome3(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@1199fe66]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getExpertHomeData" description="专家详情页/非法的user_id">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
         </test-method> <!-- getExpertHome3 -->
       </class> <!-- com.toutiao.cases.luntancase.ExpertHomeTest -->
       <class name="com.toutiao.cases.luntancase.GetPubTest">
-        <test-method name="getPub" signature="getPub(com.toutiao.model.luntanmd.GetPubCase)[pri:0, instance:com.toutiao.cases.luntancase.GetPubTest@1fdf1c5]" depends-on-groups="loginTrue" status="PASS" duration-ms="111" finished-at="2020-01-02T10:20:30Z" started-at="2020-01-02T10:20:30Z" data-provider="getPubData" description="论坛/发图文">
+        <test-method name="getPub" signature="getPub(com.toutiao.model.luntanmd.GetPubCase)[pri:0, instance:com.toutiao.cases.luntancase.GetPubTest@73a2e526]" depends-on-groups="loginTrue" status="PASS" duration-ms="126" finished-at="2020-01-04T16:16:59Z" started-at="2020-01-04T16:16:59Z" data-provider="getPubData" description="论坛/发图文">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.toutiao.model.luntanmd.GetPubCase@4ce14f05]]>
+                <![CDATA[com.toutiao.model.luntanmd.GetPubCase@b965857]]>
               </value>
             </param>
           </params>
@@ -73,20 +73,20 @@
           </reporter-output>
         </test-method> <!-- getPub -->
       </class> <!-- com.toutiao.cases.luntancase.GetPubTest -->
-      <class name="com.toutiao.cases.luntancase.ExpListTest">
-        <test-method status="PASS" signature="expList()[pri:0, instance:com.toutiao.cases.luntancase.ExpListTest@1e0f9063]" name="expList" duration-ms="306" depends-on-groups="loginTrue" started-at="2020-01-02T10:20:26Z" description="预测贴列表" finished-at="2020-01-02T10:20:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- expList -->
-      </class> <!-- com.toutiao.cases.luntancase.ExpListTest -->
       <class name="com.toutiao.cases.luntancase.GcListTest">
-        <test-method status="PASS" signature="gcList()[pri:0, instance:com.toutiao.cases.luntancase.GcListTest@5d5f10b2]" name="gcList" duration-ms="439" depends-on-groups="loginTrue" started-at="2020-01-02T10:20:26Z" description="心水论坛/广场列表" finished-at="2020-01-02T10:20:26Z">
+        <test-method status="PASS" signature="gcList()[pri:0, instance:com.toutiao.cases.luntancase.GcListTest@1e0f9063]" name="gcList" duration-ms="546" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:53Z" description="心水论坛/广场列表" finished-at="2020-01-04T16:16:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gcList -->
       </class> <!-- com.toutiao.cases.luntancase.GcListTest -->
+      <class name="com.toutiao.cases.luntancase.ExpListTest">
+        <test-method status="PASS" signature="expList()[pri:0, instance:com.toutiao.cases.luntancase.ExpListTest@7642df8f]" name="expList" duration-ms="331" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:54Z" description="预测贴列表" finished-at="2020-01-04T16:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expList -->
+      </class> <!-- com.toutiao.cases.luntancase.ExpListTest -->
       <class name="com.toutiao.cases.luntancase.LikeTest">
-        <test-method status="FAIL" signature="getLike()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@5cde6747]" name="getLike" duration-ms="107" depends-on-groups="loginTrue" started-at="2020-01-02T10:20:28Z" description="论坛/点赞" finished-at="2020-01-02T10:20:28Z">
+        <test-method status="FAIL" signature="getLike()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@37c7595]" name="getLike" duration-ms="144" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:56Z" description="论坛/点赞" finished-at="2020-01-04T16:16:56Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -133,13 +133,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLike -->
-        <test-method status="PASS" signature="getLike2()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@5cde6747]" name="getLike2" duration-ms="104" depends-on-groups="loginTrue" started-at="2020-01-02T10:20:28Z" description="点赞/错误的id" finished-at="2020-01-02T10:20:28Z">
+        <test-method status="PASS" signature="getLike2()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@37c7595]" name="getLike2" duration-ms="134" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:56Z" description="点赞/错误的id" finished-at="2020-01-04T16:16:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLike2 -->
       </class> <!-- com.toutiao.cases.luntancase.LikeTest -->
       <class name="com.toutiao.cases.toutiaocase.GsListTest">
-        <test-method name="getGsList" signature="getGsList(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@1199fe66]" depends-on-groups="loginTrue" status="PASS" duration-ms="47" finished-at="2020-01-02T10:20:29Z" started-at="2020-01-02T10:20:29Z" data-provider="getGsListData" description="头条/高手榜列表">
+        <test-method name="getGsList" signature="getGsList(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@1fdf1c5]" depends-on-groups="loginTrue" status="PASS" duration-ms="49" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getGsListData" description="头条/高手榜列表">
           <params>
             <param index="0">
               <value>
@@ -150,7 +150,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getGsList -->
-        <test-method name="getGsList2" signature="getGsList2(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@1199fe66]" depends-on-groups="loginTrue" status="PASS" duration-ms="47" finished-at="2020-01-02T10:20:30Z" started-at="2020-01-02T10:20:30Z" data-provider="getGsListData2" description="高手榜/错误的period">
+        <test-method name="getGsList2" signature="getGsList2(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@1fdf1c5]" depends-on-groups="loginTrue" status="PASS" duration-ms="48" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getGsListData2" description="高手榜/错误的period">
           <params>
             <param index="0">
               <value>
@@ -163,41 +163,19 @@
         </test-method> <!-- getGsList2 -->
       </class> <!-- com.toutiao.cases.toutiaocase.GsListTest -->
       <class name="com.toutiao.cases.luntancase.MyItemTest">
-        <test-method status="PASS" signature="getMyItem()[pri:0, instance:com.toutiao.cases.luntancase.MyItemTest@7d64e326]" name="getMyItem" duration-ms="114" depends-on-groups="loginTrue" started-at="2020-01-02T10:20:30Z" description="论坛/我的帖子" finished-at="2020-01-02T10:20:30Z">
+        <test-method status="PASS" signature="getMyItem()[pri:0, instance:com.toutiao.cases.luntancase.MyItemTest@cd1d761]" name="getMyItem" duration-ms="136" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:59Z" description="论坛/我的帖子" finished-at="2020-01-04T16:16:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMyItem -->
       </class> <!-- com.toutiao.cases.luntancase.MyItemTest -->
       <class name="com.toutiao.cases.luntancase.SearchTest">
-        <test-method status="PASS" signature="getSearch()[pri:0, instance:com.toutiao.cases.luntancase.SearchTest@3e30646a]" name="getSearch" duration-ms="105" depends-on-groups="loginTrue" started-at="2020-01-02T10:20:28Z" description="论坛/搜索" finished-at="2020-01-02T10:20:28Z">
+        <test-method status="PASS" signature="getSearch()[pri:0, instance:com.toutiao.cases.luntancase.SearchTest@63a270c9]" name="getSearch" duration-ms="141" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:56Z" description="论坛/搜索" finished-at="2020-01-04T16:16:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSearch -->
       </class> <!-- com.toutiao.cases.luntancase.SearchTest -->
       <class name="com.toutiao.cases.toutiaocase.ShareTest">
-        <test-method name="getShare" signature="getShare(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="40" finished-at="2020-01-02T10:20:30Z" started-at="2020-01-02T10:20:30Z" data-provider="getShareTestData" description="头条/分享">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.toutiao.model.toutiaomd.ShareCase@71dfcf21]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getShare -->
-        <test-method name="getShare2" signature="getShare2(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="38" finished-at="2020-01-02T10:20:30Z" started-at="2020-01-02T10:20:30Z" data-provider="getShareTestData" description="分享/错误的user_id">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.toutiao.model.toutiaomd.ShareCase@b965857]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getShare2 -->
-        <test-method name="getShare3" signature="getShare3(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="38" finished-at="2020-01-02T10:20:30Z" started-at="2020-01-02T10:20:30Z" data-provider="getShareTestData" description="分享/错误的id">
+        <test-method name="getShare" signature="getShare(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@2d96543c]" depends-on-groups="loginTrue" status="PASS" duration-ms="42" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getShareTestData" description="头条/分享">
           <params>
             <param index="0">
               <value>
@@ -207,20 +185,42 @@
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- getShare -->
+        <test-method name="getShare2" signature="getShare2(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@2d96543c]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getShareTestData" description="分享/错误的user_id">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.toutiao.model.toutiaomd.ShareCase@27a7ef08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShare2 -->
+        <test-method name="getShare3" signature="getShare3(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@2d96543c]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-04T16:16:59Z" started-at="2020-01-04T16:16:59Z" data-provider="getShareTestData" description="分享/错误的id">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.toutiao.model.toutiaomd.ShareCase@280e8a1a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- getShare3 -->
       </class> <!-- com.toutiao.cases.toutiaocase.ShareTest -->
       <class name="com.toutiao.cases.luntancase.BbsLookTest">
-        <test-method status="PASS" signature="bbsLook()[pri:0, instance:com.toutiao.cases.luntancase.BbsLookTest@53bd8fca]" name="bbsLook" duration-ms="630" depends-on-groups="loginTrue" started-at="2020-01-02T10:20:26Z" description="关注列表" finished-at="2020-01-02T10:20:27Z">
+        <test-method status="PASS" signature="bbsLook()[pri:0, instance:com.toutiao.cases.luntancase.BbsLookTest@3e30646a]" name="bbsLook" duration-ms="942" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:54Z" description="关注列表" finished-at="2020-01-04T16:16:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bbsLook -->
       </class> <!-- com.toutiao.cases.luntancase.BbsLookTest -->
       <class name="com.toutiao.cases.luntancase.UserCenterTest">
-        <test-method name="getUserCenter" signature="getUserCenter(com.toutiao.model.luntanmd.UserCenterCase)[pri:0, instance:com.toutiao.cases.luntancase.UserCenterTest@73a2e526]" depends-on-groups="loginTrue" status="PASS" duration-ms="46" finished-at="2020-01-02T10:20:30Z" started-at="2020-01-02T10:20:30Z" data-provider="getUserTest" description="论坛/个人中心">
+        <test-method name="getUserCenter" signature="getUserCenter(com.toutiao.model.luntanmd.UserCenterCase)[pri:0, instance:com.toutiao.cases.luntancase.UserCenterTest@13f95696]" depends-on-groups="loginTrue" status="PASS" duration-ms="47" finished-at="2020-01-04T16:16:59Z" started-at="2020-01-04T16:16:59Z" data-provider="getUserTest" description="论坛/个人中心">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.toutiao.model.luntanmd.UserCenterCase@27a7ef08]]>
+                <![CDATA[com.toutiao.model.luntanmd.UserCenterCase@11e33bac]]>
               </value>
             </param>
           </params>
@@ -228,22 +228,8 @@
           </reporter-output>
         </test-method> <!-- getUserCenter -->
       </class> <!-- com.toutiao.cases.luntancase.UserCenterTest -->
-      <class name="com.toutiao.cases.toutiaocase.LoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@5023bb8b]" name="beforeTest" is-config="true" duration-ms="14" started-at="2020-01-02T10:20:24Z" description="测试之前的准备工作" finished-at="2020-01-02T10:20:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTrue()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@5023bb8b]" name="loginTrue" duration-ms="1508" started-at="2020-01-02T10:20:24Z" description="用户登陆成功" finished-at="2020-01-02T10:20:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTrue -->
-        <test-method status="PASS" signature="loginFalse()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@5023bb8b]" name="loginFalse" duration-ms="131" started-at="2020-01-02T10:20:25Z" description="登录失败" finished-at="2020-01-02T10:20:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginFalse -->
-      </class> <!-- com.toutiao.cases.toutiaocase.LoginTest -->
       <class name="com.toutiao.cases.luntancase.FavoriTest">
-        <test-method name="getFavori" signature="getFavori(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@63a270c9]" depends-on-groups="loginTrue" status="PASS" duration-ms="46" finished-at="2020-01-02T10:20:28Z" started-at="2020-01-02T10:20:28Z" data-provider="getData" description="论坛/收藏">
+        <test-method name="getFavori" signature="getFavori(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@3ed242a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="48" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getData" description="论坛/收藏">
           <params>
             <param index="0">
               <value>
@@ -254,7 +240,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFavori -->
-        <test-method name="getFavori2" signature="getFavori2(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@63a270c9]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-02T10:20:28Z" started-at="2020-01-02T10:20:28Z" data-provider="getData2" description="收藏/错误的id">
+        <test-method name="getFavori2" signature="getFavori2(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@3ed242a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getData2" description="收藏/错误的id">
           <params>
             <param index="0">
               <value>
@@ -266,14 +252,28 @@
           </reporter-output>
         </test-method> <!-- getFavori2 -->
       </class> <!-- com.toutiao.cases.luntancase.FavoriTest -->
+      <class name="com.toutiao.cases.toutiaocase.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@74c79fa2]" name="beforeTest" is-config="true" duration-ms="16" started-at="2020-01-04T16:16:51Z" description="测试之前的准备工作" finished-at="2020-01-04T16:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginTrue()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@74c79fa2]" name="loginTrue" duration-ms="1706" started-at="2020-01-04T16:16:51Z" description="用户登陆成功" finished-at="2020-01-04T16:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTrue -->
+        <test-method status="PASS" signature="loginFalse()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@74c79fa2]" name="loginFalse" duration-ms="186" started-at="2020-01-04T16:16:53Z" description="登录失败" finished-at="2020-01-04T16:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFalse -->
+      </class> <!-- com.toutiao.cases.toutiaocase.LoginTest -->
       <class name="com.toutiao.cases.luntancase.GetPreTest">
-        <test-method status="PASS" signature="getPre()[pri:0, instance:com.toutiao.cases.luntancase.GetPreTest@2d96543c]" name="getPre" duration-ms="129" depends-on-groups="loginTrue" started-at="2020-01-02T10:20:30Z" description="论坛/发预测贴" finished-at="2020-01-02T10:20:30Z">
+        <test-method status="PASS" signature="getPre()[pri:0, instance:com.toutiao.cases.luntancase.GetPreTest@7d64e326]" name="getPre" duration-ms="159" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:59Z" description="论坛/发预测贴" finished-at="2020-01-04T16:16:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPre -->
       </class> <!-- com.toutiao.cases.luntancase.GetPreTest -->
       <class name="com.toutiao.cases.toutiaocase.TjTest">
-        <test-method name="getTj" signature="getTj(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@3ed242a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="446" finished-at="2020-01-02T10:20:29Z" started-at="2020-01-02T10:20:28Z" data-provider="getData" description="头条/推荐">
+        <test-method name="getTj" signature="getTj(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="152" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getData" description="头条/推荐">
           <params>
             <param index="0">
               <value>
@@ -284,7 +284,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTj -->
-        <test-method name="getTj2" signature="getTj2(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@3ed242a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="131" finished-at="2020-01-02T10:20:29Z" started-at="2020-01-02T10:20:29Z" data-provider="getData" description="头条/user_id为空">
+        <test-method name="getTj2" signature="getTj2(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="103" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getData" description="头条/user_id为空">
           <params>
             <param index="0">
               <value>
@@ -295,7 +295,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTj2 -->
-        <test-method name="getTj3" signature="getTj3(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@3ed242a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="122" finished-at="2020-01-02T10:20:29Z" started-at="2020-01-02T10:20:29Z" data-provider="getData" description="头条/type为空">
+        <test-method name="getTj3" signature="getTj3(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="129" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getData" description="头条/type为空">
           <params>
             <param index="0">
               <value>
@@ -306,7 +306,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTj3 -->
-        <test-method name="getTj4" signature="getTj4(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@3ed242a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="37" finished-at="2020-01-02T10:20:29Z" started-at="2020-01-02T10:20:29Z" data-provider="getData" description="头条/signature为空">
+        <test-method name="getTj4" signature="getTj4(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="40" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getData" description="头条/signature为空">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,7 @@
         </test-method> <!-- getTj4 -->
       </class> <!-- com.toutiao.cases.toutiaocase.TjTest -->
       <class name="com.toutiao.cases.luntancase.ReplyTest">
-        <test-method status="PASS" signature="replyTest()[pri:0, instance:com.toutiao.cases.luntancase.ReplyTest@7642df8f]" name="replyTest" duration-ms="627" depends-on-groups="loginTrue" started-at="2020-01-02T10:20:27Z" description="做出评论" finished-at="2020-01-02T10:20:28Z">
+        <test-method status="PASS" signature="replyTest()[pri:0, instance:com.toutiao.cases.luntancase.ReplyTest@5cde6747]" name="replyTest" duration-ms="935" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:55Z" description="做出评论" finished-at="2020-01-04T16:16:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- replyTest -->

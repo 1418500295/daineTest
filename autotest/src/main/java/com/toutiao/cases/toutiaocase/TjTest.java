@@ -19,6 +19,7 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 @Log4j2
 public class TjTest {
+
     @Test(dependsOnGroups = "loginTrue",dataProvider = "getData",description = "头条/推荐")
     public void getTj(TjCase tjCase) throws IOException {
         try {

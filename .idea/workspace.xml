@@ -1,8 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="307ec3ed-0078-4ae5-acfa-3cb774a02313" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="307ec3ed-0078-4ae5-acfa-3cb774a02313" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/log/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/logs/2019-12/app-12-13-2019-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/logs/2019-12/app-12-24-2019-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/logs/2020-01/app-01-02-2020-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/logs/2020-01/app-01-02-2020-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/logs/2020-01/app-01-02-2020-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/BbsLookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/BbsLookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/FavoriTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/FavoriTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/GcListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/GcListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/toutiaocase/TjTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/toutiaocase/TjTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/luntancase/BbsLookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/luntancase/BbsLookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/luntancase/FavoriTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/luntancase/FavoriTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.BbsLookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.BbsLookTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.ExpListTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.ExpListTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.ExpertHomeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.ExpertHomeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.FavoriTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.FavoriTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.GcListTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.GcListTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.GetPreTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.GetPreTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.GetPubTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.GetPubTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.LikeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.LikeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.MyFavorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.MyFavorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.MyItemTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.MyItemTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.ReplyTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.ReplyTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.SearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.SearchTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.UserCenterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.luntancase.UserCenterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.GsListTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.GsListTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.ShareTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.ShareTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.TjTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.TjTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/头条接口管理/论坛接口.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/头条接口管理/论坛接口.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/头条接口管理/论坛接口.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/头条接口管理/论坛接口.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/GetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/GetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocktest/getDemo.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocktest/getDemo.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,15 +74,17 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api_autotest" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\ASUS\.m2\repository" />
         <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.6.2" />
         <option name="userSettingsFile" value="C:\Users\ASUS\Downloads\apache-maven-3.6.2\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -48,19 +97,29 @@
     </option>
   </component>
   <component name="ProjectId" id="1TgU1soF3QVHpFpA3Ww8JjCrRrI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/AutoTest2" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -69,19 +128,23 @@
       <recent name="C:\Users\ASUS\IdeaProjects\apitest\demo\src\main\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="TestNG.C:/Users/ASUS/IdeaProjects/apitest/autotest/src/main/resources/testng.xml">
+    <configuration name="InterfaneName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.toutiao.model.InterfaneName" />
+      <module name="autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toutiao.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/daineTest/autotest/test-output/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -99,34 +162,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.loginTrue (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.toutiao.utils.*" />
+          <option name="PATTERN" value="com.toutiao.cases.toutiaocase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.toutiao.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.toutiao.utils.DependTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GcListTest.gcList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.toutiao.cases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.toutiao.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.toutiao.cases.GcListTest" />
-      <option name="METHOD_NAME" value="gcList" />
+      <option name="PACKAGE_NAME" value="com.toutiao.cases.toutiaocase" />
+      <option name="MAIN_CLASS_NAME" value="com.toutiao.cases.toutiaocase.LoginTest" />
+      <option name="METHOD_NAME" value="loginTrue" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,33 +198,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.postDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.toutiao.cases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.toutiao.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.toutiao.cases.LoginTest" />
-      <option name="METHOD_NAME" value="postDemo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/ASUS/IdeaProjects/apitest/autotest/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.LoginTest.loginTrue (1)" />
+        <item itemvalue="Application.InterfaneName" />
         <item itemvalue="TestNG.LoginTest.loginTrue" />
-        <item itemvalue="TestNG.DependTest" />
-        <item itemvalue="TestNG.GcListTest.gcList" />
-        <item itemvalue="TestNG.LoginTest.postDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -215,6 +254,59 @@
       <workItem from="1574666669486" duration="685000" />
       <workItem from="1574667367752" duration="12883000" />
       <workItem from="1574729975265" duration="2447000" />
+      <workItem from="1575687107259" duration="11871000" />
+      <workItem from="1575858098358" duration="1028000" />
+      <workItem from="1575859450423" duration="585000" />
+      <workItem from="1575860259596" duration="68000" />
+      <workItem from="1575860345695" duration="282000" />
+      <workItem from="1575860740922" duration="147000" />
+      <workItem from="1575860913187" duration="1098000" />
+      <workItem from="1575862029419" duration="367000" />
+      <workItem from="1575862410932" duration="932000" />
+      <workItem from="1575863357316" duration="445000" />
+      <workItem from="1575863816511" duration="1575000" />
+      <workItem from="1575868792663" duration="908000" />
+      <workItem from="1575869722467" duration="1761000" />
+      <workItem from="1575871508728" duration="3602000" />
+      <workItem from="1575984163857" duration="372000" />
+      <workItem from="1576025629988" duration="98000" />
+      <workItem from="1576025909504" duration="48000" />
+      <workItem from="1576055963777" duration="101000" />
+      <workItem from="1576114143147" duration="3624000" />
+      <workItem from="1576198409533" duration="13656000" />
+      <workItem from="1576227068314" duration="2991000" />
+      <workItem from="1576562615051" duration="1228000" />
+      <workItem from="1576566814621" duration="94000" />
+      <workItem from="1576659344186" duration="3006000" />
+      <workItem from="1576747580243" duration="153000" />
+      <workItem from="1576758384490" duration="512000" />
+      <workItem from="1576759178776" duration="3579000" />
+      <workItem from="1576917227132" duration="157000" />
+      <workItem from="1576918685004" duration="378000" />
+      <workItem from="1577080408119" duration="616000" />
+      <workItem from="1577081177780" duration="1801000" />
+      <workItem from="1577083053785" duration="165000" />
+      <workItem from="1577093112293" duration="3654000" />
+      <workItem from="1577168742661" duration="13305000" />
+      <workItem from="1577515590228" duration="1072000" />
+      <workItem from="1577690785321" duration="2574000" />
+      <workItem from="1577695111700" duration="957000" />
+      <workItem from="1577778834035" duration="341000" />
+      <workItem from="1577782942556" duration="494000" />
+      <workItem from="1577792422349" duration="242000" />
+      <workItem from="1577843325367" duration="824000" />
+      <workItem from="1577850086180" duration="424000" />
+      <workItem from="1577870527309" duration="157000" />
+      <workItem from="1577872741596" duration="592000" />
+      <workItem from="1577926632008" duration="10140000" />
+      <workItem from="1577960554263" duration="1056000" />
+      <workItem from="1577967831179" duration="3458000" />
+      <workItem from="1578034335607" duration="651000" />
+      <workItem from="1578038794015" duration="175000" />
+      <workItem from="1578110258531" duration="216000" />
+      <workItem from="1578115973537" duration="317000" />
+      <workItem from="1578116525257" duration="177000" />
+      <workItem from="1578116864048" duration="93000" />
     </task>
     <servers />
   </component>
@@ -233,5 +325,45 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/AutoTest" />
+      <path value="$PROJECT_DIR$/api_autotest" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1578125535174">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578125535174" />
+    <state width="1342" height="495" key="GridCell.Tab.0.bottom" timestamp="1578125436312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="495" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578125436312" />
+    <state width="1342" height="495" key="GridCell.Tab.0.center" timestamp="1578125436312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="495" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578125436312" />
+    <state width="1342" height="495" key="GridCell.Tab.0.left" timestamp="1578125436311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="495" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578125436311" />
+    <state width="1342" height="495" key="GridCell.Tab.0.right" timestamp="1578125436312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="495" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578125436312" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1578134297610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578134297610" />
+    <state x="454" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1579342909577">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579342909577" />
+    <state x="178" y="23" key="new project wizard" timestamp="1578117149518">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1578117149518" />
   </component>
 </project>

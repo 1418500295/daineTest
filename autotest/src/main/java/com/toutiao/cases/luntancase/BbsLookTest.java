@@ -6,7 +6,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.toutiao.config.TestConfig;
 import com.toutiao.model.luntanmd.BbsLookCase;
 import com.toutiao.utils.DatabaseUtil;
-import groovy.util.logging.Log;
 import lombok.extern.log4j.Log4j2;
 import org.apache.http.HttpResponse;
 import org.apache.http.ParseException;
