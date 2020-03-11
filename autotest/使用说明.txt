@@ -16,9 +16,10 @@ jenkins集成配置：
 1.build：
     Root POM：C:\Users\ASUS\.jenkins\workspace\daineTest\autotest\pom.xml
     Goals and options：clean test
-2.Post Steps
+2.Post Steps(选择Execute system Groovy script)
     Groovy scripts:
         填写：System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
+        添加整个脚本是为了解决jenkins报告在浏览器中无法显示样式的问题
 3.构建后操作：
     publish HTML reports
     
