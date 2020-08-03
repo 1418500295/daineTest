@@ -1,5 +1,20 @@
 [
   {
+    "description": "这是一个json格式的get请求",
+    "request": {
+      "uri": "/v1/getFirst",
+      "method": "get",
+      "json": {
+        "height": "185",
+        "weight": "174"
+      }
+    },
+    "response": {
+      "text": "这是个json格式的get请求",
+      "status": "200"
+    }
+  },
+  {
     "description": "这是一个get请求",
     "request": {
       "uri": "/v1/getDemo",
@@ -66,7 +81,7 @@
       "method": "post",
       "json": {
         "name": "james",
-        "age": 23
+        "age": "23"
       }
     },
     "response": {
@@ -75,6 +90,23 @@
 
     }
 
+  },
+  {
+    "description": "这是一个表单格式的请求",
+    "request": {
+      "uri": "/postSecond",
+      "method": "post",
+      "forms": {
+        "name": "daine",
+        "sex": "male"
+      }
+    },
+    "response": {
+      "json": {
+        "success": 1,
+        "msg": "成功"
+      }
+    }
   }
 
 

@@ -60,12 +60,12 @@ public class LoginTest {
             LoginCase loginCase = session.selectOne("loginCase",1);
             String result = getResult(loginCase);
             log.info("响应结果类型："+result.getClass());
-            log.info("实际结果"+result);
+            log.info("实际结果:{}",result);
             JSONObject jsonObject = JSON.parseObject(result);
             JSONObject param = (JSONObject) jsonObject.get("result");
             TestConfig.key = param.get("Safety").toString();
             log.info("登陆的key值:"+TestConfig.key);
-            Assert.assertEquals(1,jsonObject.get("status"));
+            Assert.assertEquals(0,jsonObject.get("status"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -107,6 +107,7 @@ public class LoginTest {
         return result;
 
     }
+
 }
 
 

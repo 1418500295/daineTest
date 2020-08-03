@@ -1,8 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 28, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.523 s <<< FAILURE! - in TestSuite
-getLike(com.toutiao.cases.luntancase.LikeTest)  Time elapsed: 0.561 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at com.toutiao.cases.luntancase.LikeTest.getLike(LikeTest.java:33)
+Tests run: 28, Failures: 1, Errors: 0, Skipped: 26, Time elapsed: 3.389 s <<< FAILURE! - in TestSuite
+loginTrue(com.toutiao.cases.toutiaocase.LoginTest)  Time elapsed: 1.341 s  <<< FAILURE!
+com.alibaba.fastjson.JSONException: 
+syntax error, pos 1, json : <br />
+<b>Warning</b>:  Invalid callback parent::err_handle, cannot access parent:: when current class scope has no parent in <b>/www/wwwroot/api/api.toutiao.lhtt.co/application/library/Passports.php</b> on line <b>62</b><br />
+{"status":1,"result":{"Id":"16266","Safety":"64c5b4532eb3a1c3199ec97c954405a6","Password":"$2y$10$ksY71AFU2LBpzKawwgo7dOvkbiYEfXE0jCBTFsOVZm56QddkWZzaW","Face":"https:\/\/upload.cc\/i1\/2019\/08\/09\/Dc6KWB.jpeg","Uid":"LT016266","Status":"1","Remark":"","Nickname":"\u6c11\u5fc3\u6240\u5411","Level":"0"}}
+	at com.toutiao.cases.toutiaocase.LoginTest.loginTrue(LoginTest.java:64)
 

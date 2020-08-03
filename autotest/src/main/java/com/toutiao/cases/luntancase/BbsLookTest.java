@@ -28,6 +28,7 @@ public class BbsLookTest {
             String result = getResult(bbsLookCase);
             log.info("实际结果："+result);
             JSONObject jsonObject = JSON.parseObject(result);
+
             Assert.assertEquals(1,jsonObject.get("status"));
         } catch (IOException e) {
             e.printStackTrace();

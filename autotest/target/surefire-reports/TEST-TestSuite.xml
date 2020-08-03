@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.523" tests="28" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.389" tests="28" errors="0" skipped="26" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire8284836847438705787\surefirebooter4592135242466986074.jar C:\Users\ASUS\AppData\Local\Temp\surefire8284836847438705787 2020-01-04T16-16-48_196-jvmRun1 surefire1974681246650855092tmp surefire_0151328042030896543tmp"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire7619445194643432164\surefirebooter5614451803497543161.jar C:\Users\ASUS\AppData\Local\Temp\surefire7619445194643432164 2020-03-03T15-34-09_448-jvmRun1 surefire7748089298987188436tmp surefire_01224509952137512565tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\test-classes;C:\Users\ASUS\IdeaProjects\daineTest\autotest\target\classes;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Users\ASUS\.m2\repository\com\alibaba\fastjson\1.2.46\fastjson-1.2.46.jar;C:\Users\ASUS\.m2\repository\org\testng\testng\6.10\testng-6.10.jar;C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\ASUS\.m2\repository\org\json\json\20170516\json-20170516.jar;C:\Users\ASUS\.m2\repository\org\mybatis\mybatis\3.4.4\mybatis-3.4.4.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.11.0\log4j-slf4j-impl-2.11.0.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.8.0-alpha2\slf4j-api-1.8.0-alpha2.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-context\5.2.1.RELEASE\spring-context-5.2.1.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-aop\5.2.1.RELEASE\spring-aop-5.2.1.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-beans\5.2.1.RELEASE\spring-beans-5.2.1.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-core\5.2.1.RELEASE\spring-core-5.2.1.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-jcl\5.2.1.RELEASE\spring-jcl-5.2.1.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\springframework\spring-expression\5.2.1.RELEASE\spring-expression-5.2.1.RELEASE.jar;C:\Users\ASUS\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;C:\Users\ASUS\.m2\repository\org\projectlombok\lombok\1.16.14\lombok-1.16.14.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\ASUS\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\ASUS\.m2\repository\com\squareup\retrofit2\retrofit\2.2.0\retrofit-2.2.0.jar;C:\Users\ASUS\.m2\repository\com\squareup\retrofit2\converter-gson\2.3.0\converter-gson-2.3.0.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar;C:\Users\ASUS\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ASUS\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ASUS\.m2\repository\org\apache\jmeter\ApacheJMeter_core\3.2\ApacheJMeter_core-3.2.jar;C:\Users\ASUS\.m2\repository\org\apache\jmeter\jorphan\3.2\jorphan-3.2.jar;C:\Users\ASUS\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\ASUS\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\ASUS\.m2\repository\bsf\bsf\2.4.0\bsf-2.4.0.jar;C:\Users\ASUS\.m2\repository\org\beanshell\bsh\2.0b5\bsh-2.0b5.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcmail-jdk15on\1.49\bcmail-jdk15on-1.49.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.49\bcprov-jdk15on-1.49.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.49\bcpkix-jdk15on-1.49.jar;C:\Users\ASUS\.m2\repository\com\github\ben-manes\caffeine\caffeine\2.4.0\caffeine-2.4.0.jar;C:\Users\ASUS\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-dbcp2\2.1.1\commons-dbcp2-2.1.1.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-jexl\2.1.1\commons-jexl-2.1.1.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-jexl3\3.0\commons-jexl3-3.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ASUS\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\ASUS\.m2\repository\dnsjava\dnsjava\2.1.8\dnsjava-2.1.8.jar;C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-all\2.4.10\groovy-all-2.4.10.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpasyncclient\4.1.3\httpasyncclient-4.1.3.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore-nio\4.4.6\httpcore-nio-4.4.6.jar;C:\Users\ASUS\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\ASUS\.m2\repository\jcharts\jcharts\0.7.5\jcharts-0.7.5.jar;C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\ASUS\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ASUS\.m2\repository\net\sf\jtidy\jtidy\r938\jtidy-r938.jar;C:\Users\ASUS\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\ASUS\.m2\repository\org\apache\tika\tika-parsers\1.14\tika-parsers-1.14.jar;C:\Users\ASUS\.m2\repository\org\gagravarr\vorbis-java-tika\0.8\vorbis-java-tika-0.8.jar;C:\Users\ASUS\.m2\repository\com\healthmarketscience\jackcess\jackcess\2.1.4\jackcess-2.1.4.jar;C:\Users\ASUS\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\ASUS\.m2\repository\com\healthmarketscience\jackcess\jackcess-encrypt\2.1.1\jackcess-encrypt-2.1.1.jar;C:\Users\ASUS\.m2\repository\org\tallison\jmatio\1.2\jmatio-1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\james\apache-mime4j-core\0.7.2\apache-mime4j-core-0.7.2.jar;C:\Users\ASUS\.m2\repository\org\apache\james\apache-mime4j-dom\0.7.2\apache-mime4j-dom-0.7.2.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.12\commons-compress-1.12.jar;C:\Users\ASUS\.m2\repository\org\tukaani\xz\1.5\xz-1.5.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.3\pdfbox-2.0.3.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\fontbox\2.0.3\fontbox-2.0.3.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.3\pdfbox-tools-2.0.3.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.3\pdfbox-debugger-2.0.3.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\jempbox\1.8.12\jempbox-1.8.12.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi\3.15\poi-3.15.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-scratchpad\3.15\poi-scratchpad-3.15.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml\3.15\poi-ooxml-3.15.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.15\poi-ooxml-schemas-3.15.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\ASUS\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ASUS\.m2\repository\com\googlecode\mp4parser\isoparser\1.1.18\isoparser-1.1.18.jar;C:\Users\ASUS\.m2\repository\com\drewnoakes\metadata-extractor\2.9.1\metadata-extractor-2.9.1.jar;C:\Users\ASUS\.m2\repository\com\adobe\xmp\xmpcore\5.1.2\xmpcore-5.1.2.jar;C:\Users\ASUS\.m2\repository\de\l3s\boilerpipe\boilerpipe\1.1.0\boilerpipe-1.1.0.jar;C:\Users\ASUS\.m2\repository\com\rometools\rome\1.5.1\rome-1.5.1.jar;C:\Users\ASUS\.m2\repository\com\rometools\rome-utils\1.5.1\rome-utils-1.5.1.jar;C:\Users\ASUS\.m2\repository\org\gagravarr\vorbis-java-core\0.8\vorbis-java-core-0.8.jar;C:\Users\ASUS\.m2\repository\com\googlecode\juniversalchardet\juniversalchardet\1.0.3\juniversalchardet-1.0.3.jar;C:\Users\ASUS\.m2\repository\org\codelibs\jhighlight\1.0.2\jhighlight-1.0.2.jar;C:\Users\ASUS\.m2\repository\com\pff\java-libpst\0.8.1\java-libpst-0.8.1.jar;C:\Users\ASUS\.m2\repository\com\github\junrar\junrar\0.7\junrar-0.7.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-vfs2\2.0\commons-vfs2-2.0.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\scm\maven-scm-api\1.4\maven-scm-api-1.4.jar;C:\Users\ASUS\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.6\plexus-utils-1.5.6.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\scm\maven-scm-provider-svnexe\1.4\maven-scm-provider-svnexe-1.4.jar;C:\Users\ASUS\.m2\repository\org\apache\maven\scm\maven-scm-provider-svn-commons\1.4\maven-scm-provider-svn-commons-1.4.jar;C:\Users\ASUS\.m2\repository\regexp\regexp\1.3\regexp-1.3.jar;C:\Users\ASUS\.m2\repository\org\apache\cxf\cxf-rt-rs-client\3.0.3\cxf-rt-rs-client-3.0.3.jar;C:\Users\ASUS\.m2\repository\org\apache\cxf\cxf-rt-transports-http\3.0.3\cxf-rt-transports-http-3.0.3.jar;C:\Users\ASUS\.m2\repository\org\apache\cxf\cxf-core\3.0.3\cxf-core-3.0.3.jar;C:\Users\ASUS\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\ASUS\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\ASUS\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.1.0\xmlschema-core-2.1.0.jar;C:\Users\ASUS\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxrs\3.0.3\cxf-rt-frontend-jaxrs-3.0.3.jar;C:\Users\ASUS\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\ASUS\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ASUS\.m2\repository\org\apache\opennlp\opennlp-tools\1.5.3\opennlp-tools-1.5.3.jar;C:\Users\ASUS\.m2\repository\org\apache\opennlp\opennlp-maxent\3.0.3\opennlp-maxent-3.0.3.jar;C:\Users\ASUS\.m2\repository\net\sf\jwordnet\jwnl\1.3.3\jwnl-1.3.3.jar;C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\ASUS\.m2\repository\edu\ucar\netcdf4\4.5.5\netcdf4-4.5.5.jar;C:\Users\ASUS\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\ASUS\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\ASUS\.m2\repository\edu\ucar\grib\4.5.5\grib-4.5.5.jar;C:\Users\ASUS\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\ASUS\.m2\repository\org\jdom\jdom2\2.0.4\jdom2-2.0.4.jar;C:\Users\ASUS\.m2\repository\edu\ucar\jj2000\5.2\jj2000-5.2.jar;C:\Users\ASUS\.m2\repository\org\itadaki\bzip2\0.9.1\bzip2-0.9.1.jar;C:\Users\ASUS\.m2\repository\edu\ucar\cdm\4.5.5\cdm-4.5.5.jar;C:\Users\ASUS\.m2\repository\edu\ucar\udunits\4.5.5\udunits-4.5.5.jar;C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.2\joda-time-2.2.jar;C:\Users\ASUS\.m2\repository\org\quartz-scheduler\quartz\2.2.0\quartz-2.2.0.jar;C:\Users\ASUS\.m2\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;C:\Users\ASUS\.m2\repository\net\sf\ehcache\ehcache-core\2.6.2\ehcache-core-2.6.2.jar;C:\Users\ASUS\.m2\repository\edu\ucar\httpservices\4.5.5\httpservices-4.5.5.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-csv\1.0\commons-csv-1.0.jar;C:\Users\ASUS\.m2\repository\org\apache\sis\core\sis-utility\0.6\sis-utility-0.6.jar;C:\Users\ASUS\.m2\repository\org\apache\sis\storage\sis-netcdf\0.6\sis-netcdf-0.6.jar;C:\Users\ASUS\.m2\repository\org\apache\sis\storage\sis-storage\0.6\sis-storage-0.6.jar;C:\Users\ASUS\.m2\repository\org\apache\sis\core\sis-referencing\0.6\sis-referencing-0.6.jar;C:\Users\ASUS\.m2\repository\org\apache\sis\core\sis-metadata\0.6\sis-metadata-0.6.jar;C:\Users\ASUS\.m2\repository\org\opengis\geoapi\3.0.0\geoapi-3.0.0.jar;C:\Users\ASUS\.m2\repository\javax\measure\jsr-275\0.9.3\jsr-275-0.9.3.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.1\jackson-core-2.8.1.jar;C:\Users\ASUS\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\ASUS\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\ASUS\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\ASUS\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ASUS\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ASUS\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ASUS\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.1\xmlgraphics-commons-2.1.jar;C:\Users\ASUS\.m2\repository\javax\mail\mail\1.5.0-b01\mail-1.5.0-b01.jar;C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\ASUS\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\ASUS\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;C:\Users\ASUS\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\ASUS\.m2\repository\org\jsoup\jsoup\1.10.2\jsoup-1.10.2.jar;C:\Users\ASUS\.m2\repository\org\jodd\jodd-core\3.8.1\jodd-core-3.8.1.jar;C:\Users\ASUS\.m2\repository\org\jodd\jodd-lagarto\3.8.1\jodd-lagarto-3.8.1.jar;C:\Users\ASUS\.m2\repository\org\jodd\jodd-log\3.8.1\jodd-log-3.8.1.jar;C:\Users\ASUS\.m2\repository\org\jodd\jodd-props\3.8.1\jodd-props-3.8.1.jar;C:\Users\ASUS\.m2\repository\org\mongodb\mongo-java-driver\2.11.3\mongo-java-driver-2.11.3.jar;C:\Users\ASUS\.m2\repository\com\helger\ph-css\5.0.3\ph-css-5.0.3.jar;C:\Users\ASUS\.m2\repository\com\helger\ph-commons\8.6.0\ph-commons-8.6.0.jar;C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\ASUS\.m2\repository\com\fifesoft\rsyntaxtextarea\2.6.1\rsyntaxtextarea-2.6.1.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-ext\1.7.25\slf4j-ext-1.7.25.jar;C:\Users\ASUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-1.2-api\2.8.1\log4j-1.2-api-2.8.1.jar;C:\Users\ASUS\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ASUS\.m2\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;C:\Users\ASUS\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\ASUS\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\ASUS\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\ASUS\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\ASUS\.m2\repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\ASUS\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ASUS"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire8284836847438705787\surefirebooter4592135242466986074.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire7619445194643432164\surefirebooter5614451803497543161.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ASUS\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Java\jdk1.8.0_202\bi;C:\Program Files\Java\jdk1.8.0_202\jre\bin;.;C:\Users\ASUS\Downloads\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\ASUS\Downloads\apache-jmeter-5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\ASUS\Downloads\android-sdk-windows\tools;C:\Users\ASUS\Downloads\android-sdk-windows\platform-tools;C:\Program Files\nodejs;C:\Users\ASUS\Downloads\android-sdk-windows\build-tools\29.0.2;C:\Users\ASUS\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\ASUS\AppData\Local\Programs\Python\Python38;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;C:\Users\ASUS\AppData\Local\Programs\Fiddler;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\plugins\maven\lib\maven3\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\DataGrip 2019.2.6\bin;C:\Program Files\JetBrains\PyCharm 2019.3.1\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;C:\Users\ASUS\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ASUS\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Java\jdk1.8.0_202\bi;C:\Program Files\Java\jdk1.8.0_202\jre\bin;.;C:\Users\ASUS\Downloads\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\ASUS\Downloads\apache-jmeter-5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\ASUS\Downloads\android-sdk-windows\tools;C:\Users\ASUS\Downloads\android-sdk-windows\platform-tools;C:\Program Files\nodejs;C:\Users\ASUS\Downloads\android-sdk-windows\build-tools\29.0.2;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Users\ASUS\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\ASUS\AppData\Local\Programs\Python\Python38;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;C:\Users\ASUS\AppData\Local\Programs\Fiddler;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\plugins\maven\lib\maven3\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\DataGrip 2019.2.6\bin;C:\Program Files\JetBrains\PyCharm 2019.2.4\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;C:\Users\ASUS\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.1\bin;C:\Program Files\JetBrains\WebStorm 2019.3.1\bin;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.202-b08"/>
@@ -60,201 +60,98 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="loginTrue" classname="com.toutiao.cases.toutiaocase.LoginTest" time="1.537"/>
-  <testcase name="loginFalse" classname="com.toutiao.cases.toutiaocase.LoginTest" time="0.558"/>
-  <testcase name="gcList" classname="com.toutiao.cases.luntancase.GcListTest" time="0.898"/>
-  <testcase name="expList" classname="com.toutiao.cases.luntancase.ExpListTest" time="0.8"/>
-  <testcase name="bbsLook" classname="com.toutiao.cases.luntancase.BbsLookTest" time="1.228"/>
-  <testcase name="replyTest" classname="com.toutiao.cases.luntancase.ReplyTest" time="1.249"/>
-  <testcase name="getSearch" classname="com.toutiao.cases.luntancase.SearchTest" time="0.543"/>
-  <testcase name="getLike" classname="com.toutiao.cases.luntancase.LikeTest" time="0.561">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at com.toutiao.cases.luntancase.LikeTest.getLike(LikeTest.java:33)
-</failure>
-    <system-out><![CDATA[16:16:56.747 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model
-16:16:56.747 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model
-16:16:56.748 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: InterfaneName.class
-16:16:56.749 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: luntanmd
-16:16:56.749 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: toutiaomd
-16:16:56.749 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model
-16:16:56.749 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/InterfaneName.class
-16:16:56.749 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/InterfaneName.class
-16:16:56.750 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;?	&amp#0;&amp#4;&amp#0;o
-16:16:56.750 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd
-16:16:56.750 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd
-16:16:56.751 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BbsLookCase.class
-16:16:56.752 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ExpertHomeCase.class
-16:16:56.752 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ExpListCase.class
-16:16:56.752 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: FavoriCase.class
-16:16:56.753 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GcListCase.class
-16:16:56.753 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GetPreCase.class
-16:16:56.753 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GetPubCase.class
-16:16:56.754 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: LikeCase.class
-16:16:56.754 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: MyFavorCase.class
-16:16:56.754 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: MyItemCase.class
-16:16:56.755 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ReplyCase.class
-16:16:56.755 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: SearchCase.class
-16:16:56.756 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: UserCenterCase.class
-16:16:56.756 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd
-16:16:56.756 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/BbsLookCase.class
-16:16:56.756 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/BbsLookCase.class
-16:16:56.757 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;L
-16:16:56.757 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpertHomeCase.class
-16:16:56.757 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpertHomeCase.class
-16:16:56.758 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;X
-16:16:56.758 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpListCase.class
-16:16:56.758 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ExpListCase.class
-16:16:56.759 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;d
-16:16:56.759 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/FavoriCase.class
-16:16:56.759 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/FavoriCase.class
-16:16:56.759 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;X
-16:16:56.760 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GcListCase.class
-16:16:56.760 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GcListCase.class
-16:16:56.760 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;L
-16:16:56.761 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPreCase.class
-16:16:56.761 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPreCase.class
-16:16:56.761 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;%
-16:16:56.762 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPubCase.class
-16:16:56.762 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/GetPubCase.class
-16:16:56.762 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;%
-16:16:56.763 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/LikeCase.class
-16:16:56.763 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/LikeCase.class
-16:16:56.763 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;X
-16:16:56.764 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyFavorCase.class
-16:16:56.764 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyFavorCase.class
-16:16:56.765 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;*
-16:16:56.765 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyItemCase.class
-16:16:56.765 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/MyItemCase.class
-16:16:56.765 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;,
-16:16:56.766 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ReplyCase.class
-16:16:56.766 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/ReplyCase.class
-16:16:56.766 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;d
-16:16:56.767 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/SearchCase.class
-16:16:56.767 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/SearchCase.class
-16:16:56.767 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;L
-16:16:56.767 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/UserCenterCase.class
-16:16:56.768 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/luntanmd/UserCenterCase.class
-16:16:56.768 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;%
-16:16:56.768 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd
-16:16:56.768 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd
-16:16:56.769 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GsListCase.class
-16:16:56.769 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: LoginCase.class
-16:16:56.770 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ShareCase.class
-16:16:56.770 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: TjCase.class
-16:16:56.770 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd
-16:16:56.771 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/GsListCase.class
-16:16:56.771 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/GsListCase.class
-16:16:56.771 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;|
-16:16:56.772 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/LoginCase.class
-16:16:56.772 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/LoginCase.class
-16:16:56.772 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;|
-16:16:56.772 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/ShareCase.class
-16:16:56.773 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/ShareCase.class
-16:16:56.773 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;/
-16:16:56.773 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/TjCase.class
-16:16:56.773 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/ASUS/IdeaProjects/daineTest/autotest/target/classes/com/toutiao/model/toutiaomd/TjCase.class
-16:16:56.774 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ????&amp#0;&amp#0;&amp#0;4&amp#0;d
-16:16:56.774 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.InterfaneName matches criteria [is assignable to Object]
-16:16:56.774 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.BbsLookCase matches criteria [is assignable to Object]
-16:16:56.774 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.ExpertHomeCase matches criteria [is assignable to Object]
-16:16:56.775 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.ExpListCase matches criteria [is assignable to Object]
-16:16:56.775 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.FavoriCase matches criteria [is assignable to Object]
-16:16:56.775 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.GcListCase matches criteria [is assignable to Object]
-16:16:56.775 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.GetPreCase matches criteria [is assignable to Object]
-16:16:56.775 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.GetPubCase matches criteria [is assignable to Object]
-16:16:56.775 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.LikeCase matches criteria [is assignable to Object]
-16:16:56.775 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.MyFavorCase matches criteria [is assignable to Object]
-16:16:56.775 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.MyItemCase matches criteria [is assignable to Object]
-16:16:56.776 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.ReplyCase matches criteria [is assignable to Object]
-16:16:56.776 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.SearchCase matches criteria [is assignable to Object]
-16:16:56.776 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.luntanmd.UserCenterCase matches criteria [is assignable to Object]
-16:16:56.776 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.GsListCase matches criteria [is assignable to Object]
-16:16:56.776 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.LoginCase matches criteria [is assignable to Object]
-16:16:56.776 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.ShareCase matches criteria [is assignable to Object]
-16:16:56.776 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.toutiao.model.toutiaomd.TjCase matches criteria [is assignable to Object]
-16:16:56.783 [Finalizer] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:16:56.784 [Finalizer] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:16:56.785 [Finalizer] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:16:56.785 [Finalizer] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:16:56.789 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:16:56.790 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:16:56.790 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:16:56.790 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
-16:16:56.830 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
-16:16:56.835 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1991290395.
-16:16:56.835 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@76b0ae1b]
-16:16:56.836 [main] DEBUG com.toutiao.model.likeCase - ==>  Preparing: select * from LikeCase where number_id=?; 
-16:16:56.836 [main] DEBUG com.toutiao.model.likeCase - ==> Parameters: 1(Integer)
-16:16:56.837 [main] DEBUG com.toutiao.model.likeCase - <==      Total: 1
-http://api.bbs.353386.com/?C=bbs&A=like&device=ios&device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&version=2.3.2&key=c3e46dd78b812ab491c16abec75bfd59&user_id=16266
-16:16:56.837 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://api.bbs.353386.com]
-16:16:56.837 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
-16:16:56.840 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
-16:16:56.840 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-16:16:56.840 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-16:16:56.840 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /?C=bbs&A=like&device=ios&device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&version=2.3.2&key=c3e46dd78b812ab491c16abec75bfd59&user_id=16266 HTTP/1.1
-16:16:56.840 [main] DEBUG org.apache.http.wire - >> "POST /?C=bbs&A=like&device=ios&device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&version=2.3.2&key=c3e46dd78b812ab491c16abec75bfd59&user_id=16266 HTTP/1.1[\r][\n]"
-16:16:56.841 [main] DEBUG org.apache.http.wire - >> "Content-Length: 8[\r][\n]"
-16:16:56.841 [main] DEBUG org.apache.http.wire - >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
-16:16:56.841 [main] DEBUG org.apache.http.wire - >> "Host: api.bbs.353386.com[\r][\n]"
-16:16:56.841 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
-16:16:56.841 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.2 (java 1.5)[\r][\n]"
-16:16:56.841 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
-16:16:56.842 [main] DEBUG org.apache.http.headers - >> POST /?C=bbs&A=like&device=ios&device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&version=2.3.2&key=c3e46dd78b812ab491c16abec75bfd59&user_id=16266 HTTP/1.1
-16:16:56.842 [main] DEBUG org.apache.http.headers - >> Content-Length: 8
-16:16:56.842 [main] DEBUG org.apache.http.headers - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
-16:16:56.842 [main] DEBUG org.apache.http.headers - >> Host: api.bbs.353386.com
-16:16:56.842 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-16:16:56.842 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.2 (java 1.5)
-16:16:56.842 [main] DEBUG org.apache.http.wire - >> "id=43203"
-16:16:56.875 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
-16:16:56.876 [main] DEBUG org.apache.http.wire - << "Server: nginx[\r][\n]"
-16:16:56.876 [main] DEBUG org.apache.http.wire - << "Date: Sat, 04 Jan 2020 08:16:58 GMT[\r][\n]"
-16:16:56.876 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
-16:16:56.876 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
-16:16:56.876 [main] DEBUG org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
-16:16:56.876 [main] DEBUG org.apache.http.wire - << "Vary: Accept-Encoding[\r][\n]"
-16:16:56.876 [main] DEBUG org.apache.http.wire - << "X-Powered-By: PHP/7.0.33[\r][\n]"
-16:16:56.876 [main] DEBUG org.apache.http.wire - << "Access-Control-Allow-Origin: *[\r][\n]"
-16:16:56.876 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
-16:16:56.876 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-16:16:56.876 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
-16:16:56.876 [main] DEBUG org.apache.http.headers - << Server: nginx
-16:16:56.877 [main] DEBUG org.apache.http.headers - << Date: Sat, 04 Jan 2020 08:16:58 GMT
-16:16:56.877 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=UTF-8
-16:16:56.877 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
-16:16:56.877 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
-16:16:56.877 [main] DEBUG org.apache.http.headers - << Vary: Accept-Encoding
-16:16:56.877 [main] DEBUG org.apache.http.headers - << X-Powered-By: PHP/7.0.33
-16:16:56.877 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
-16:16:56.878 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-16:16:56.878 [main] DEBUG org.apache.http.wire - << "2d[\r][\n]"
-16:16:56.878 [main] DEBUG org.apache.http.wire - << "{"status":0,"msg":"\u975e\u6cd5\u64cd\u4f5c"}"
-16:16:56.878 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
-16:16:56.878 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
-16:16:56.878 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
-16:16:56.879 [main] DEBUG org.apache.http.impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@2237bada
-16:16:56.879 [main] INFO  com.toutiao.cases.luntancase.LikeTest - 实际结果：{"status":0,"msg":"\u975e\u6cd5\u64cd\u4f5c"}
+  <testcase name="loginTrue" classname="com.toutiao.cases.toutiaocase.LoginTest" time="1.341">
+    <failure message="syntax error, pos 1, json : &lt;br /&gt;&#10;&lt;b&gt;Warning&lt;/b&gt;:  Invalid callback parent::err_handle, cannot access parent:: when current class scope has no parent in &lt;b&gt;/www/wwwroot/api/api.toutiao.lhtt.co/application/library/Passports.php&lt;/b&gt; on line &lt;b&gt;62&lt;/b&gt;&lt;br /&gt;&#10;{&quot;status&quot;:1,&quot;result&quot;:{&quot;Id&quot;:&quot;16266&quot;,&quot;Safety&quot;:&quot;64c5b4532eb3a1c3199ec97c954405a6&quot;,&quot;Password&quot;:&quot;$2y$10$ksY71AFU2LBpzKawwgo7dOvkbiYEfXE0jCBTFsOVZm56QddkWZzaW&quot;,&quot;Face&quot;:&quot;https:\/\/upload.cc\/i1\/2019\/08\/09\/Dc6KWB.jpeg&quot;,&quot;Uid&quot;:&quot;LT016266&quot;,&quot;Status&quot;:&quot;1&quot;,&quot;Remark&quot;:&quot;&quot;,&quot;Nickname&quot;:&quot;\u6c11\u5fc3\u6240\u5411&quot;,&quot;Level&quot;:&quot;0&quot;}}" type="com.alibaba.fastjson.JSONException"><![CDATA[com.alibaba.fastjson.JSONException: 
+syntax error, pos 1, json : <br />
+<b>Warning</b>:  Invalid callback parent::err_handle, cannot access parent:: when current class scope has no parent in <b>/www/wwwroot/api/api.toutiao.lhtt.co/application/library/Passports.php</b> on line <b>62</b><br />
+{"status":1,"result":{"Id":"16266","Safety":"64c5b4532eb3a1c3199ec97c954405a6","Password":"$2y$10$ksY71AFU2LBpzKawwgo7dOvkbiYEfXE0jCBTFsOVZm56QddkWZzaW","Face":"https:\/\/upload.cc\/i1\/2019\/08\/09\/Dc6KWB.jpeg","Uid":"LT016266","Status":"1","Remark":"","Nickname":"\u6c11\u5fc3\u6240\u5411","Level":"0"}}
+	at com.toutiao.cases.toutiaocase.LoginTest.loginTrue(LoginTest.java:64)
+]]></failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+http://api.toutiao.353386.com/?C=passport&A=login&device=ios&device_Id=C9E5FEE0-2E0D-4D33-8522-9BD38A282221&version=2.3.2
+15:34:16.341 [main] INFO  com.toutiao.cases.toutiaocase.LoginTest - 响应结果类型：class java.lang.String
+15:34:16.345 [main] INFO  com.toutiao.cases.toutiaocase.LoginTest - 实际结果:<br />
+<b>Warning</b>:  Invalid callback parent::err_handle, cannot access parent:: when current class scope has no parent in <b>/www/wwwroot/api/api.toutiao.lhtt.co/application/library/Passports.php</b> on line <b>62</b><br />
+{"status":1,"result":{"Id":"16266","Safety":"64c5b4532eb3a1c3199ec97c954405a6","Password":"$2y$10$ksY71AFU2LBpzKawwgo7dOvkbiYEfXE0jCBTFsOVZm56QddkWZzaW","Face":"https:\/\/upload.cc\/i1\/2019\/08\/09\/Dc6KWB.jpeg","Uid":"LT016266","Status":"1","Remark":"","Nickname":"\u6c11\u5fc3\u6240\u5411","Level":"0"}}
 ]]></system-out>
   </testcase>
-  <testcase name="getLike2" classname="com.toutiao.cases.luntancase.LikeTest" time="0.597"/>
-  <testcase name="getFavori" classname="com.toutiao.cases.luntancase.FavoriTest" time="0.128"/>
-  <testcase name="getFavori2" classname="com.toutiao.cases.luntancase.FavoriTest" time="0.132"/>
-  <testcase name="getExpertHome1" classname="com.toutiao.cases.luntancase.ExpertHomeTest" time="0.131"/>
-  <testcase name="getExpertHome2" classname="com.toutiao.cases.luntancase.ExpertHomeTest" time="0.116"/>
-  <testcase name="getExpertHome3" classname="com.toutiao.cases.luntancase.ExpertHomeTest" time="0.126"/>
-  <testcase name="getTj" classname="com.toutiao.cases.toutiaocase.TjTest" time="0.536"/>
-  <testcase name="getTj2" classname="com.toutiao.cases.toutiaocase.TjTest" time="0.445"/>
-  <testcase name="getTj3" classname="com.toutiao.cases.toutiaocase.TjTest" time="0.523"/>
-  <testcase name="getTj4" classname="com.toutiao.cases.toutiaocase.TjTest" time="0.116"/>
-  <testcase name="getGsList" classname="com.toutiao.cases.toutiaocase.GsListTest" time="0.123"/>
-  <testcase name="getGsList2" classname="com.toutiao.cases.toutiaocase.GsListTest" time="0.123"/>
-  <testcase name="getShare" classname="com.toutiao.cases.toutiaocase.ShareTest" time="0.112"/>
-  <testcase name="getShare2" classname="com.toutiao.cases.toutiaocase.ShareTest" time="0.107"/>
-  <testcase name="getShare3" classname="com.toutiao.cases.toutiaocase.ShareTest" time="0.107"/>
-  <testcase name="getPub" classname="com.toutiao.cases.luntancase.GetPubTest" time="0.023"/>
-  <testcase name="getPre" classname="com.toutiao.cases.luntancase.GetPreTest" time="0.575"/>
-  <testcase name="getUserCenter" classname="com.toutiao.cases.luntancase.UserCenterTest" time="0.116"/>
-  <testcase name="getMyItem" classname="com.toutiao.cases.luntancase.MyItemTest" time="0.504"/>
-  <testcase name="getMyFavor" classname="com.toutiao.cases.luntancase.MyFavorTest" time="0.22"/>
+  <testcase name="loginFalse" classname="com.toutiao.cases.toutiaocase.LoginTest" time="0.109"/>
+  <testcase name="gcList" classname="com.toutiao.cases.luntancase.GcListTest" time="0">
+    <skipped message="Method GcListTest.gcList()[pri:0, instance:com.toutiao.cases.luntancase.GcListTest@25bfcafd] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="expList" classname="com.toutiao.cases.luntancase.ExpListTest" time="0">
+    <skipped message="Method ExpListTest.expList()[pri:0, instance:com.toutiao.cases.luntancase.ExpListTest@46268f08] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="bbsLook" classname="com.toutiao.cases.luntancase.BbsLookTest" time="0">
+    <skipped message="Method BbsLookTest.bbsLook()[pri:0, instance:com.toutiao.cases.luntancase.BbsLookTest@2a76840c] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="replyTest" classname="com.toutiao.cases.luntancase.ReplyTest" time="0">
+    <skipped message="Method ReplyTest.replyTest()[pri:0, instance:com.toutiao.cases.luntancase.ReplyTest@71454b9d] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getSearch" classname="com.toutiao.cases.luntancase.SearchTest" time="0">
+    <skipped message="Method SearchTest.getSearch()[pri:0, instance:com.toutiao.cases.luntancase.SearchTest@eda25e5] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getLike" classname="com.toutiao.cases.luntancase.LikeTest" time="0">
+    <skipped message="Method LikeTest.getLike()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getLike2" classname="com.toutiao.cases.luntancase.LikeTest" time="0">
+    <skipped message="Method LikeTest.getLike2()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getFavori" classname="com.toutiao.cases.luntancase.FavoriTest" time="0">
+    <skipped message="Method FavoriTest.getFavori(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getFavori2" classname="com.toutiao.cases.luntancase.FavoriTest" time="0">
+    <skipped message="Method FavoriTest.getFavori2(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getExpertHome1" classname="com.toutiao.cases.luntancase.ExpertHomeTest" time="0">
+    <skipped message="Method ExpertHomeTest.getExpertHome1(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getExpertHome2" classname="com.toutiao.cases.luntancase.ExpertHomeTest" time="0">
+    <skipped message="Method ExpertHomeTest.getExpertHome2(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getExpertHome3" classname="com.toutiao.cases.luntancase.ExpertHomeTest" time="0">
+    <skipped message="Method ExpertHomeTest.getExpertHome3(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getTj" classname="com.toutiao.cases.toutiaocase.TjTest" time="0">
+    <skipped message="Method TjTest.getTj(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getTj2" classname="com.toutiao.cases.toutiaocase.TjTest" time="0">
+    <skipped message="Method TjTest.getTj2(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getTj3" classname="com.toutiao.cases.toutiaocase.TjTest" time="0">
+    <skipped message="Method TjTest.getTj3(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getTj4" classname="com.toutiao.cases.toutiaocase.TjTest" time="0">
+    <skipped message="Method TjTest.getTj4(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getGsList" classname="com.toutiao.cases.toutiaocase.GsListTest" time="0">
+    <skipped message="Method GsListTest.getGsList(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getGsList2" classname="com.toutiao.cases.toutiaocase.GsListTest" time="0">
+    <skipped message="Method GsListTest.getGsList2(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getShare" classname="com.toutiao.cases.toutiaocase.ShareTest" time="0">
+    <skipped message="Method ShareTest.getShare(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getShare2" classname="com.toutiao.cases.toutiaocase.ShareTest" time="0">
+    <skipped message="Method ShareTest.getShare2(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getShare3" classname="com.toutiao.cases.toutiaocase.ShareTest" time="0">
+    <skipped message="Method ShareTest.getShare3(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getPub" classname="com.toutiao.cases.luntancase.GetPubTest" time="0">
+    <skipped message="Method GetPubTest.getPub(com.toutiao.model.luntanmd.GetPubCase)[pri:0, instance:com.toutiao.cases.luntancase.GetPubTest@6179e425] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getPre" classname="com.toutiao.cases.luntancase.GetPreTest" time="0">
+    <skipped message="Method GetPreTest.getPre()[pri:0, instance:com.toutiao.cases.luntancase.GetPreTest@35f26e72] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getUserCenter" classname="com.toutiao.cases.luntancase.UserCenterTest" time="0">
+    <skipped message="Method UserCenterTest.getUserCenter(com.toutiao.model.luntanmd.UserCenterCase)[pri:0, instance:com.toutiao.cases.luntancase.UserCenterTest@2d6764b2] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getMyItem" classname="com.toutiao.cases.luntancase.MyItemTest" time="0">
+    <skipped message="Method MyItemTest.getMyItem()[pri:0, instance:com.toutiao.cases.luntancase.MyItemTest@67304a40] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
+  <testcase name="getMyFavor" classname="com.toutiao.cases.luntancase.MyFavorTest" time="0">
+    <skipped message="Method MyFavorTest.getMyFavor(com.toutiao.model.luntanmd.MyFavorCase)[pri:0, instance:com.toutiao.cases.luntancase.MyFavorTest@49c6c24f] depends on not successfully finished methods in group &quot;loginTrue&quot;"/>
+  </testcase>
 </testsuite>

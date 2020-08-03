@@ -1,103 +1,766 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="28" passed="27">
+<testng-results skipped="26" failed="1" ignored="0" total="28" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="头条接口管理" duration-ms="7920" started-at="2020-01-04T08:16:51Z" finished-at="2020-01-04T08:16:59Z">
+  <suite name="头条接口管理" duration-ms="1475" started-at="2020-03-03T07:34:15Z" finished-at="2020-03-03T07:34:16Z">
     <groups>
       <group name="loginTrue">
-        <method signature="LoginTest.loginTrue()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@74c79fa2]" name="loginTrue" class="com.toutiao.cases.toutiaocase.LoginTest"/>
+        <method signature="LoginTest.loginTrue()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@7203c7ff]" name="loginTrue" class="com.toutiao.cases.toutiaocase.LoginTest"/>
       </group> <!-- loginTrue -->
       <group name="loginFalse">
-        <method signature="LoginTest.loginFalse()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@74c79fa2]" name="loginFalse" class="com.toutiao.cases.toutiaocase.LoginTest"/>
+        <method signature="LoginTest.loginFalse()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@7203c7ff]" name="loginFalse" class="com.toutiao.cases.toutiaocase.LoginTest"/>
       </group> <!-- loginFalse -->
     </groups>
-    <test name="论坛接口" duration-ms="7920" started-at="2020-01-04T08:16:51Z" finished-at="2020-01-04T08:16:59Z">
+    <test name="论坛接口" duration-ms="1475" started-at="2020-03-03T07:34:15Z" finished-at="2020-03-03T07:34:16Z">
       <class name="com.toutiao.cases.luntancase.MyFavorTest">
-        <test-method name="getMyFavor" signature="getMyFavor(com.toutiao.model.luntanmd.MyFavorCase)[pri:0, instance:com.toutiao.cases.luntancase.MyFavorTest@68be8808]" depends-on-groups="loginTrue" status="PASS" duration-ms="49" finished-at="2020-01-04T16:16:59Z" started-at="2020-01-04T16:16:59Z" data-provider="getMyFavorData" description="论坛/我的收藏">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.toutiao.model.luntanmd.MyFavorCase@71dfcf21]]>
-              </value>
-            </param>
-          </params>
+        <test-method name="getMyFavor" signature="getMyFavor(com.toutiao.model.luntanmd.MyFavorCase)[pri:0, instance:com.toutiao.cases.luntancase.MyFavorTest@49c6c24f]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getMyFavorData" description="论坛/我的收藏">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method MyFavorTest.getMyFavor(com.toutiao.model.luntanmd.MyFavorCase)[pri:0, instance:com.toutiao.cases.luntancase.MyFavorTest@49c6c24f] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method MyFavorTest.getMyFavor(com.toutiao.model.luntanmd.MyFavorCase)[pri:0, instance:com.toutiao.cases.luntancase.MyFavorTest@49c6c24f] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMyFavor -->
       </class> <!-- com.toutiao.cases.luntancase.MyFavorTest -->
       <class name="com.toutiao.cases.luntancase.ExpertHomeTest">
-        <test-method name="getExpertHome1" signature="getExpertHome1(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@1199fe66]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getExpertHomeData" description="专家详情页/正确">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ExpertHomeCase(id=1, user_id=16266, member_id=8454)]]>
-              </value>
-            </param>
-          </params>
+        <test-method name="getExpertHome1" signature="getExpertHome1(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getExpertHomeData" description="专家详情页/正确">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ExpertHomeTest.getExpertHome1(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ExpertHomeTest.getExpertHome1(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getExpertHome1 -->
-        <test-method name="getExpertHome2" signature="getExpertHome2(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@1199fe66]" depends-on-groups="loginTrue" status="PASS" duration-ms="37" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getExpertHomeData" description="专家详情页/错误的member_id">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ExpertHomeCase(id=2, user_id=16266, member_id=)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getExpertHome2 -->
-        <test-method name="getExpertHome3" signature="getExpertHome3(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@1199fe66]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getExpertHomeData" description="专家详情页/非法的user_id">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ExpertHomeCase(id=3, user_id=, member_id=8454)]]>
-              </value>
-            </param>
-          </params>
+        <test-method name="getExpertHome3" signature="getExpertHome3(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getExpertHomeData" description="专家详情页/非法的user_id">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ExpertHomeTest.getExpertHome3(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ExpertHomeTest.getExpertHome3(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getExpertHome3 -->
+        <test-method name="getExpertHome2" signature="getExpertHome2(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getExpertHomeData" description="专家详情页/错误的member_id">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ExpertHomeTest.getExpertHome2(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ExpertHomeTest.getExpertHome2(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExpertHome2 -->
       </class> <!-- com.toutiao.cases.luntancase.ExpertHomeTest -->
       <class name="com.toutiao.cases.luntancase.GetPubTest">
-        <test-method name="getPub" signature="getPub(com.toutiao.model.luntanmd.GetPubCase)[pri:0, instance:com.toutiao.cases.luntancase.GetPubTest@73a2e526]" depends-on-groups="loginTrue" status="PASS" duration-ms="126" finished-at="2020-01-04T16:16:59Z" started-at="2020-01-04T16:16:59Z" data-provider="getPubData" description="论坛/发图文">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.toutiao.model.luntanmd.GetPubCase@b965857]]>
-              </value>
-            </param>
-          </params>
+        <test-method name="getPub" signature="getPub(com.toutiao.model.luntanmd.GetPubCase)[pri:0, instance:com.toutiao.cases.luntancase.GetPubTest@6179e425]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getPubData" description="论坛/发图文">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method GetPubTest.getPub(com.toutiao.model.luntanmd.GetPubCase)[pri:0, instance:com.toutiao.cases.luntancase.GetPubTest@6179e425] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method GetPubTest.getPub(com.toutiao.model.luntanmd.GetPubCase)[pri:0, instance:com.toutiao.cases.luntancase.GetPubTest@6179e425] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPub -->
       </class> <!-- com.toutiao.cases.luntancase.GetPubTest -->
-      <class name="com.toutiao.cases.luntancase.GcListTest">
-        <test-method status="PASS" signature="gcList()[pri:0, instance:com.toutiao.cases.luntancase.GcListTest@1e0f9063]" name="gcList" duration-ms="546" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:53Z" description="心水论坛/广场列表" finished-at="2020-01-04T16:16:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gcList -->
-      </class> <!-- com.toutiao.cases.luntancase.GcListTest -->
       <class name="com.toutiao.cases.luntancase.ExpListTest">
-        <test-method status="PASS" signature="expList()[pri:0, instance:com.toutiao.cases.luntancase.ExpListTest@7642df8f]" name="expList" duration-ms="331" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:54Z" description="预测贴列表" finished-at="2020-01-04T16:16:54Z">
+        <test-method status="SKIP" signature="expList()[pri:0, instance:com.toutiao.cases.luntancase.ExpListTest@46268f08]" name="expList" duration-ms="0" depends-on-groups="loginTrue" started-at="2020-03-03T15:34:16Z" description="预测贴列表" finished-at="2020-03-03T15:34:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ExpListTest.expList()[pri:0, instance:com.toutiao.cases.luntancase.ExpListTest@46268f08] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ExpListTest.expList()[pri:0, instance:com.toutiao.cases.luntancase.ExpListTest@46268f08] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- expList -->
       </class> <!-- com.toutiao.cases.luntancase.ExpListTest -->
-      <class name="com.toutiao.cases.luntancase.LikeTest">
-        <test-method status="FAIL" signature="getLike()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@37c7595]" name="getLike" duration-ms="144" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:56Z" description="论坛/点赞" finished-at="2020-01-04T16:16:56Z">
-          <exception class="java.lang.AssertionError">
+      <class name="com.toutiao.cases.luntancase.GcListTest">
+        <test-method status="SKIP" signature="gcList()[pri:0, instance:com.toutiao.cases.luntancase.GcListTest@25bfcafd]" name="gcList" duration-ms="0" depends-on-groups="loginTrue" started-at="2020-03-03T15:34:16Z" description="心水论坛/广场列表" finished-at="2020-03-03T15:34:16Z">
+          <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Method GcListTest.gcList()[pri:0, instance:com.toutiao.cases.luntancase.GcListTest@25bfcafd] depends on not successfully finished methods in group "loginTrue"]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.toutiao.cases.luntancase.LikeTest.getLike(LikeTest.java:33)
+              <![CDATA[java.lang.Throwable: Method GcListTest.gcList()[pri:0, instance:com.toutiao.cases.luntancase.GcListTest@25bfcafd] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gcList -->
+      </class> <!-- com.toutiao.cases.luntancase.GcListTest -->
+      <class name="com.toutiao.cases.luntancase.LikeTest">
+        <test-method status="SKIP" signature="getLike()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9]" name="getLike" duration-ms="0" depends-on-groups="loginTrue" started-at="2020-03-03T15:34:16Z" description="论坛/点赞" finished-at="2020-03-03T15:34:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LikeTest.getLike()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LikeTest.getLike()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLike -->
+        <test-method status="SKIP" signature="getLike2()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9]" name="getLike2" duration-ms="0" depends-on-groups="loginTrue" started-at="2020-03-03T15:34:16Z" description="点赞/错误的id" finished-at="2020-03-03T15:34:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LikeTest.getLike2()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LikeTest.getLike2()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLike2 -->
+      </class> <!-- com.toutiao.cases.luntancase.LikeTest -->
+      <class name="com.toutiao.cases.toutiaocase.GsListTest">
+        <test-method name="getGsList2" signature="getGsList2(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getGsListData2" description="高手榜/错误的period">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method GsListTest.getGsList2(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method GsListTest.getGsList2(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGsList2 -->
+        <test-method name="getGsList" signature="getGsList(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getGsListData" description="头条/高手榜列表">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method GsListTest.getGsList(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method GsListTest.getGsList(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGsList -->
+      </class> <!-- com.toutiao.cases.toutiaocase.GsListTest -->
+      <class name="com.toutiao.cases.luntancase.MyItemTest">
+        <test-method status="SKIP" signature="getMyItem()[pri:0, instance:com.toutiao.cases.luntancase.MyItemTest@67304a40]" name="getMyItem" duration-ms="0" depends-on-groups="loginTrue" started-at="2020-03-03T15:34:16Z" description="论坛/我的帖子" finished-at="2020-03-03T15:34:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method MyItemTest.getMyItem()[pri:0, instance:com.toutiao.cases.luntancase.MyItemTest@67304a40] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method MyItemTest.getMyItem()[pri:0, instance:com.toutiao.cases.luntancase.MyItemTest@67304a40] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMyItem -->
+      </class> <!-- com.toutiao.cases.luntancase.MyItemTest -->
+      <class name="com.toutiao.cases.luntancase.SearchTest">
+        <test-method status="SKIP" signature="getSearch()[pri:0, instance:com.toutiao.cases.luntancase.SearchTest@eda25e5]" name="getSearch" duration-ms="0" depends-on-groups="loginTrue" started-at="2020-03-03T15:34:16Z" description="论坛/搜索" finished-at="2020-03-03T15:34:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SearchTest.getSearch()[pri:0, instance:com.toutiao.cases.luntancase.SearchTest@eda25e5] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SearchTest.getSearch()[pri:0, instance:com.toutiao.cases.luntancase.SearchTest@eda25e5] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearch -->
+      </class> <!-- com.toutiao.cases.luntancase.SearchTest -->
+      <class name="com.toutiao.cases.toutiaocase.ShareTest">
+        <test-method name="getShare" signature="getShare(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getShareTestData" description="头条/分享">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ShareTest.getShare(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ShareTest.getShare(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShare -->
+        <test-method name="getShare3" signature="getShare3(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getShareTestData" description="分享/错误的id">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ShareTest.getShare3(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ShareTest.getShare3(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShare3 -->
+        <test-method name="getShare2" signature="getShare2(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getShareTestData" description="分享/错误的user_id">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ShareTest.getShare2(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ShareTest.getShare2(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShare2 -->
+      </class> <!-- com.toutiao.cases.toutiaocase.ShareTest -->
+      <class name="com.toutiao.cases.luntancase.BbsLookTest">
+        <test-method status="SKIP" signature="bbsLook()[pri:0, instance:com.toutiao.cases.luntancase.BbsLookTest@2a76840c]" name="bbsLook" duration-ms="0" depends-on-groups="loginTrue" started-at="2020-03-03T15:34:16Z" description="关注列表" finished-at="2020-03-03T15:34:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method BbsLookTest.bbsLook()[pri:0, instance:com.toutiao.cases.luntancase.BbsLookTest@2a76840c] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method BbsLookTest.bbsLook()[pri:0, instance:com.toutiao.cases.luntancase.BbsLookTest@2a76840c] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bbsLook -->
+      </class> <!-- com.toutiao.cases.luntancase.BbsLookTest -->
+      <class name="com.toutiao.cases.luntancase.UserCenterTest">
+        <test-method name="getUserCenter" signature="getUserCenter(com.toutiao.model.luntanmd.UserCenterCase)[pri:0, instance:com.toutiao.cases.luntancase.UserCenterTest@2d6764b2]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getUserTest" description="论坛/个人中心">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method UserCenterTest.getUserCenter(com.toutiao.model.luntanmd.UserCenterCase)[pri:0, instance:com.toutiao.cases.luntancase.UserCenterTest@2d6764b2] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method UserCenterTest.getUserCenter(com.toutiao.model.luntanmd.UserCenterCase)[pri:0, instance:com.toutiao.cases.luntancase.UserCenterTest@2d6764b2] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserCenter -->
+      </class> <!-- com.toutiao.cases.luntancase.UserCenterTest -->
+      <class name="com.toutiao.cases.luntancase.FavoriTest">
+        <test-method name="getFavori2" signature="getFavori2(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getData2" description="收藏/错误的id">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FavoriTest.getFavori2(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FavoriTest.getFavori2(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFavori2 -->
+        <test-method name="getFavori" signature="getFavori(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getData" description="论坛/收藏">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method FavoriTest.getFavori(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method FavoriTest.getFavori(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFavori -->
+      </class> <!-- com.toutiao.cases.luntancase.FavoriTest -->
+      <class name="com.toutiao.cases.toutiaocase.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@7203c7ff]" name="beforeTest" is-config="true" duration-ms="18" started-at="2020-03-03T15:34:15Z" description="测试之前的准备工作" finished-at="2020-03-03T15:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="loginTrue()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@7203c7ff]" name="loginTrue" duration-ms="1335" started-at="2020-03-03T15:34:15Z" description="用户登陆成功" finished-at="2020-03-03T15:34:16Z">
+          <exception class="com.alibaba.fastjson.JSONException">
+            <message>
+              <![CDATA[syntax error, pos 1, json : <br />
+<b>Warning</b>:  Invalid callback parent::err_handle, cannot access parent:: when current class scope has no parent in <b>/www/wwwroot/api/api.toutiao.lhtt.co/application/library/Passports.php</b> on line <b>62</b><br />
+{"status":1,"result":{"Id":"16266","Safety":"64c5b4532eb3a1c3199ec97c954405a6","Password":"$2y$10$ksY71AFU2LBpzKawwgo7dOvkbiYEfXE0jCBTFsOVZm56QddkWZzaW","Face":"https:\/\/upload.cc\/i1\/2019\/08\/09\/Dc6KWB.jpeg","Uid":"LT016266","Status":"1","Remark":"","Nickname":"\u6c11\u5fc3\u6240\u5411","Level":"0"}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.alibaba.fastjson.JSONException: syntax error, pos 1, json : <br />
+<b>Warning</b>:  Invalid callback parent::err_handle, cannot access parent:: when current class scope has no parent in <b>/www/wwwroot/api/api.toutiao.lhtt.co/application/library/Passports.php</b> on line <b>62</b><br />
+{"status":1,"result":{"Id":"16266","Safety":"64c5b4532eb3a1c3199ec97c954405a6","Password":"$2y$10$ksY71AFU2LBpzKawwgo7dOvkbiYEfXE0jCBTFsOVZm56QddkWZzaW","Face":"https:\/\/upload.cc\/i1\/2019\/08\/09\/Dc6KWB.jpeg","Uid":"LT016266","Status":"1","Remark":"","Nickname":"\u6c11\u5fc3\u6240\u5411","Level":"0"}}
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1436)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1322)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:152)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:162)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:131)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:223)
+	at com.toutiao.cases.toutiaocase.LoginTest.loginTrue(LoginTest.java:64)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -129,197 +792,227 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getLike -->
-        <test-method status="PASS" signature="getLike2()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@37c7595]" name="getLike2" duration-ms="134" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:56Z" description="点赞/错误的id" finished-at="2020-01-04T16:16:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getLike2 -->
-      </class> <!-- com.toutiao.cases.luntancase.LikeTest -->
-      <class name="com.toutiao.cases.toutiaocase.GsListTest">
-        <test-method name="getGsList" signature="getGsList(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@1fdf1c5]" depends-on-groups="loginTrue" status="PASS" duration-ms="49" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getGsListData" description="头条/高手榜列表">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GsListCase(id=1, type=0, period=2019132, user_id=16266, p=1, expResult=1)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getGsList -->
-        <test-method name="getGsList2" signature="getGsList2(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@1fdf1c5]" depends-on-groups="loginTrue" status="PASS" duration-ms="48" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getGsListData2" description="高手榜/错误的period">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GsListCase(id=2, type=0, period=, user_id=16266, p=1, expResult=1)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getGsList2 -->
-      </class> <!-- com.toutiao.cases.toutiaocase.GsListTest -->
-      <class name="com.toutiao.cases.luntancase.MyItemTest">
-        <test-method status="PASS" signature="getMyItem()[pri:0, instance:com.toutiao.cases.luntancase.MyItemTest@cd1d761]" name="getMyItem" duration-ms="136" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:59Z" description="论坛/我的帖子" finished-at="2020-01-04T16:16:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getMyItem -->
-      </class> <!-- com.toutiao.cases.luntancase.MyItemTest -->
-      <class name="com.toutiao.cases.luntancase.SearchTest">
-        <test-method status="PASS" signature="getSearch()[pri:0, instance:com.toutiao.cases.luntancase.SearchTest@63a270c9]" name="getSearch" duration-ms="141" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:56Z" description="论坛/搜索" finished-at="2020-01-04T16:16:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSearch -->
-      </class> <!-- com.toutiao.cases.luntancase.SearchTest -->
-      <class name="com.toutiao.cases.toutiaocase.ShareTest">
-        <test-method name="getShare" signature="getShare(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@2d96543c]" depends-on-groups="loginTrue" status="PASS" duration-ms="42" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getShareTestData" description="头条/分享">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.toutiao.model.toutiaomd.ShareCase@61f80d55]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getShare -->
-        <test-method name="getShare2" signature="getShare2(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@2d96543c]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getShareTestData" description="分享/错误的user_id">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.toutiao.model.toutiaomd.ShareCase@27a7ef08]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getShare2 -->
-        <test-method name="getShare3" signature="getShare3(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@2d96543c]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-04T16:16:59Z" started-at="2020-01-04T16:16:59Z" data-provider="getShareTestData" description="分享/错误的id">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.toutiao.model.toutiaomd.ShareCase@280e8a1a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getShare3 -->
-      </class> <!-- com.toutiao.cases.toutiaocase.ShareTest -->
-      <class name="com.toutiao.cases.luntancase.BbsLookTest">
-        <test-method status="PASS" signature="bbsLook()[pri:0, instance:com.toutiao.cases.luntancase.BbsLookTest@3e30646a]" name="bbsLook" duration-ms="942" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:54Z" description="关注列表" finished-at="2020-01-04T16:16:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bbsLook -->
-      </class> <!-- com.toutiao.cases.luntancase.BbsLookTest -->
-      <class name="com.toutiao.cases.luntancase.UserCenterTest">
-        <test-method name="getUserCenter" signature="getUserCenter(com.toutiao.model.luntanmd.UserCenterCase)[pri:0, instance:com.toutiao.cases.luntancase.UserCenterTest@13f95696]" depends-on-groups="loginTrue" status="PASS" duration-ms="47" finished-at="2020-01-04T16:16:59Z" started-at="2020-01-04T16:16:59Z" data-provider="getUserTest" description="论坛/个人中心">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.toutiao.model.luntanmd.UserCenterCase@11e33bac]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUserCenter -->
-      </class> <!-- com.toutiao.cases.luntancase.UserCenterTest -->
-      <class name="com.toutiao.cases.luntancase.FavoriTest">
-        <test-method name="getFavori" signature="getFavori(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@3ed242a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="48" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getData" description="论坛/收藏">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FavoriCase(id=43272, user_id=16266, number_id=1)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getFavori -->
-        <test-method name="getFavori2" signature="getFavori2(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@3ed242a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="41" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getData2" description="收藏/错误的id">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FavoriCase(id=, user_id=16266, number_id=2)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getFavori2 -->
-      </class> <!-- com.toutiao.cases.luntancase.FavoriTest -->
-      <class name="com.toutiao.cases.toutiaocase.LoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@74c79fa2]" name="beforeTest" is-config="true" duration-ms="16" started-at="2020-01-04T16:16:51Z" description="测试之前的准备工作" finished-at="2020-01-04T16:16:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTrue()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@74c79fa2]" name="loginTrue" duration-ms="1706" started-at="2020-01-04T16:16:51Z" description="用户登陆成功" finished-at="2020-01-04T16:16:53Z">
+          </exception> <!-- com.alibaba.fastjson.JSONException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTrue -->
-        <test-method status="PASS" signature="loginFalse()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@74c79fa2]" name="loginFalse" duration-ms="186" started-at="2020-01-04T16:16:53Z" description="登录失败" finished-at="2020-01-04T16:16:53Z">
+        <test-method status="PASS" signature="loginFalse()[pri:0, instance:com.toutiao.cases.toutiaocase.LoginTest@7203c7ff]" name="loginFalse" duration-ms="106" started-at="2020-03-03T15:34:16Z" description="登录失败" finished-at="2020-03-03T15:34:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFalse -->
       </class> <!-- com.toutiao.cases.toutiaocase.LoginTest -->
       <class name="com.toutiao.cases.luntancase.GetPreTest">
-        <test-method status="PASS" signature="getPre()[pri:0, instance:com.toutiao.cases.luntancase.GetPreTest@7d64e326]" name="getPre" duration-ms="159" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:59Z" description="论坛/发预测贴" finished-at="2020-01-04T16:16:59Z">
+        <test-method status="SKIP" signature="getPre()[pri:0, instance:com.toutiao.cases.luntancase.GetPreTest@35f26e72]" name="getPre" duration-ms="0" depends-on-groups="loginTrue" started-at="2020-03-03T15:34:16Z" description="论坛/发预测贴" finished-at="2020-03-03T15:34:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method GetPreTest.getPre()[pri:0, instance:com.toutiao.cases.luntancase.GetPreTest@35f26e72] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method GetPreTest.getPre()[pri:0, instance:com.toutiao.cases.luntancase.GetPreTest@35f26e72] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPre -->
       </class> <!-- com.toutiao.cases.luntancase.GetPreTest -->
       <class name="com.toutiao.cases.toutiaocase.TjTest">
-        <test-method name="getTj" signature="getTj(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="152" finished-at="2020-01-04T16:16:57Z" started-at="2020-01-04T16:16:57Z" data-provider="getData" description="头条/推荐">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TjCase(id=1, user_id=16266, type=0, signature=6bt6e6jt1s0aulihote1eb45m7)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTj -->
-        <test-method name="getTj2" signature="getTj2(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="103" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getData" description="头条/user_id为空">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TjCase(id=2, user_id=, type=0, signature=6bt6e6jt1s0aulihote1eb45m7)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTj2 -->
-        <test-method name="getTj3" signature="getTj3(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="129" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getData" description="头条/type为空">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TjCase(id=3, user_id=16266, type=, signature=6bt6e6jt1s0aulihote1eb45m7)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTj3 -->
-        <test-method name="getTj4" signature="getTj4(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@614df0a4]" depends-on-groups="loginTrue" status="PASS" duration-ms="40" finished-at="2020-01-04T16:16:58Z" started-at="2020-01-04T16:16:58Z" data-provider="getData" description="头条/signature为空">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TjCase(id=4, user_id=16266, type=0, signature=)]]>
-              </value>
-            </param>
-          </params>
+        <test-method name="getTj4" signature="getTj4(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getData" description="头条/signature为空">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TjTest.getTj4(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TjTest.getTj4(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTj4 -->
+        <test-method name="getTj3" signature="getTj3(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getData" description="头条/type为空">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TjTest.getTj3(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TjTest.getTj3(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTj3 -->
+        <test-method name="getTj" signature="getTj(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getData" description="头条/推荐">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TjTest.getTj(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TjTest.getTj(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTj -->
+        <test-method name="getTj2" signature="getTj2(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121]" depends-on-groups="loginTrue" status="SKIP" duration-ms="0" finished-at="2020-03-03T15:34:16Z" started-at="2020-03-03T15:34:16Z" data-provider="getData" description="头条/user_id为空">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TjTest.getTj2(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TjTest.getTj2(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTj2 -->
       </class> <!-- com.toutiao.cases.toutiaocase.TjTest -->
       <class name="com.toutiao.cases.luntancase.ReplyTest">
-        <test-method status="PASS" signature="replyTest()[pri:0, instance:com.toutiao.cases.luntancase.ReplyTest@5cde6747]" name="replyTest" duration-ms="935" depends-on-groups="loginTrue" started-at="2020-01-04T16:16:55Z" description="做出评论" finished-at="2020-01-04T16:16:56Z">
+        <test-method status="SKIP" signature="replyTest()[pri:0, instance:com.toutiao.cases.luntancase.ReplyTest@71454b9d]" name="replyTest" duration-ms="0" depends-on-groups="loginTrue" started-at="2020-03-03T15:34:16Z" description="做出评论" finished-at="2020-03-03T15:34:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ReplyTest.replyTest()[pri:0, instance:com.toutiao.cases.luntancase.ReplyTest@71454b9d] depends on not successfully finished methods in group "loginTrue"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ReplyTest.replyTest()[pri:0, instance:com.toutiao.cases.luntancase.ReplyTest@71454b9d] depends on not successfully finished methods in group "loginTrue"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- replyTest -->
