@@ -1,0 +1,90 @@
+POST http://localhost:8889/postSecond
+Accept: */*
+Cache-Control: no-cache
+
+name=daine&sex=male
+
+<> 2020-04-21T061154.200.json
+
+###
+
+POST http://localhost:8889/postSecond
+Accept: */*
+Cache-Control: no-cache
+Content-Type: x-www-form-urlencoded
+
+name=daine&sex=male
+
+<> 2020-04-21T061116.200.json
+
+###
+
+POST http://localhost:8889/postSecond?name=daine&sex=male
+Accept: */*
+Cache-Control: no-cache
+Content-Type: x-www-form-urlencoded
+
+###
+
+POST http://localhost:8889/postSecond?name=daine&sex=male
+Accept: */*
+Cache-Control: no-cache
+Content-Type: x-www-form-urlencode
+
+###
+
+POST http://localhost:8889/postSecond
+Accept: */*
+Cache-Control: no-cache
+
+{ "name":"daine", "sex":"male"}
+
+###
+
+POST http://localhost:8889/postSecond?name=daine&sex=male
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8889/postDemo
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "name": "james",   "age": "23" }
+
+<> 2020-04-21T053027.200.txt
+
+###
+
+GET http://localhost:8889/v1/getDemo?name=daine&age=26
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-21T052855.200.json
+
+###
+
+GET http://localhost:8889/v1/getDemo?name=daine&age=26
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-21T052821.200.json
+
+###
+
+GET http://localhost:8889/v1/getDemo
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8889/getCookies
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-21T052729.200.txt
+
+###
+
