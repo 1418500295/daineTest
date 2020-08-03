@@ -15,6 +15,7 @@ com\toutiao\model\luntanmd\MyFavorCase.class
 com\toutiao\model\luntanmd\MyItemCase.class
 com\toutiao\cases\luntancase\UserCenterTest.class
 com\toutiao\config\ExtentTestNgIReporterListener$1.class
+com\toutiao\SocketClient.class
 com\toutiao\model\InterfaneName.class
 com\toutiao\model\luntanmd\GcListCase.class
 com\toutiao\model\luntanmd\ExpertHomeCase.class

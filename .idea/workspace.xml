@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="307ec3ed-0078-4ae5-acfa-3cb774a02313" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liveTest/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/log/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/logs/2019-12/app-12-13-2019-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/logs/2019-12/app-12-24-2019-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/logs/2020-01/app-01-02-2020-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/logs/2020-01/app-01-02-2020-2.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/logs/2020-01/app-01-02-2020-3.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/BbsLookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/BbsLookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/FavoriTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/FavoriTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/GcListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/luntancase/GcListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/toutiaocase/TjTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/toutiaocase/TjTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/toutiaocase/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/cases/toutiaocase/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/model/luntanmd/SearchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/java/com/toutiao/model/luntanmd/SearchCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/src/main/resources/databaseConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/resources/databaseConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/luntancase/BbsLookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/luntancase/BbsLookTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/luntancase/FavoriTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/luntancase/FavoriTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/luntancase/GcListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/luntancase/GcListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/toutiaocase/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/toutiaocase/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/toutiaocase/TjTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/cases/toutiaocase/TjTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/model/luntanmd/SearchCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/classes/com/toutiao/model/luntanmd/SearchCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/classes/databaseConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/classes/databaseConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/emailable-report.html" afterDir="false" />
@@ -40,15 +44,20 @@
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.LoginTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.ShareTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.ShareTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.TjTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/junitreports/TEST-com.toutiao.cases.toutiaocase.TjTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/groups.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/old/头条接口管理/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/头条接口管理/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/头条接口管理/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/头条接口管理/论坛接口.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/头条接口管理/论坛接口.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/target/surefire-reports/头条接口管理/论坛接口.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/target/surefire-reports/头条接口管理/论坛接口.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotest/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/GetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/GetDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mocktest/getDemo.json" beforeDir="false" afterPath="$PROJECT_DIR$/mocktest/getDemo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +82,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -113,13 +122,14 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -128,13 +138,393 @@
       <recent name="C:\Users\ASUS\IdeaProjects\apitest\demo\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/ASUS/IdeaProjects/apitest/autotest/src/main/resources/testng.xml">
-    <configuration name="InterfaneName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.toutiao.model.InterfaneName" />
-      <module name="autotest" />
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="login" />
+                <option name="path" value="/" />
+                <option name="value" value="true" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8889" />
+          <option name="urlPath" value="/postSecond" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="name=daine&amp;sex=male" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="login" />
+                <option name="path" value="/" />
+                <option name="value" value="true" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8889" />
+          <option name="urlPath" value="/postSecond" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="name=daine&amp;sex=male" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="login" />
+                <option name="path" value="/" />
+                <option name="value" value="true" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8889" />
+          <option name="urlPath" value="/postSecond" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="daine" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sex" />
+                <option name="value" value="male" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="login" />
+                <option name="path" value="/" />
+                <option name="value" value="true" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8889" />
+          <option name="urlPath" value="/postSecond" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="x-www-form-urlencode" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="daine" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sex" />
+                <option name="value" value="male" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="login" />
+                <option name="path" value="/" />
+                <option name="value" value="true" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8889" />
+          <option name="urlPath" value="/postSecond" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="{ &quot;name&quot;:&quot;daine&quot;, &quot;sex&quot;:&quot;male&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="login" />
+                <option name="path" value="/" />
+                <option name="value" value="true" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8889" />
+          <option name="urlPath" value="/postSecond" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="daine" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sex" />
+                <option name="value" value="male" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="login" />
+                <option name="path" value="/" />
+                <option name="value" value="true" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8889" />
+          <option name="urlPath" value="/postDemo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;name&quot;: &quot;james&quot;,   &quot;age&quot;: &quot;23&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="login" />
+                <option name="path" value="/" />
+                <option name="value" value="true" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8889" />
+          <option name="urlPath" value="/v1/getDemo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="daine" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="age" />
+                <option name="value" value="26" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="login" />
+                <option name="path" value="/" />
+                <option name="value" value="true" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8889" />
+          <option name="urlPath" value="/v1/getDemo" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8889" />
+          <option name="urlPath" value="/getCookies" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LoginTest">
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplication" />
+      <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.toutiao.model.*" />
+          <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,8 +532,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/daineTest/autotest/test-output/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+    <configuration name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.toutiao.cases.toutiaocase.LoginTest" />
+      <module name="autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toutiao.cases.toutiaocase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.toutiao.SocketClient" />
+      <module name="autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toutiao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
@@ -152,10 +565,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/ASUS/IdeaProjects/apitest/autotest/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.loginFalse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/autotest/src/main/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toutiao.cases.toutiaocase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toutiao.cases.toutiaocase" />
+      <option name="MAIN_CLASS_NAME" value="com.toutiao.cases.toutiaocase.LoginTest" />
+      <option name="METHOD_NAME" value="loginFalse" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -180,30 +601,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginTrue" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.toutiao.cases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.toutiao.cases" />
-      <option name="MAIN_CLASS_NAME" value="com.toutiao.cases.LoginTest" />
-      <option name="METHOD_NAME" value="loginTrue" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/ASUS/IdeaProjects/apitest/autotest/src/main/resources/testng.xml" />
+        <item itemvalue="Application.LoginTest" />
         <item itemvalue="TestNG.LoginTest.loginTrue (1)" />
-        <item itemvalue="Application.InterfaneName" />
-        <item itemvalue="TestNG.LoginTest.loginTrue" />
+        <item itemvalue="Application.DemoApplication" />
+        <item itemvalue="Application.SocketClient" />
+        <item itemvalue="TestNG.LoginTest.loginFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -307,6 +711,39 @@
       <workItem from="1578115973537" duration="317000" />
       <workItem from="1578116525257" duration="177000" />
       <workItem from="1578116864048" duration="93000" />
+      <workItem from="1579598708913" duration="91000" />
+      <workItem from="1579599046835" duration="66000" />
+      <workItem from="1584089730002" duration="34000" />
+      <workItem from="1584089862802" duration="73000" />
+      <workItem from="1584095329699" duration="894000" />
+      <workItem from="1584096275278" duration="53000" />
+      <workItem from="1584353403921" duration="28000" />
+      <workItem from="1584443877503" duration="47000" />
+      <workItem from="1584444368381" duration="1248000" />
+      <workItem from="1584445638383" duration="1338000" />
+      <workItem from="1584447473900" duration="1661000" />
+      <workItem from="1584508668633" duration="2659000" />
+      <workItem from="1584676007834" duration="6717000" />
+      <workItem from="1584785700409" duration="223000" />
+      <workItem from="1585041831729" duration="89000" />
+      <workItem from="1585360903907" duration="2788000" />
+      <workItem from="1585827432051" duration="172000" />
+      <workItem from="1586160863310" duration="1155000" />
+      <workItem from="1586163177740" duration="91000" />
+      <workItem from="1586227970592" duration="615000" />
+      <workItem from="1586240829251" duration="900000" />
+      <workItem from="1586412980854" duration="846000" />
+      <workItem from="1586414154527" duration="31000" />
+      <workItem from="1586414334264" duration="153000" />
+      <workItem from="1586480336267" duration="338000" />
+      <workItem from="1586480848560" duration="990000" />
+      <workItem from="1586482719686" duration="858000" />
+      <workItem from="1586665787087" duration="119000" />
+      <workItem from="1586950942422" duration="123000" />
+      <workItem from="1587017528522" duration="24000" />
+      <workItem from="1587369909360" duration="53000" />
+      <workItem from="1587435555221" duration="347000" />
+      <workItem from="1587461179709" duration="2552000" />
     </task>
     <servers />
   </component>
@@ -333,37 +770,33 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1578125535174">
+    <state x="553" y="279" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590195854095" />
+    <state x="553" y="279" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1590195854096" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1596446207804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578125535174" />
-    <state width="1342" height="495" key="GridCell.Tab.0.bottom" timestamp="1578125436312">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596446207804" />
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1590195854096" />
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590195854096" />
+    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1590195854096" />
+    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590195854096" />
+    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1590195854096" />
+    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590195854096" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1590195854096" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590195854096" />
+    <state x="523" y="113" key="RollbackChangesDialog" timestamp="1590195854096" />
+    <state x="523" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590195854096" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1590196091525">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="495" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578125436312" />
-    <state width="1342" height="495" key="GridCell.Tab.0.center" timestamp="1578125436312">
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590196091525" />
+    <state x="454" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1590195856124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="495" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578125436312" />
-    <state width="1342" height="495" key="GridCell.Tab.0.left" timestamp="1578125436311">
+    <state x="454" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590195856124" />
+    <state x="178" y="23" key="new project wizard" timestamp="1596456869453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="495" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578125436311" />
-    <state width="1342" height="495" key="GridCell.Tab.0.right" timestamp="1578125436312">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="495" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578125436312" />
-    <state x="270" y="55" key="SettingsEditor" timestamp="1578134297610">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578134297610" />
-    <state x="454" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1579342909577">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="454" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579342909577" />
-    <state x="178" y="23" key="new project wizard" timestamp="1578117149518">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="178" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1578117149518" />
+    <state x="178" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1596456869453" />
   </component>
 </project>

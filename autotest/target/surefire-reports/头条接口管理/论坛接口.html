@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>论坛接口</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>27/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/26</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jan 04 16:16:51 CST 2020</td>
+<td>Started on:</td><td>Tue Mar 03 15:34:15 CST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7920 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1475 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,28 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.toutiao.cases.luntancase.LikeTest.getLike()'><b>getLike</b><br>Test class: com.toutiao.cases.luntancase.LikeTest<br>Test method: 论坛/点赞</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.toutiao.cases.luntancase.LikeTest.getLike(LikeTest.java:33)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1627496281", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1627496281'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.toutiao.cases.luntancase.LikeTest.getLike(LikeTest.java:33)
+<td title='com.toutiao.cases.toutiaocase.LoginTest.loginTrue()'><b>loginTrue</b><br>Test class: com.toutiao.cases.toutiaocase.LoginTest<br>Test method: 用户登陆成功</td>
+<td><div><pre>com.alibaba.fastjson.JSONException: syntax error, pos 1, json : &lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Invalid callback parent::err_handle, cannot access parent:: when current class scope has no parent in &lt;b&gt;/www/wwwroot/api/api.toutiao.lhtt.co/application/library/Passports.php&lt;/b&gt; on line &lt;b&gt;62&lt;/b&gt;&lt;br /&gt;
+{&quot;status&quot;:1,&quot;result&quot;:{&quot;Id&quot;:&quot;16266&quot;,&quot;Safety&quot;:&quot;64c5b4532eb3a1c3199ec97c954405a6&quot;,&quot;Password&quot;:&quot;$2y$10$ksY71AFU2LBpzKawwgo7dOvkbiYEfXE0jCBTFsOVZm56QddkWZzaW&quot;,&quot;Face&quot;:&quot;https:\/\/upload.cc\/i1\/2019\/08\/09\/Dc6KWB.jpeg&quot;,&quot;Uid&quot;:&quot;LT016266&quot;,&quot;Status&quot;:&quot;1&quot;,&quot;Remark&quot;:&quot;&quot;,&quot;Nickname&quot;:&quot;\u6c11\u5fc3\u6240\u5411&quot;,&quot;Level&quot;:&quot;0&quot;}}
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1436)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1322)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:152)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:162)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:131)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:223)
+	at com.toutiao.cases.toutiaocase.LoginTest.loginTrue(LoginTest.java:64)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1302877661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1302877661'><pre>com.alibaba.fastjson.JSONException: syntax error, pos 1, json : &lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Invalid callback parent::err_handle, cannot access parent:: when current class scope has no parent in &lt;b&gt;/www/wwwroot/api/api.toutiao.lhtt.co/application/library/Passports.php&lt;/b&gt; on line &lt;b&gt;62&lt;/b&gt;&lt;br /&gt;
+{&quot;status&quot;:1,&quot;result&quot;:{&quot;Id&quot;:&quot;16266&quot;,&quot;Safety&quot;:&quot;64c5b4532eb3a1c3199ec97c954405a6&quot;,&quot;Password&quot;:&quot;$2y$10$ksY71AFU2LBpzKawwgo7dOvkbiYEfXE0jCBTFsOVZm56QddkWZzaW&quot;,&quot;Face&quot;:&quot;https:\/\/upload.cc\/i1\/2019\/08\/09\/Dc6KWB.jpeg&quot;,&quot;Uid&quot;:&quot;LT016266&quot;,&quot;Status&quot;:&quot;1&quot;,&quot;Remark&quot;:&quot;&quot;,&quot;Nickname&quot;:&quot;\u6c11\u5fc3\u6240\u5411&quot;,&quot;Level&quot;:&quot;0&quot;}}
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1436)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1322)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:152)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:162)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:131)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:223)
+	at com.toutiao.cases.toutiaocase.LoginTest.loginTrue(LoginTest.java:64)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,8 +127,8 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.LikeTest@37c7595</td></tr>
+<td>1</td>
+<td>com.toutiao.cases.toutiaocase.LoginTest@7203c7ff</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -126,140 +138,798 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.toutiao.cases.luntancase.BbsLookTest.bbsLook()'><b>bbsLook</b><br>Test class: com.toutiao.cases.luntancase.BbsLookTest<br>Test method: 关注列表</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.BbsLookTest@3e30646a</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.ExpListTest.expList()'><b>expList</b><br>Test class: com.toutiao.cases.luntancase.ExpListTest<br>Test method: 预测贴列表</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.ExpListTest@7642df8f</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.GcListTest.gcList()'><b>gcList</b><br>Test class: com.toutiao.cases.luntancase.GcListTest<br>Test method: 心水论坛/广场列表</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.GcListTest@1e0f9063</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.ExpertHomeTest.getExpertHome1()'><b>getExpertHome1</b><br>Test class: com.toutiao.cases.luntancase.ExpertHomeTest<br>Test method: 专家详情页/正确<br>Parameters: ExpertHomeCase(id=1, user_id=16266, member_id=8454)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.ExpertHomeTest@1199fe66</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.ExpertHomeTest.getExpertHome2()'><b>getExpertHome2</b><br>Test class: com.toutiao.cases.luntancase.ExpertHomeTest<br>Test method: 专家详情页/错误的member_id<br>Parameters: ExpertHomeCase(id=2, user_id=16266, member_id=)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.ExpertHomeTest@1199fe66</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.ExpertHomeTest.getExpertHome3()'><b>getExpertHome3</b><br>Test class: com.toutiao.cases.luntancase.ExpertHomeTest<br>Test method: 专家详情页/非法的user_id<br>Parameters: ExpertHomeCase(id=3, user_id=, member_id=8454)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.ExpertHomeTest@1199fe66</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.FavoriTest.getFavori()'><b>getFavori</b><br>Test class: com.toutiao.cases.luntancase.FavoriTest<br>Test method: 论坛/收藏<br>Parameters: FavoriCase(id=43272, user_id=16266, number_id=1)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.FavoriTest@3ed242a4</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.FavoriTest.getFavori2()'><b>getFavori2</b><br>Test class: com.toutiao.cases.luntancase.FavoriTest<br>Test method: 收藏/错误的id<br>Parameters: FavoriCase(id=, user_id=16266, number_id=2)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.FavoriTest@3ed242a4</td></tr>
-<tr>
-<td title='com.toutiao.cases.toutiaocase.GsListTest.getGsList()'><b>getGsList</b><br>Test class: com.toutiao.cases.toutiaocase.GsListTest<br>Test method: 头条/高手榜列表<br>Parameters: GsListCase(id=1, type=0, period=2019132, user_id=16266, p=1, expResult=1)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.toutiaocase.GsListTest@1fdf1c5</td></tr>
-<tr>
-<td title='com.toutiao.cases.toutiaocase.GsListTest.getGsList2()'><b>getGsList2</b><br>Test class: com.toutiao.cases.toutiaocase.GsListTest<br>Test method: 高手榜/错误的period<br>Parameters: GsListCase(id=2, type=0, period=, user_id=16266, p=1, expResult=1)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.toutiaocase.GsListTest@1fdf1c5</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.LikeTest.getLike2()'><b>getLike2</b><br>Test class: com.toutiao.cases.luntancase.LikeTest<br>Test method: 点赞/错误的id</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.LikeTest@37c7595</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.MyFavorTest.getMyFavor()'><b>getMyFavor</b><br>Test class: com.toutiao.cases.luntancase.MyFavorTest<br>Test method: 论坛/我的收藏<br>Parameters: com.toutiao.model.luntanmd.MyFavorCase@71dfcf21</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.MyFavorTest@68be8808</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.MyItemTest.getMyItem()'><b>getMyItem</b><br>Test class: com.toutiao.cases.luntancase.MyItemTest<br>Test method: 论坛/我的帖子</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.MyItemTest@cd1d761</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.GetPreTest.getPre()'><b>getPre</b><br>Test class: com.toutiao.cases.luntancase.GetPreTest<br>Test method: 论坛/发预测贴</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.GetPreTest@7d64e326</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.GetPubTest.getPub()'><b>getPub</b><br>Test class: com.toutiao.cases.luntancase.GetPubTest<br>Test method: 论坛/发图文<br>Parameters: com.toutiao.model.luntanmd.GetPubCase@b965857</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.GetPubTest@73a2e526</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.SearchTest.getSearch()'><b>getSearch</b><br>Test class: com.toutiao.cases.luntancase.SearchTest<br>Test method: 论坛/搜索</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.SearchTest@63a270c9</td></tr>
-<tr>
-<td title='com.toutiao.cases.toutiaocase.ShareTest.getShare()'><b>getShare</b><br>Test class: com.toutiao.cases.toutiaocase.ShareTest<br>Test method: 头条/分享<br>Parameters: com.toutiao.model.toutiaomd.ShareCase@61f80d55</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.toutiaocase.ShareTest@2d96543c</td></tr>
-<tr>
-<td title='com.toutiao.cases.toutiaocase.ShareTest.getShare2()'><b>getShare2</b><br>Test class: com.toutiao.cases.toutiaocase.ShareTest<br>Test method: 分享/错误的user_id<br>Parameters: com.toutiao.model.toutiaomd.ShareCase@27a7ef08</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.toutiaocase.ShareTest@2d96543c</td></tr>
-<tr>
-<td title='com.toutiao.cases.toutiaocase.ShareTest.getShare3()'><b>getShare3</b><br>Test class: com.toutiao.cases.toutiaocase.ShareTest<br>Test method: 分享/错误的id<br>Parameters: com.toutiao.model.toutiaomd.ShareCase@280e8a1a</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.toutiaocase.ShareTest@2d96543c</td></tr>
-<tr>
-<td title='com.toutiao.cases.toutiaocase.TjTest.getTj()'><b>getTj</b><br>Test class: com.toutiao.cases.toutiaocase.TjTest<br>Test method: 头条/推荐<br>Parameters: TjCase(id=1, user_id=16266, type=0, signature=6bt6e6jt1s0aulihote1eb45m7)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.toutiaocase.TjTest@614df0a4</td></tr>
-<tr>
-<td title='com.toutiao.cases.toutiaocase.TjTest.getTj2()'><b>getTj2</b><br>Test class: com.toutiao.cases.toutiaocase.TjTest<br>Test method: 头条/user_id为空<br>Parameters: TjCase(id=2, user_id=, type=0, signature=6bt6e6jt1s0aulihote1eb45m7)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.toutiaocase.TjTest@614df0a4</td></tr>
-<tr>
-<td title='com.toutiao.cases.toutiaocase.TjTest.getTj3()'><b>getTj3</b><br>Test class: com.toutiao.cases.toutiaocase.TjTest<br>Test method: 头条/type为空<br>Parameters: TjCase(id=3, user_id=16266, type=, signature=6bt6e6jt1s0aulihote1eb45m7)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.toutiaocase.TjTest@614df0a4</td></tr>
-<tr>
-<td title='com.toutiao.cases.toutiaocase.TjTest.getTj4()'><b>getTj4</b><br>Test class: com.toutiao.cases.toutiaocase.TjTest<br>Test method: 头条/signature为空<br>Parameters: TjCase(id=4, user_id=16266, type=0, signature=)</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.toutiaocase.TjTest@614df0a4</td></tr>
-<tr>
-<td title='com.toutiao.cases.luntancase.UserCenterTest.getUserCenter()'><b>getUserCenter</b><br>Test class: com.toutiao.cases.luntancase.UserCenterTest<br>Test method: 论坛/个人中心<br>Parameters: com.toutiao.model.luntanmd.UserCenterCase@11e33bac</td>
-<td></td>
-<td>0</td>
-<td>com.toutiao.cases.luntancase.UserCenterTest@13f95696</td></tr>
-<tr>
 <td title='com.toutiao.cases.toutiaocase.LoginTest.loginFalse()'><b>loginFalse</b><br>Test class: com.toutiao.cases.toutiaocase.LoginTest<br>Test method: 登录失败</td>
 <td></td>
 <td>0</td>
-<td>com.toutiao.cases.toutiaocase.LoginTest@74c79fa2</td></tr>
+<td>com.toutiao.cases.toutiaocase.LoginTest@7203c7ff</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.toutiao.cases.toutiaocase.LoginTest.loginTrue()'><b>loginTrue</b><br>Test class: com.toutiao.cases.toutiaocase.LoginTest<br>Test method: 用户登陆成功</td>
-<td></td>
-<td>1</td>
-<td>com.toutiao.cases.toutiaocase.LoginTest@74c79fa2</td></tr>
+<td title='com.toutiao.cases.luntancase.BbsLookTest.bbsLook()'><b>bbsLook</b><br>Test class: com.toutiao.cases.luntancase.BbsLookTest<br>Test method: 关注列表</td>
+<td><div><pre>java.lang.Throwable: Method BbsLookTest.bbsLook()[pri:0, instance:com.toutiao.cases.luntancase.BbsLookTest@2a76840c] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace57085696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace57085696'><pre>java.lang.Throwable: Method BbsLookTest.bbsLook()[pri:0, instance:com.toutiao.cases.luntancase.BbsLookTest@2a76840c] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.ExpListTest.expList()'><b>expList</b><br>Test class: com.toutiao.cases.luntancase.ExpListTest<br>Test method: 预测贴列表</td>
+<td><div><pre>java.lang.Throwable: Method ExpListTest.expList()[pri:0, instance:com.toutiao.cases.luntancase.ExpListTest@46268f08] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace893835279", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace893835279'><pre>java.lang.Throwable: Method ExpListTest.expList()[pri:0, instance:com.toutiao.cases.luntancase.ExpListTest@46268f08] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.GcListTest.gcList()'><b>gcList</b><br>Test class: com.toutiao.cases.luntancase.GcListTest<br>Test method: 心水论坛/广场列表</td>
+<td><div><pre>java.lang.Throwable: Method GcListTest.gcList()[pri:0, instance:com.toutiao.cases.luntancase.GcListTest@25bfcafd] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace280531669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace280531669'><pre>java.lang.Throwable: Method GcListTest.gcList()[pri:0, instance:com.toutiao.cases.luntancase.GcListTest@25bfcafd] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.ExpertHomeTest.getExpertHome1()'><b>getExpertHome1</b><br>Test class: com.toutiao.cases.luntancase.ExpertHomeTest<br>Test method: 专家详情页/正确</td>
+<td><div><pre>java.lang.Throwable: Method ExpertHomeTest.getExpertHome1(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace178401052", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace178401052'><pre>java.lang.Throwable: Method ExpertHomeTest.getExpertHome1(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.ExpertHomeTest.getExpertHome2()'><b>getExpertHome2</b><br>Test class: com.toutiao.cases.luntancase.ExpertHomeTest<br>Test method: 专家详情页/错误的member_id</td>
+<td><div><pre>java.lang.Throwable: Method ExpertHomeTest.getExpertHome2(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1441243996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1441243996'><pre>java.lang.Throwable: Method ExpertHomeTest.getExpertHome2(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.ExpertHomeTest.getExpertHome3()'><b>getExpertHome3</b><br>Test class: com.toutiao.cases.luntancase.ExpertHomeTest<br>Test method: 专家详情页/非法的user_id</td>
+<td><div><pre>java.lang.Throwable: Method ExpertHomeTest.getExpertHome3(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace936219350", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace936219350'><pre>java.lang.Throwable: Method ExpertHomeTest.getExpertHome3(com.toutiao.model.luntanmd.ExpertHomeCase)[pri:0, instance:com.toutiao.cases.luntancase.ExpertHomeTest@39fcbef6] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.FavoriTest.getFavori()'><b>getFavori</b><br>Test class: com.toutiao.cases.luntancase.FavoriTest<br>Test method: 论坛/收藏</td>
+<td><div><pre>java.lang.Throwable: Method FavoriTest.getFavori(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1264754451", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1264754451'><pre>java.lang.Throwable: Method FavoriTest.getFavori(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.FavoriTest.getFavori2()'><b>getFavori2</b><br>Test class: com.toutiao.cases.luntancase.FavoriTest<br>Test method: 收藏/错误的id</td>
+<td><div><pre>java.lang.Throwable: Method FavoriTest.getFavori2(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1888639813", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1888639813'><pre>java.lang.Throwable: Method FavoriTest.getFavori2(com.toutiao.model.luntanmd.FavoriCase)[pri:0, instance:com.toutiao.cases.luntancase.FavoriTest@623e088f] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.toutiaocase.GsListTest.getGsList()'><b>getGsList</b><br>Test class: com.toutiao.cases.toutiaocase.GsListTest<br>Test method: 头条/高手榜列表</td>
+<td><div><pre>java.lang.Throwable: Method GsListTest.getGsList(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2022285740", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2022285740'><pre>java.lang.Throwable: Method GsListTest.getGsList(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.toutiaocase.GsListTest.getGsList2()'><b>getGsList2</b><br>Test class: com.toutiao.cases.toutiaocase.GsListTest<br>Test method: 高手榜/错误的period</td>
+<td><div><pre>java.lang.Throwable: Method GsListTest.getGsList2(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace988690806", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace988690806'><pre>java.lang.Throwable: Method GsListTest.getGsList2(com.toutiao.model.toutiaomd.GsListCase)[pri:0, instance:com.toutiao.cases.toutiaocase.GsListTest@2fc6f97f] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.LikeTest.getLike()'><b>getLike</b><br>Test class: com.toutiao.cases.luntancase.LikeTest<br>Test method: 论坛/点赞</td>
+<td><div><pre>java.lang.Throwable: Method LikeTest.getLike()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1752856108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1752856108'><pre>java.lang.Throwable: Method LikeTest.getLike()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.LikeTest.getLike2()'><b>getLike2</b><br>Test class: com.toutiao.cases.luntancase.LikeTest<br>Test method: 点赞/错误的id</td>
+<td><div><pre>java.lang.Throwable: Method LikeTest.getLike2()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace439232821", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace439232821'><pre>java.lang.Throwable: Method LikeTest.getLike2()[pri:0, instance:com.toutiao.cases.luntancase.LikeTest@7cf6a5f9] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.MyFavorTest.getMyFavor()'><b>getMyFavor</b><br>Test class: com.toutiao.cases.luntancase.MyFavorTest<br>Test method: 论坛/我的收藏</td>
+<td><div><pre>java.lang.Throwable: Method MyFavorTest.getMyFavor(com.toutiao.model.luntanmd.MyFavorCase)[pri:0, instance:com.toutiao.cases.luntancase.MyFavorTest@49c6c24f] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace345290829", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace345290829'><pre>java.lang.Throwable: Method MyFavorTest.getMyFavor(com.toutiao.model.luntanmd.MyFavorCase)[pri:0, instance:com.toutiao.cases.luntancase.MyFavorTest@49c6c24f] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.MyItemTest.getMyItem()'><b>getMyItem</b><br>Test class: com.toutiao.cases.luntancase.MyItemTest<br>Test method: 论坛/我的帖子</td>
+<td><div><pre>java.lang.Throwable: Method MyItemTest.getMyItem()[pri:0, instance:com.toutiao.cases.luntancase.MyItemTest@67304a40] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace458998685", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace458998685'><pre>java.lang.Throwable: Method MyItemTest.getMyItem()[pri:0, instance:com.toutiao.cases.luntancase.MyItemTest@67304a40] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.GetPreTest.getPre()'><b>getPre</b><br>Test class: com.toutiao.cases.luntancase.GetPreTest<br>Test method: 论坛/发预测贴</td>
+<td><div><pre>java.lang.Throwable: Method GetPreTest.getPre()[pri:0, instance:com.toutiao.cases.luntancase.GetPreTest@35f26e72] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace557197074", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace557197074'><pre>java.lang.Throwable: Method GetPreTest.getPre()[pri:0, instance:com.toutiao.cases.luntancase.GetPreTest@35f26e72] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.GetPubTest.getPub()'><b>getPub</b><br>Test class: com.toutiao.cases.luntancase.GetPubTest<br>Test method: 论坛/发图文</td>
+<td><div><pre>java.lang.Throwable: Method GetPubTest.getPub(com.toutiao.model.luntanmd.GetPubCase)[pri:0, instance:com.toutiao.cases.luntancase.GetPubTest@6179e425] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace521342639", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace521342639'><pre>java.lang.Throwable: Method GetPubTest.getPub(com.toutiao.model.luntanmd.GetPubCase)[pri:0, instance:com.toutiao.cases.luntancase.GetPubTest@6179e425] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.SearchTest.getSearch()'><b>getSearch</b><br>Test class: com.toutiao.cases.luntancase.SearchTest<br>Test method: 论坛/搜索</td>
+<td><div><pre>java.lang.Throwable: Method SearchTest.getSearch()[pri:0, instance:com.toutiao.cases.luntancase.SearchTest@eda25e5] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1109752797", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1109752797'><pre>java.lang.Throwable: Method SearchTest.getSearch()[pri:0, instance:com.toutiao.cases.luntancase.SearchTest@eda25e5] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.toutiaocase.ShareTest.getShare()'><b>getShare</b><br>Test class: com.toutiao.cases.toutiaocase.ShareTest<br>Test method: 头条/分享</td>
+<td><div><pre>java.lang.Throwable: Method ShareTest.getShare(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace667890001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace667890001'><pre>java.lang.Throwable: Method ShareTest.getShare(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.toutiaocase.ShareTest.getShare2()'><b>getShare2</b><br>Test class: com.toutiao.cases.toutiaocase.ShareTest<br>Test method: 分享/错误的user_id</td>
+<td><div><pre>java.lang.Throwable: Method ShareTest.getShare2(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace310276293", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace310276293'><pre>java.lang.Throwable: Method ShareTest.getShare2(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.toutiaocase.ShareTest.getShare3()'><b>getShare3</b><br>Test class: com.toutiao.cases.toutiaocase.ShareTest<br>Test method: 分享/错误的id</td>
+<td><div><pre>java.lang.Throwable: Method ShareTest.getShare3(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1494277749", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1494277749'><pre>java.lang.Throwable: Method ShareTest.getShare3(com.toutiao.model.toutiaomd.ShareCase)[pri:0, instance:com.toutiao.cases.toutiaocase.ShareTest@3d2ee678] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.toutiaocase.TjTest.getTj()'><b>getTj</b><br>Test class: com.toutiao.cases.toutiaocase.TjTest<br>Test method: 头条/推荐</td>
+<td><div><pre>java.lang.Throwable: Method TjTest.getTj(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1113829504", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1113829504'><pre>java.lang.Throwable: Method TjTest.getTj(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.toutiaocase.TjTest.getTj2()'><b>getTj2</b><br>Test class: com.toutiao.cases.toutiaocase.TjTest<br>Test method: 头条/user_id为空</td>
+<td><div><pre>java.lang.Throwable: Method TjTest.getTj2(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace720770771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace720770771'><pre>java.lang.Throwable: Method TjTest.getTj2(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.toutiaocase.TjTest.getTj3()'><b>getTj3</b><br>Test class: com.toutiao.cases.toutiaocase.TjTest<br>Test method: 头条/type为空</td>
+<td><div><pre>java.lang.Throwable: Method TjTest.getTj3(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1911978617", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1911978617'><pre>java.lang.Throwable: Method TjTest.getTj3(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.toutiaocase.TjTest.getTj4()'><b>getTj4</b><br>Test class: com.toutiao.cases.toutiaocase.TjTest<br>Test method: 头条/signature为空</td>
+<td><div><pre>java.lang.Throwable: Method TjTest.getTj4(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1038820134", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1038820134'><pre>java.lang.Throwable: Method TjTest.getTj4(com.toutiao.model.toutiaomd.TjCase)[pri:0, instance:com.toutiao.cases.toutiaocase.TjTest@66565121] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.toutiao.cases.luntancase.UserCenterTest.getUserCenter()'><b>getUserCenter</b><br>Test class: com.toutiao.cases.luntancase.UserCenterTest<br>Test method: 论坛/个人中心</td>
+<td><div><pre>java.lang.Throwable: Method UserCenterTest.getUserCenter(com.toutiao.model.luntanmd.UserCenterCase)[pri:0, instance:com.toutiao.cases.luntancase.UserCenterTest@2d6764b2] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace537536188", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace537536188'><pre>java.lang.Throwable: Method UserCenterTest.getUserCenter(com.toutiao.model.luntanmd.UserCenterCase)[pri:0, instance:com.toutiao.cases.luntancase.UserCenterTest@2d6764b2] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
 <tr>
 <td title='com.toutiao.cases.luntancase.ReplyTest.replyTest()'><b>replyTest</b><br>Test class: com.toutiao.cases.luntancase.ReplyTest<br>Test method: 做出评论</td>
-<td></td>
+<td><div><pre>java.lang.Throwable: Method ReplyTest.replyTest()[pri:0, instance:com.toutiao.cases.luntancase.ReplyTest@71454b9d] depends on not successfully finished methods in group &quot;loginTrue&quot;
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1185618138", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1185618138'><pre>java.lang.Throwable: Method ReplyTest.replyTest()[pri:0, instance:com.toutiao.cases.luntancase.ReplyTest@71454b9d] depends on not successfully finished methods in group &quot;loginTrue&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
 <td>0</td>
-<td>com.toutiao.cases.luntancase.ReplyTest@5cde6747</td></tr>
+<td>null</td></tr>
 </table><p>
 </body>
 </html>

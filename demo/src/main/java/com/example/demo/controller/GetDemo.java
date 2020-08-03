@@ -1,11 +1,9 @@
 package com.example.demo.controller;
 
+import com.example.demo.model.Person;
 import lombok.extern.log4j.Log4j;
 import org.springframework.context.annotation.EnableMBeanExport;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.List;
@@ -28,6 +26,41 @@ public class GetDemo {
 
 
     }
+
+    @RequestMapping(value = "/getPath/{name}/{age}",method = RequestMethod.GET)
+    public Map<String,String > getMap(@PathVariable String name,
+                                      @PathVariable String age){
+        Map<String,String> map = new HashMap<>();
+        map.put("name","tom");
+        map.put("age","13");
+        return map;
+
+    }
+
+    @RequestMapping(value = "/getPerson",method = RequestMethod.POST)
+    public Person getPerson(@RequestParam String name,
+                            @RequestParam int age
+    ){
+        Person p = new Person();
+        p.setSize(12);
+        p.setHeight(182);
+        p.setNumber("15");
+        return p;
+
+    }
+
+    @RequestMapping(value = "/getMy",method = RequestMethod.POST)
+    public Person getMy(@RequestBody Person person){
+
+        Person p = new Person();
+        p.setNumber("18");
+        p.setHeight(184);
+        p.setSize(78);
+        return p;
+
+    }
+
+
 
 
 
